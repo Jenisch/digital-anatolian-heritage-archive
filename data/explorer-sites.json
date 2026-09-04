@@ -101,14 +101,14 @@
     "name": "Ani",
     "slug": "ani",
     "region": "Kars",
-    "latitude": 40.5075,
-    "longitude": 43.5728,
-    "coordinatePrecision": "approximate",
-    "startYear": 900,
-    "endYear": 1300,
-    "dateLabel": "c. 900–1300 CE",
+    "latitude": 40.5,
+    "longitude": 43.566667,
+    "coordinatePrecision": "site",
+    "startYear": 400,
+    "endYear": 1350,
+    "dateLabel": "c. 5th–14th c. CE",
     "periods": ["Medieval"],
-    "context": "Medieval city on a major transregional frontier and trade landscape",
-    "recordReady": false
+    "context": "Bagratid capital and Silk Road city preserving Armenian, Byzantine, Seljuk-Shaddadid, Georgian-Zakarid and Mongol urban layers",
+    "recordReady": true
   }
 ]

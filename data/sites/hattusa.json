@@ -1,0 +1,119 @@
+{
+  "id": "site:hattusa",
+  "slug": "hattusa",
+  "canonicalName": "Hattusa",
+  "alternativeNames": [
+    {"name": "Ḫattuša", "language": "hit", "script": "Latn", "note": "Scholarly transliteration of the ancient name"},
+    {"name": "Hattuşa", "language": "tr", "script": "Latn", "note": "Common Turkish form"},
+    {"name": "Boğazköy", "language": "tr", "script": "Latn", "note": "Historic modern settlement name used widely in excavation literature"}
+  ],
+  "coordinates": {"latitude": 40.019722, "longitude": 34.615278, "precision": "site"},
+  "modernLocation": {"country": "Türkiye", "province": "Çorum", "district": "Boğazkale", "locality": "Boğazkale"},
+  "siteTypes": ["archaeological site", "capital city", "fortified settlement", "palatial centre", "ritual landscape"],
+  "chronology": [
+    {
+      "label": "Long-term settlement sequence",
+      "startYear": -2300,
+      "endYear": -800,
+      "displayDate": "late 3rd millennium BCE–early Iron Age",
+      "certainty": "range",
+      "datingBasis": "mixed",
+      "note": "Recent synthesis emphasizes continuous use of the settlement from the end of the third millennium through the second millennium and into the beginning of the Iron Age.",
+      "sourceIds": ["schachner-2024"]
+    },
+    {
+      "label": "Hittite imperial capital",
+      "startYear": -1650,
+      "endYear": -1180,
+      "displayDate": "c. 1650–1180 BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "The DAI uses this range for the Hittite Empire phase during which Hattusa served as the seat of the Great Kings.",
+      "sourceIds": ["dai-project-5864", "becker-schachner-2026"]
+    },
+    {
+      "label": "Expansion of Büyükkale and the Upper City",
+      "startYear": -1550,
+      "endYear": -1400,
+      "displayDate": "from the later 16th century BCE",
+      "certainty": "approximate",
+      "datingBasis": "scientific",
+      "note": "New radiocarbon evidence suggests the royal citadel expanded in parallel with the successive development of the Upper City.",
+      "sourceIds": ["becker-schachner-2026"]
+    }
+  ],
+  "cultures": ["Hattian", "Hittite", "Iron Age communities"],
+  "historicalContext": {
+    "text": "Hattusa developed within a much older Central Anatolian settlement landscape before becoming the political and religious centre of the Hittite kingdom and empire. Its topography brought together the Lower City, the royal citadel of Büyükkale, the Upper City, monumental gates, temples, storage installations and the nearby rock sanctuary of Yazılıkaya.",
+    "sourceIds": ["unesco-whc-377", "dai-project-5864", "schachner-2024"]
+  },
+  "archaeologicalSignificance": {
+    "text": "Hattusa is exceptional because urban planning, fortification, royal architecture, cult buildings, written archives and a surrounding ritual landscape survive together at the capital of one of the major Late Bronze Age powers. UNESCO inscribed the property in 1986 under criteria (i), (ii), (iii) and (iv).",
+    "sourceIds": ["unesco-whc-377", "dai-great-temple-2024"]
+  },
+  "excavationHistory": {
+    "text": "Large-scale excavation began in 1906 under the Deutsche Orient-Gesellschaft and the Ottoman Museum. In 1907 a DAI team led by Otto Puchstein continued fieldwork, and identification of the ruins as the Hittite capital transformed the study of Bronze Age Anatolia. The DAI has led sustained research at Hattusa since 1931, combining excavation, scientific dating, conservation, architectural study and landscape research.",
+    "sourceIds": ["dai-history", "dai-project-5864"]
+  },
+  "narrativeSections": [
+    {
+      "id": "city",
+      "label": "Urban form",
+      "title": "A capital spread across a demanding landscape.",
+      "paragraphs": [
+        "Hattusa occupies the southern end of the Budaközü plain where steep terrain rises hundreds of metres above the valley. The city was divided into distinct topographic and functional zones rather than laid out as a single uniform grid.",
+        "The Lower City, Büyükkale citadel and Upper City were linked by roads, gates, walls, terraces and monumental architecture. Recent chronological research increasingly treats this growth as a dynamic process rather than the product of one master plan."
+      ],
+      "sourceIds": ["unesco-whc-377", "schachner-2024"]
+    },
+    {
+      "id": "fortifications",
+      "label": "Fortifications",
+      "title": "Walls, towers and ceremonial gates shaped the city's image.",
+      "paragraphs": [
+        "More than eight kilometres of monumental enclosure wall define the World Heritage property. The best-known entrances include the Lion Gate, King's Gate and Sphinx Gate, where defensive architecture and sculptural display operate together.",
+        "UNESCO highlights the fortifications and gates as both major architectural achievements and essential evidence for understanding Hittite urbanism."
+      ],
+      "sourceIds": ["unesco-whc-377"]
+    },
+    {
+      "id": "power",
+      "label": "Royal power",
+      "title": "Büyükkale was not a static palace complex.",
+      "paragraphs": [
+        "Büyükkale functioned as the royal citadel and seat of the Hittite Great Kings. New excavations between 2021 and 2024 have shown that construction around the upper court was denser and more differentiated than previously assumed.",
+        "Radiocarbon results now suggest that major expansion of the citadel began by the later sixteenth century BCE, closely linked to the development of the Upper City."
+      ],
+      "sourceIds": ["becker-schachner-2026"]
+    },
+    {
+      "id": "ritual",
+      "label": "Religion",
+      "title": "The capital extended beyond its walls into a ritual landscape.",
+      "paragraphs": [
+        "The nearby rock sanctuary of Yazılıkaya forms part of the UNESCO property and preserves some of the richest surviving Hittite relief sculpture. Processions of deities carved into the rock connect kingship, cult and landscape.",
+        "Inside the city, the Great Temple and the concentration of cult architecture in the Upper City show that political administration and religious practice were deeply intertwined."
+      ],
+      "sourceIds": ["unesco-whc-377", "dai-great-temple-2024"]
+    }
+  ],
+  "heritageStatus": [
+    {"label": "UNESCO World Heritage Site — criteria (i), (ii), (iii), (iv); inscribed 1986", "identifier": "377", "url": "https://whc.unesco.org/en/list/377/"}
+  ],
+  "externalIdentifiers": {"wikidata": "Q181007", "unesco": "377", "pleiades": "283602441"},
+  "bibliography": [
+    {"id": "unesco-whc-377", "citation": "UNESCO World Heritage Centre. “Hattusha: the Hittite Capital.” World Heritage List, property 377.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/377/", "accessedOn": "2026-09-04"},
+    {"id": "dai-project-5864", "citation": "Deutsches Archäologisches Institut. “Ḫattuša/Boğazköy – Die Hauptstadt des Hethiterreiches.” Research project 5864.", "sourceType": "institutional", "doi": null, "url": "https://www.dainst.org/en/research/projects/noslug/5864", "accessedOn": "2026-09-04"},
+    {"id": "dai-history", "citation": "Deutsches Archäologisches Institut, Istanbul Department. “History.” Section on the beginning of excavations at Boğazköy in 1906–1907.", "sourceType": "institutional", "doi": null, "url": "https://www.dainst.org/en/departments/istanbul/about-us/history", "accessedOn": "2026-09-04"},
+    {"id": "schachner-2024", "citation": "Schachner, Andreas. “A new look at an ancient city: An outline of the chronological and urban development of the Hittite capital Ḫattuša.” Anatolian Studies (2024).", "sourceType": "academic", "doi": null, "url": "https://www.cambridge.org/core/journals/anatolian-studies/article/871EDFEBD924576F4FCA67BA0F0CD265", "accessedOn": "2026-09-04"},
+    {"id": "becker-schachner-2026", "citation": "Becker, Jörg, and Andreas Schachner. “Boğazköy, Türkei. Ausgrabungen auf Büyükkale, dem Palastareal der hethitischen Hauptstadt Ḫattuša. Die Arbeiten der Jahre 2021 bis 2024.” e-Forschungsberichte des DAI (2026): 1–23.", "sourceType": "excavation", "doi": "10.34780/twvy2a06", "url": "https://doi.org/10.34780/twvy2a06", "accessedOn": "2026-09-04"},
+    {"id": "dai-great-temple-2024", "citation": "Schachner, Andreas. Ausgrabungen in der Unterstadt von Boğazköy II: Der Große Tempel von Ḫattuša, die Magazine in seinem Umfeld und das sogenannte Südareal. Deutsches Archäologisches Institut.", "sourceType": "academic", "doi": "10.34780/mcb6-6c5f", "url": "https://doi.org/10.34780/mcb6-6c5f", "accessedOn": "2026-09-04"},
+    {"id": "wikidata-q181007", "citation": "Wikidata contributors. “Hattusa (Q181007).”", "sourceType": "authority-data", "doi": null, "url": "https://www.wikidata.org/wiki/Q181007", "accessedOn": "2026-09-04"}
+  ],
+  "media": [
+    {"type": "image", "title": "Lion Gate, Hattusa", "creator": "Rita1234", "source": "Wikimedia Commons — File:Hattusa Lion Gate.JPG", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hattusa_Lion_Gate.JPG", "rightsStatus": "CC BY-SA 3.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"}
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "The record separates the Hittite imperial capital from the site's much longer occupation history. Dates therefore describe different archaeological questions rather than implying that Hattusa existed only between c. 1650 and 1180 BCE."
+}

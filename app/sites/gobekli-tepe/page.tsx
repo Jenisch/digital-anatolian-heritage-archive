@@ -4,21 +4,21 @@ import record from "@/data/sites/gobekli-tepe.json";
 export const metadata: Metadata = {
   title: "Göbekli Tepe | Digital Anatolian Heritage Archive",
   description:
-    "A sourced digital heritage record for Göbekli Tepe covering chronology, archaeological context, excavation history, provenance, and media rights.",
+    "Explore Göbekli Tepe through its landscape, monumental architecture, imagery, changing archaeological interpretation, chronology, and research history.",
 };
 
 function CitationLinks({ ids }: { ids: string[] }) {
   return (
-    <span className="citation-links" aria-label="Sources">
+    <sup className="citation-links" aria-label="Sources">
       {ids.map((id) => {
         const index = record.bibliography.findIndex((source) => source.id === id) + 1;
         return index > 0 ? (
           <a key={id} href={`#source-${index}`} aria-label={`Source ${index}`}>
-            [{index}]
+            {index}
           </a>
         ) : null;
       })}
-    </span>
+    </sup>
   );
 }
 
@@ -32,14 +32,14 @@ export default function GobekliTepePage() {
           DAHA
         </a>
         <nav aria-label="Record navigation">
-          <a href="#overview">Overview</a>
+          <a href="#story">Story</a>
           <a href="#chronology">Chronology</a>
-          <a href="#sources">Sources</a>
+          <a href="#research">Research</a>
         </nav>
       </header>
 
       <section className="record-hero shell">
-        <div>
+        <div className="record-title-block">
           <p className="eyebrow">Research record · v{record.recordVersion}</p>
           <h1>{record.canonicalName}</h1>
           <p className="record-location">
@@ -52,16 +52,16 @@ export default function GobekliTepePage() {
             <dd>Pre-Pottery Neolithic</dd>
           </div>
           <div>
-            <dt>Coordinates</dt>
-            <dd>{record.coordinates.latitude}° N · {record.coordinates.longitude}° E</dd>
+            <dt>Occupation</dt>
+            <dd>c. 9500/9250–8000/7750 BCE</dd>
           </div>
           <div>
-            <dt>Heritage status</dt>
+            <dt>Landscape</dt>
+            <dd>Germuş Mountains · c. 770 m</dd>
+          </div>
+          <div>
+            <dt>Heritage</dt>
             <dd>UNESCO World Heritage · 2018</dd>
-          </div>
-          <div>
-            <dt>Last reviewed</dt>
-            <dd>{record.lastReviewed}</dd>
           </div>
         </dl>
       </section>
@@ -78,12 +78,12 @@ export default function GobekliTepePage() {
         </figcaption>
       </figure>
 
-      <section className="record-section shell" id="overview">
-        <div className="record-section-label">
-          <p className="section-label">Context · 01</p>
-        </div>
-        <div className="record-copy">
-          <h2>More than a “first temple” story.</h2>
+      <section className="record-introduction shell" id="story">
+        <p className="section-label">The site · 01</p>
+        <div>
+          <p className="record-deck">
+            Monumental stone architecture, settlement evidence and an unusually dense visual world make Göbekli Tepe one of the key places for understanding the social transformations of the early Neolithic.
+          </p>
           <p>
             {record.historicalContext.text}
             <CitationLinks ids={record.historicalContext.sourceIds} />
@@ -92,19 +92,64 @@ export default function GobekliTepePage() {
             {record.archaeologicalSignificance.text}
             <CitationLinks ids={record.archaeologicalSignificance.sourceIds} />
           </p>
-          <aside className="editorial-note">
-            <span>Editorial note</span>
-            <p>{record.editorialNotes}</p>
-          </aside>
         </div>
+      </section>
+
+      <section className="record-highlights shell" aria-label="Göbekli Tepe at a glance">
+        <article>
+          <span>01</span>
+          <strong>5.5 m</strong>
+          <p>Height reached by some of the monumental T-shaped limestone pillars.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <strong>c. 11,000 years</strong>
+          <p>Approximate distance between the site's early occupation and the present.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <strong>15 km</strong>
+          <p>Approximate distance northwest of the modern city of Şanlıurfa.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <strong>2018</strong>
+          <p>Year Göbekli Tepe entered the UNESCO World Heritage List.</p>
+        </article>
+      </section>
+
+      <section className="story-sections shell">
+        {record.narrativeSections.map((section, index) => (
+          <article className="story-section" id={section.id} key={section.id}>
+            <div className="story-index">
+              <p className="section-label">
+                {section.label} · {String(index + 2).padStart(2, "0")}
+              </p>
+            </div>
+            <div className="story-copy">
+              <h2>{section.title}</h2>
+              {section.paragraphs.map((paragraph, paragraphIndex) => (
+                <p key={`${section.id}-${paragraphIndex}`}>
+                  {paragraph}
+                  {paragraphIndex === section.paragraphs.length - 1 ? (
+                    <CitationLinks ids={section.sourceIds} />
+                  ) : null}
+                </p>
+              ))}
+            </div>
+          </article>
+        ))}
       </section>
 
       <section className="record-section shell" id="chronology">
         <div className="record-section-label">
-          <p className="section-label">Chronology · 02</p>
+          <p className="section-label">Chronology · 06</p>
         </div>
         <div className="record-copy">
-          <h2>Dating without false precision.</h2>
+          <h2>A long sequence, not a single moment.</h2>
+          <p className="section-intro">
+            Dates are presented as ranges because the archaeological sequence is reconstructed from stratigraphy, material evidence and scientific dating rather than a written calendar.
+          </p>
           <div className="chronology-list">
             {record.chronology.map((phase) => (
               <article key={phase.label}>
@@ -115,7 +160,7 @@ export default function GobekliTepePage() {
                 <div>
                   <p>{phase.note}</p>
                   <p className="chronology-meta">
-                    Certainty: {phase.certainty} · Basis: {phase.datingBasis}
+                    {phase.certainty} dating · {phase.datingBasis} basis
                     <CitationLinks ids={phase.sourceIds} />
                   </p>
                 </div>
@@ -125,71 +170,73 @@ export default function GobekliTepePage() {
         </div>
       </section>
 
-      <section className="record-section shell">
+      <section className="record-section shell" id="research">
         <div className="record-section-label">
-          <p className="section-label">Excavation · 03</p>
+          <p className="section-label">Research history · 07</p>
         </div>
         <div className="record-copy">
-          <h2>From survey to long-term research.</h2>
+          <h2>The interpretation changed as the excavation expanded.</h2>
           <p>
             {record.excavationHistory.text}
             <CitationLinks ids={record.excavationHistory.sourceIds} />
           </p>
-        </div>
-      </section>
-
-      <section className="record-section shell">
-        <div className="record-section-label">
-          <p className="section-label">Identifiers · 04</p>
-        </div>
-        <div className="record-copy">
-          <h2>Linked, but not outsourced.</h2>
-          <p>
-            External identifiers support reconciliation and discovery. They are not treated as substitutes for scholarly evidence.
-          </p>
-          <div className="identifier-grid">
-            <a href="https://whc.unesco.org/en/list/1572/">
-              <span>UNESCO</span>
-              <strong>{record.externalIdentifiers.unesco}</strong>
-            </a>
-            <a href={`https://www.wikidata.org/wiki/${record.externalIdentifiers.wikidata}`}>
-              <span>Wikidata</span>
-              <strong>{record.externalIdentifiers.wikidata}</strong>
-            </a>
+          <div className="research-timeline">
+            <article><strong>1963</strong><span>Site recorded during an Istanbul–Chicago survey.</span></article>
+            <article><strong>1994</strong><span>Klaus Schmidt, Mehmet Akman and Michael Morsch recognise its significance during survey work.</span></article>
+            <article><strong>1995</strong><span>Systematic excavations begin.</span></article>
+            <article><strong>2018</strong><span>Göbekli Tepe is inscribed on the UNESCO World Heritage List.</span></article>
+            <article><strong>2023</strong><span>A life-size painted wild boar statue is documented in Special Building D.</span></article>
           </div>
+          <aside className="editorial-note">
+            <span>Interpretive caution</span>
+            <p>{record.editorialNotes}</p>
+          </aside>
         </div>
       </section>
 
-      <section className="sources shell" id="sources">
-        <div className="section-heading">
+      <section className="record-notes shell" id="sources">
+        <div>
+          <p className="section-label">Record notes · 08</p>
+          <h2>Evidence stays available without dominating the story.</h2>
+        </div>
+        <div className="record-note-grid">
           <div>
-            <p className="section-label">Bibliography · 05</p>
-            <h2>Sources behind the record.</h2>
+            <span>Coordinates</span>
+            <strong>{record.coordinates.latitude}° N · {record.coordinates.longitude}° E</strong>
           </div>
-          <p>
-            Institutional heritage records, excavation documentation, and academic publications are kept distinct from authority-data identifiers.
-          </p>
+          <a href="https://whc.unesco.org/en/list/1572/">
+            <span>UNESCO property</span>
+            <strong>{record.externalIdentifiers.unesco}</strong>
+          </a>
+          <a href={`https://www.wikidata.org/wiki/${record.externalIdentifiers.wikidata}`}>
+            <span>Wikidata authority</span>
+            <strong>{record.externalIdentifiers.wikidata}</strong>
+          </a>
         </div>
-        <ol className="bibliography-list">
-          {record.bibliography.map((source, index) => (
-            <li id={`source-${index + 1}`} key={source.id}>
-              <div>
-                <span className="source-type">{source.sourceType}</span>
-                <p>{source.citation}</p>
-              </div>
-              {source.url ? (
-                <a href={source.url} target="_blank" rel="noreferrer">
-                  Open source ↗
-                </a>
-              ) : null}
-            </li>
-          ))}
-        </ol>
+
+        <details className="source-disclosure">
+          <summary>View {record.bibliography.length} references</summary>
+          <ol className="bibliography-list">
+            {record.bibliography.map((source, index) => (
+              <li id={`source-${index + 1}`} key={source.id}>
+                <div>
+                  <span className="source-type">{source.sourceType}</span>
+                  <p>{source.citation}</p>
+                </div>
+                {source.url ? (
+                  <a href={source.url} target="_blank" rel="noreferrer">
+                    Open ↗
+                  </a>
+                ) : null}
+              </li>
+            ))}
+          </ol>
+        </details>
       </section>
 
       <footer className="shell">
         <p>Digital Anatolian Heritage Archive</p>
-        <p>Record {record.id} · version {record.recordVersion}</p>
+        <p>Record {record.id} · reviewed {record.lastReviewed}</p>
       </footer>
     </main>
   );

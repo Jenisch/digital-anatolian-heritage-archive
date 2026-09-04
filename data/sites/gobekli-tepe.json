@@ -1,0 +1,172 @@
+{
+  "id": "site:gobekli-tepe",
+  "slug": "gobekli-tepe",
+  "canonicalName": "Göbekli Tepe",
+  "alternativeNames": [
+    {
+      "name": "Göbeklitepe",
+      "language": "tr",
+      "script": "Latn",
+      "note": "Common Turkish spelling in public heritage communication"
+    }
+  ],
+  "coordinates": {
+    "latitude": 37.223242,
+    "longitude": 38.922364,
+    "precision": "site"
+  },
+  "modernLocation": {
+    "country": "Türkiye",
+    "province": "Şanlıurfa",
+    "district": "Haliliye",
+    "locality": "Örencik"
+  },
+  "siteTypes": [
+    "tell",
+    "archaeological site",
+    "monumental communal architecture"
+  ],
+  "chronology": [
+    {
+      "label": "Pre-Pottery Neolithic occupation",
+      "startYear": -9500,
+      "endYear": -7750,
+      "displayDate": "c. 9500/9250–8000/7750 cal BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "The DAI project overview gives the site's overall calibrated range with alternative boundary estimates.",
+      "sourceIds": [
+        "dai-project-5746"
+      ]
+    },
+    {
+      "label": "Monumental megalithic structures",
+      "startYear": -9600,
+      "endYear": -8200,
+      "displayDate": "9600–8200 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "UNESCO uses this range for the monumental round-oval and rectangular structures that define the World Heritage property.",
+      "sourceIds": [
+        "unesco-whc-1572"
+      ]
+    }
+  ],
+  "cultures": [
+    "Pre-Pottery Neolithic A",
+    "Pre-Pottery Neolithic B"
+  ],
+  "historicalContext": {
+    "text": "Göbekli Tepe belongs to the Pre-Pottery Neolithic of Upper Mesopotamia, a period in which communities were undergoing major changes in subsistence, settlement and social organisation. Monumental communal architecture is central to the site, but recent excavations of non-monumental and domestic structures complicate the older interpretation of Göbekli Tepe as a purely ritual sanctuary.",
+    "sourceIds": [
+      "unesco-whc-1572",
+      "dai-fieldwork-1934"
+    ]
+  },
+  "archaeologicalSignificance": {
+    "text": "The site is internationally significant for early monumental architecture built with large T-shaped limestone pillars, many bearing relief imagery. UNESCO inscribed Göbekli Tepe under criteria (i), (ii) and (iv), emphasizing its architectural innovation, its place within wider Upper Mesopotamian social networks, and its importance for understanding the transition toward early farming communities.",
+    "sourceIds": [
+      "unesco-whc-1572",
+      "haklay-gopher-2020"
+    ]
+  },
+  "excavationHistory": {
+    "text": "The site was first recorded during an Istanbul–Chicago survey in 1963. Klaus Schmidt, Mehmet Akman and Michael Morsch recognised its archaeological significance during a 1994 survey, and fieldwork began in 1995. Klaus Schmidt coordinated the excavations until his death in 2014. Subsequent work continued under the Şanlıurfa Museum with Lee Clare coordinating DAI research; in 2019 Necmi Karul became director of the wider Göbekli Tepe Culture and Karahantepe Excavation project.",
+    "sourceIds": [
+      "dai-first-20-years",
+      "dai-25-years",
+      "schmidt-2000"
+    ]
+  },
+  "heritageStatus": [
+    {
+      "label": "UNESCO World Heritage Site — criteria (i), (ii), (iv); inscribed 2018",
+      "identifier": "1572",
+      "url": "https://whc.unesco.org/en/list/1572/"
+    }
+  ],
+  "externalIdentifiers": {
+    "wikidata": "Q214944",
+    "unesco": "1572"
+  },
+  "bibliography": [
+    {
+      "id": "unesco-whc-1572",
+      "citation": "UNESCO World Heritage Centre. “Göbekli Tepe.” World Heritage List, property 1572.",
+      "sourceType": "heritage-register",
+      "doi": null,
+      "url": "https://whc.unesco.org/en/list/1572/",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "dai-project-5746",
+      "citation": "Deutsches Archäologisches Institut. “Göbekli Tepe.” Research project 5746.",
+      "sourceType": "institutional",
+      "doi": null,
+      "url": "https://www.dainst.org/en/research/projects/noslug/5746",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "dai-fieldwork-1934",
+      "citation": "Deutsches Archäologisches Institut. “Göbekli Tepe: Fieldwork and Research.”",
+      "sourceType": "institutional",
+      "doi": null,
+      "url": "https://www.dainst.org/en/research/projects/goebekli-tepe/1934",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "dai-first-20-years",
+      "citation": "Dietrich, Oliver. “Göbekli Tepe – The First 20 Years of Research.” Deutsches Archäologisches Institut, 2 June 2016.",
+      "sourceType": "excavation",
+      "doi": null,
+      "url": "https://www.dainst.org/blogs/goebekli-tepe-the-first-20-years-of-research/630",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "dai-25-years",
+      "citation": "Deutsches Archäologisches Institut. “Over Twenty-Five Years of Research at Göbekli Tepe!” Tepe Telegrams, 16 January 2023.",
+      "sourceType": "excavation",
+      "doi": null,
+      "url": "https://www.dainst.blog/the-tepe-telegrams/2023/01/16/over-twenty-five-years-of-research-at-gobekli-tepe/",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "schmidt-2000",
+      "citation": "Schmidt, Klaus. “Göbekli Tepe, Southeastern Turkey: A Preliminary Report on the 1995–1999 Excavations.” Paléorient 26, no. 1 (2000): 45–54.",
+      "sourceType": "academic",
+      "doi": "10.3406/paleo.2000.4697",
+      "url": "https://doi.org/10.3406/paleo.2000.4697",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "haklay-gopher-2020",
+      "citation": "Haklay, Gil, and Avi Gopher. “Geometry and Architectural Planning at Göbekli Tepe, Turkey.” Cambridge Archaeological Journal 30, no. 2 (2020): 343–357.",
+      "sourceType": "academic",
+      "doi": "10.1017/S0959774319000660",
+      "url": "https://doi.org/10.1017/S0959774319000660",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "wikidata-q214944",
+      "citation": "Wikidata contributors. “Göbekli Tepe (Q214944).”",
+      "sourceType": "authority-data",
+      "doi": null,
+      "url": "https://www.wikidata.org/wiki/Q214944",
+      "accessedOn": "2026-09-04"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "title": "Göbekli Tepe, Şanlıurfa",
+      "creator": "Teomancimit",
+      "source": "Wikimedia Commons — File:Göbekli Tepe, Urfa.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe%2C_Urfa.jpg",
+      "rightsStatus": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "This record avoids the popular ‘world’s oldest temple’ shorthand. Current evidence supports a more complex interpretation of the site that includes monumental communal architecture alongside domestic and other non-monumental structures."
+}

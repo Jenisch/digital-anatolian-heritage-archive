@@ -45,17 +45,27 @@ export default function Home() {
         </div>
 
         <div className="site-grid">
-          {sites.map((site, index) => (
-            <article className="site-card" key={site.slug}>
-              <div className="site-index">{String(index + 1).padStart(2, "0")}</div>
-              <div>
-                <p className="site-region">{site.modernRegion}</p>
-                <h3>{site.name}</h3>
-                <p>{site.context}</p>
-              </div>
-              <span className="status">Research record pending</span>
-            </article>
-          ))}
+          {sites.map((site, index) => {
+            const recordReady = site.slug === "gobekli-tepe";
+
+            return (
+              <article className={`site-card${recordReady ? " site-card-ready" : ""}`} key={site.slug}>
+                <div className="site-index">{String(index + 1).padStart(2, "0")}</div>
+                <div>
+                  <p className="site-region">{site.modernRegion}</p>
+                  <h3>{site.name}</h3>
+                  <p>{site.context}</p>
+                </div>
+                {recordReady ? (
+                  <a className="record-action" href={`/sites/${site.slug}`}>
+                    View sourced record →
+                  </a>
+                ) : (
+                  <span className="status">Research record pending</span>
+                )}
+              </article>
+            );
+          })}
         </div>
       </section>
 

@@ -74,7 +74,8 @@ nav a:hover,
 .eyebrow,
 .section-label,
 .site-region,
-.status {
+.status,
+.source-type {
   margin: 0;
   color: var(--muted);
   font-size: 0.72rem;
@@ -136,7 +137,8 @@ blockquote {
 
 .explore,
 .methodology,
-.about {
+.about,
+.sources {
   padding: 112px 0;
   border-bottom: 1px solid var(--line);
 }
@@ -151,7 +153,8 @@ blockquote {
 
 .section-heading h2,
 .methodology h2,
-.about h2 {
+.about h2,
+.record-copy h2 {
   max-width: 780px;
   margin: 18px 0 0;
   font-family: Georgia, "Times New Roman", serif;
@@ -182,6 +185,10 @@ blockquote {
   border-bottom: 1px solid var(--line);
 }
 
+.site-card-ready {
+  border-bottom-color: var(--ink);
+}
+
 .site-index {
   color: var(--muted);
   font-family: Georgia, "Times New Roman", serif;
@@ -200,10 +207,25 @@ blockquote {
   color: var(--muted);
 }
 
-.status {
+.status,
+.record-action {
   padding: 7px 9px;
   border: 1px solid var(--line);
   white-space: nowrap;
+}
+
+.record-action {
+  border-color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.record-action:hover {
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .methodology {
@@ -258,6 +280,248 @@ blockquote {
   margin-top: 28px;
 }
 
+.record-hero {
+  min-height: 560px;
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 70px;
+  align-items: end;
+  padding: 110px 0 72px;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-hero h1 {
+  margin: 18px 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(5rem, 10vw, 10rem);
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  line-height: 0.82;
+}
+
+.record-location {
+  margin: 0;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+}
+
+.record-facts {
+  margin: 0;
+  border-top: 1px solid var(--ink);
+}
+
+.record-facts div {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-facts dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.record-facts dd {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.record-figure {
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+.record-image {
+  min-height: min(66vw, 720px);
+  background-image: linear-gradient(rgba(23, 23, 20, 0.04), rgba(23, 23, 20, 0.04)), url("https://commons.wikimedia.org/wiki/Special:Redirect/file/G%C3%B6bekli%20Tepe%2C%20Urfa.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid var(--line);
+}
+
+.record-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.record-section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+  padding: 112px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-copy h2 {
+  margin-top: 0;
+}
+
+.record-copy > p {
+  max-width: 850px;
+  margin: 32px 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+  line-height: 1.55;
+}
+
+.citation-links {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 7px;
+  vertical-align: super;
+}
+
+.citation-links a {
+  color: var(--accent);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.editorial-note {
+  max-width: 850px;
+  margin-top: 50px;
+  padding: 22px 0 0 28px;
+  border-top: 1px solid var(--ink);
+  border-left: 4px solid var(--accent);
+}
+
+.editorial-note span {
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.editorial-note p {
+  margin: 12px 0 0;
+  color: #3f3d37;
+  line-height: 1.7;
+}
+
+.chronology-list {
+  margin-top: 52px;
+  border-top: 1px solid var(--ink);
+}
+
+.chronology-list article {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 42px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.chronology-date {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.chronology-list h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.chronology-list article > div:last-child > p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.chronology-meta {
+  margin-top: 12px !important;
+  font-size: 0.76rem;
+}
+
+.identifier-grid {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.identifier-grid a {
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px;
+  border: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.identifier-grid a:hover {
+  border-color: var(--ink);
+}
+
+.identifier-grid span {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.identifier-grid strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.bibliography-list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--ink);
+  list-style-position: inside;
+}
+
+.bibliography-list li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 32px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.bibliography-list li::marker {
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.bibliography-list p {
+  max-width: 900px;
+  margin: 7px 0 0;
+  line-height: 1.55;
+}
+
+.bibliography-list > li > a {
+  align-self: center;
+  font-size: 0.76rem;
+  text-decoration: none;
+}
+
+.bibliography-list > li > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 footer {
   min-height: 140px;
   display: flex;
@@ -297,14 +561,19 @@ footer {
   .research-question,
   .section-heading,
   .methodology,
-  .about {
+  .about,
+  .record-hero,
+  .record-section,
+  .chronology-list article {
     grid-template-columns: 1fr;
   }
 
   .research-question,
   .explore,
   .methodology,
-  .about {
+  .about,
+  .sources,
+  .record-section {
     padding: 72px 0;
   }
 
@@ -312,9 +581,32 @@ footer {
     grid-template-columns: 42px 1fr;
   }
 
-  .status {
+  .status,
+  .record-action {
     grid-column: 2;
     width: fit-content;
+  }
+
+  .record-hero {
+    min-height: 620px;
+    gap: 52px;
+    padding-top: 80px;
+  }
+
+  .record-hero h1 {
+    font-size: clamp(4.6rem, 23vw, 7rem);
+  }
+
+  .record-image {
+    min-height: 65vh;
+  }
+
+  .identifier-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bibliography-list li {
+    grid-template-columns: 1fr;
   }
 
   footer {

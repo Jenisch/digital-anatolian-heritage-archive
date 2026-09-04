@@ -1,0 +1,290 @@
+[
+  {
+    "id": "site:abidos",
+    "slug": "abidos",
+    "canonicalName": "Abidos",
+    "alternateNames": ["Abydos", "Abydus"],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Misya"],
+    "modernLocation": {"country": "Türkiye", "province": "Çanakkale", "district": null, "locality": null},
+    "coordinates": {"latitude": 40.196017, "longitude": 26.406964, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Wikidata · Abydos · Q336446", "url": "https://www.wikidata.org/wiki/Q336446", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q336446", "unesco": null, "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["Location coordinates follow the Nomisma-backed coordinate statement exposed through Wikidata; chronology remains unverified."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:acharaca",
+    "slug": "acharaca",
+    "canonicalName": "Acharaka",
+    "alternateNames": ["Acharaca", "Akaraka"],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Karya", "Lidya"],
+    "modernLocation": {"country": "Türkiye", "province": "Aydın", "district": null, "locality": null},
+    "coordinates": {"latitude": 37.882833, "longitude": 28.097518, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Wikidata · Acharaca · Q12874234", "url": "https://www.wikidata.org/wiki/Q12874234", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q12874234", "unesco": null, "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["Authority data places the site in Aydın Province; seed-level Sultanhisar attribution is retained outside the verified core until independently checked."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:acemhoyuk",
+    "slug": "acemhoyuk",
+    "canonicalName": "Acemhöyük",
+    "alternateNames": [],
+    "entityTypes": ["tell", "settlement"],
+    "historicalRegions": ["Kapadokya"],
+    "modernLocation": {"country": "Türkiye", "province": "Aksaray", "district": null, "locality": "Yeşilova"},
+    "coordinates": {"latitude": 38.411589, "longitude": 33.835483, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Kültür Portalı · Acemhöyük", "url": "https://www.kulturportali.gov.tr/turkiye/aksaray/gezilecekyer/acemhoyuk", "role": "location-verification"},
+      {"name": "Wikidata · Acemhöyük · Q8438175", "url": "https://www.wikidata.org/wiki/Q8438175", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q8438175", "unesco": null, "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["Official heritage source verifies Yeşilova/Aksaray; authority coordinate is used for map placement. Seed chronology is not promoted."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:adada",
+    "slug": "adada",
+    "canonicalName": "Adada",
+    "alternateNames": [],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Pisidiya"],
+    "modernLocation": {"country": "Türkiye", "province": "Isparta", "district": "Sütçüler", "locality": "Sağrak"},
+    "coordinates": {"latitude": 37.5916, "longitude": 30.9951, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Isparta İl Kültür ve Turizm Müdürlüğü · Ören Yerleri", "url": "https://isparta.ktb.gov.tr/TR-70971/oren-yerleri.html", "role": "location-verification"},
+      {"name": "Wikidata · Adada · Q346649", "url": "https://www.wikidata.org/wiki/Q346649", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q346649", "unesco": null, "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["Official provincial heritage information places Adada near Sağrak in Sütçüler; authority coordinate is used for the point."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:adramytteion",
+    "slug": "adramytteion",
+    "canonicalName": "Adramytteion",
+    "alternateNames": ["Adramyttion", "Adramyttium", "Adramyteum"],
+    "entityTypes": ["ancient-city", "port"],
+    "historicalRegions": ["Misya", "Aiolis"],
+    "modernLocation": {"country": "Türkiye", "province": "Balıkesir", "district": "Burhaniye", "locality": "Ören"},
+    "coordinates": {"latitude": 39.495498, "longitude": 26.937518, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Kültür Portalı · Adramytteion Antik Kenti", "url": "https://kulturportali.gov.tr/turkiye/balikesir/gezilecekyer/adramytteion-antik-kenti", "role": "location-verification"},
+      {"name": "Wikidata · Adramyttion · Q3605584", "url": "https://www.wikidata.org/wiki/Q3605584", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q3605584", "unesco": null, "pleiades": "550403"},
+    "recordPath": null,
+    "dataQualityNotes": ["Official heritage source locates the remains across Ören, Burhaniye; Nomisma-backed authority coordinate supplies site placement."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:aegae-cilicia",
+    "slug": "aegae-cilicia",
+    "canonicalName": "Aegae (Kilikya)",
+    "alternateNames": ["Aegae", "Aigai", "Aegeae"],
+    "entityTypes": ["ancient-city", "port"],
+    "historicalRegions": ["Kilikya"],
+    "modernLocation": {"country": "Türkiye", "province": "Adana", "district": "Yumurtalık", "locality": null},
+    "coordinates": {"latitude": 36.769555, "longitude": 35.788651, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Wikidata · Aegae · Q404231", "url": "https://www.wikidata.org/wiki/Q404231", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q404231", "unesco": null, "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["Authority data links the Cilician Aegae to Yumurtalık and exposes a Nomisma-backed coordinate."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:afrodisias",
+    "slug": "afrodisias",
+    "canonicalName": "Afrodisias",
+    "alternateNames": ["Aphrodisias"],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Karya"],
+    "modernLocation": {"country": "Türkiye", "province": "Aydın", "district": "Karacasu", "locality": "Geyre"},
+    "coordinates": {"latitude": 37.708333, "longitude": 28.723611, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "UNESCO World Heritage Centre · Aphrodisias property 1519", "url": "https://whc.unesco.org/en/list/1519/maps/", "role": "location-verification"},
+      {"name": "Wikidata · Aphrodisias · Q618495", "url": "https://www.wikidata.org/wiki/Q618495", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q618495", "unesco": "1519", "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["UNESCO property coordinate is used for the archaeological site; the Turkish seed spelling is retained as the registry display name."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:aigai",
+    "slug": "aigai",
+    "canonicalName": "Aigai",
+    "alternateNames": ["Aegae (Aeolis)", "Nemrutkale", "Köseler Kalesi"],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Aiolis"],
+    "modernLocation": {"country": "Türkiye", "province": "Manisa", "district": "Yunusemre", "locality": "Köseler"},
+    "coordinates": {"latitude": 38.820323, "longitude": 27.174421, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Kültür Portalı · Aigai Antik Kenti", "url": "https://kulturportali.gov.tr/turkiye/manisa/gezilecekyer/aigai", "role": "location-verification"},
+      {"name": "Wikidata · Aigai · Q404200", "url": "https://www.wikidata.org/wiki/Q404200", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q404200", "unesco": null, "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["Official heritage source places Aigai at Köseler in Yunusemre; the map uses the Nomisma-backed authority coordinate."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:ainos",
+    "slug": "ainos",
+    "canonicalName": "Ainos",
+    "alternateNames": ["Aenus"],
+    "entityTypes": ["ancient-city", "port"],
+    "historicalRegions": ["Trakya"],
+    "modernLocation": {"country": "Türkiye", "province": "Edirne", "district": "Enez", "locality": null},
+    "coordinates": {"latitude": 40.725138, "longitude": 26.084782, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Wikidata · Aenus · Q14800358", "url": "https://www.wikidata.org/wiki/Q14800358", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q14800358", "unesco": null, "pleiades": "501337"},
+    "recordPath": null,
+    "dataQualityNotes": ["Authority data explicitly links Aenus to Enez; the map uses the Nomisma-backed coordinate."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:aizanoi",
+    "slug": "aizanoi",
+    "canonicalName": "Aizanoi",
+    "alternateNames": ["Aezanis"],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Frigya", "Misya"],
+    "modernLocation": {"country": "Türkiye", "province": "Kütahya", "district": "Çavdarhisar", "locality": null},
+    "coordinates": {"latitude": 39.194722, "longitude": 29.630278, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "UNESCO World Heritage Centre · Aizanoi tentative property 5724", "url": "https://whc.unesco.org/en/tentativelists/5724/", "role": "location-verification"},
+      {"name": "Wikidata · Aizanoi · Q411571", "url": "https://www.wikidata.org/wiki/Q411571", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q411571", "unesco": "5724", "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["UNESCO tentative-list coordinate and Çavdarhisar location are used; chronology remains outside this verification pass."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:akmonya",
+    "slug": "akmonya",
+    "canonicalName": "Akmonya",
+    "alternateNames": ["Acmonia", "Acmoneia", "Akmoneia"],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Frigya"],
+    "modernLocation": {"country": "Türkiye", "province": "Uşak", "district": null, "locality": null},
+    "coordinates": {"latitude": 38.658746, "longitude": 29.775001, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Wikidata · Acmonia · Q19753378", "url": "https://www.wikidata.org/wiki/Q19753378", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q19753378", "unesco": null, "pleiades": "609293"},
+    "recordPath": null,
+    "dataQualityNotes": ["Authority data verifies Uşak and a Nomisma-backed coordinate; the seed's Banaz/Ahat detail remains pending independent location verification."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:alabanda",
+    "slug": "alabanda",
+    "canonicalName": "Alabanda",
+    "alternateNames": ["Antiochia of the Chrysaorians"],
+    "entityTypes": ["ancient-city"],
+    "historicalRegions": ["Karya"],
+    "modernLocation": {"country": "Türkiye", "province": "Aydın", "district": "Çine", "locality": "Doğanyurt"},
+    "coordinates": {"latitude": 37.597785, "longitude": 27.958833, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Kültür Portalı · Alabanda Antik Kenti", "url": "https://www.kulturportali.gov.tr/turkiye/aydin/gezilecekyer/alabanda--araphisar--", "role": "location-verification"},
+      {"name": "Wikidata · Alabanda · Q778224", "url": "https://www.wikidata.org/wiki/Q778224", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q778224", "unesco": null, "pleiades": "599479"},
+    "recordPath": null,
+    "dataQualityNotes": ["Official heritage source verifies Doğanyurt/Çine; the Nomisma-backed coordinate is used for map placement."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:alacahoyuk",
+    "slug": "alacahoyuk",
+    "canonicalName": "Alacahöyük",
+    "alternateNames": ["Alaca Höyük"],
+    "entityTypes": ["tell", "settlement"],
+    "historicalRegions": [],
+    "modernLocation": {"country": "Türkiye", "province": "Çorum", "district": "Alaca", "locality": "Alacahöyük"},
+    "coordinates": {"latitude": 40.233894, "longitude": 34.695575, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Kültür Portalı · Alacahöyük", "url": "https://www.kulturportali.gov.tr/turkiye/corum/kulturenvanteri/alacahoyuk", "role": "location-verification"},
+      {"name": "Wikidata · Alacahöyük · Q558861", "url": "https://www.wikidata.org/wiki/Q558861", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q558861", "unesco": null, "pleiades": null},
+    "recordPath": null,
+    "dataQualityNotes": ["Official inventory verifies Alacahöyük/Alaca/Çorum; the authority coordinate is used for the mapped site."],
+    "lastReviewed": "2026-09-05"
+  },
+  {
+    "id": "site:alalah",
+    "slug": "alalah",
+    "canonicalName": "Alalah",
+    "alternateNames": ["Alalakh", "Tell Atchana", "Aççana Höyük"],
+    "entityTypes": ["tell", "settlement", "ancient-city"],
+    "historicalRegions": ["Levant"],
+    "modernLocation": {"country": "Türkiye", "province": "Hatay", "district": "Reyhanlı", "locality": null},
+    "coordinates": {"latitude": 36.237778, "longitude": 36.384722, "precision": "site"},
+    "chronologySummary": {"displayDate": null, "startYear": null, "endYear": null, "certainty": "unknown"},
+    "researchStatus": "authority-linked",
+    "discoverySources": [
+      {"name": "Türkiye'deki antik kentler listesi · revision 37823000", "url": "https://tr.wikipedia.org/w/index.php?oldid=37823000&title=T%C3%BCrkiye%27deki_antik_kentler_listesi", "role": "seed-catalogue"},
+      {"name": "Wikidata · Alalakh · Q575249", "url": "https://www.wikidata.org/wiki/Q575249", "role": "authority"}
+    ],
+    "authorityIdentifiers": {"wikidata": "Q575249", "unesco": null, "pleiades": "309866128"},
+    "recordPath": null,
+    "dataQualityNotes": ["The two duplicate Alalah seed rows reconcile to the same authority entity, Tell Atchana/Alalakh in Reyhanlı; only one map entity is emitted."],
+    "lastReviewed": "2026-09-05"
+  }
+]

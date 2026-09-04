@@ -16,8 +16,18 @@ The registry is the broad-coverage layer of DAHA. It is deliberately separate fr
 
 Batch data is not evidence for archaeological interpretation.
 
+## Verified entities
+
+`data/registry/verified/` contains reconciled registry entities that have passed geographic verification and/or authority linking. These files follow the registry-site data model and preserve the evidence used to promote a seed row beyond `indexed` status.
+
+Verification is deliberately scoped. A coordinate can be accepted while chronology remains `unknown`; promoting a place to the map does not promote seed-catalogue dating into archaeological evidence.
+
+`data/registry/map-sites.json` is the lightweight public mapping projection derived from verified registry entities. It should never contain a coordinate that exists only because a district, province, or approximate modern place was geocoded.
+
 ## Mapping rule
 
 An `indexed` row is not automatically mapped. A registry entity receives a public map point only when its geographic identity has been checked beyond the discovery catalogue. Unknown or approximate source locations remain catalogue entries until verification.
+
+In Archive Index mode, non-research registry points are rendered through a clustered MapLibre layer. Full sourced records remain separate accent markers and are never absorbed into registry clusters.
 
 This rule prevents broad archive coverage from producing a visually dense but methodologically misleading map.

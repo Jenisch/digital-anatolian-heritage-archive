@@ -1,0 +1,153 @@
+{
+  "id": "site:arslantepe",
+  "slug": "arslantepe",
+  "canonicalName": "Arslantepe",
+  "alternativeNames": [
+    {"name": "Arslantepe Höyüğü", "language": "tr", "script": "Latn", "note": "Common Turkish heritage name"},
+    {"name": "Melid", "language": null, "script": "Latn", "note": "Name associated with the site's later Late Bronze and Iron Age political centre"}
+  ],
+  "coordinates": {"latitude": 38.381944, "longitude": 38.361111, "precision": "site"},
+  "modernLocation": {"country": "Türkiye", "province": "Malatya", "district": "Battalgazi", "locality": "Orduzu vicinity"},
+  "siteTypes": ["tell", "archaeological site", "administrative centre", "palatial complex", "fortified settlement"],
+  "chronology": [
+    {
+      "label": "Late Chalcolithic domestic occupation",
+      "startYear": -4300,
+      "endYear": -3900,
+      "displayDate": "c. 4300–3900 BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "The earliest well-documented excavated levels belong to Late Chalcolithic 1–2 and preserve superimposed domestic architecture; current work is refining these early phases on the western slope.",
+      "sourceIds": ["unesco-whc-1622", "balossi-biancifiori-2025"]
+    },
+    {
+      "label": "Palatial and centralised administrative system",
+      "startYear": -3400,
+      "endYear": -3100,
+      "displayDate": "3400–3100 BCE",
+      "certainty": "range",
+      "datingBasis": "mixed",
+      "note": "Period VI A preserves the monumental palace complex, wall paintings, mass food distribution and a large sealing archive associated with a centralised political economy.",
+      "sourceIds": ["unesco-whc-1622", "frangipane-1997", "cretulae-2007"]
+    },
+    {
+      "label": "Post-palatial transition and Royal Tomb",
+      "startYear": -3100,
+      "endYear": -2900,
+      "displayDate": "c. 3100–2900 BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "After the destruction of the palace, new political and cultural configurations emerged. The so-called Royal Tomb, around 3000 BCE, materialises high-status burial and changing relations with Transcaucasian groups.",
+      "sourceIds": ["royal-tomb-2001", "unesco-whc-1622"]
+    },
+    {
+      "label": "Melid: Late Bronze and Iron Age centre",
+      "startYear": -1600,
+      "endYear": -700,
+      "displayDate": "c. 1600–700 BCE",
+      "certainty": "approximate",
+      "datingBasis": "historical",
+      "note": "A later major phase saw the mound, known as Melid, participate first in the Hittite imperial sphere and then in an independent Iron Age kingdom before Neo-Assyrian conquest.",
+      "sourceIds": ["sapienza-route-2026"]
+    }
+  ],
+  "cultures": ["Late Chalcolithic communities", "Early Bronze Age communities", "Hittite", "Neo-Hittite / Melid"],
+  "historicalContext": {
+    "text": "Arslantepe is a roughly 30-metre-high tell in the Malatya plain near the Upper Euphrates. Its long sequence extends from prehistoric occupation into later Bronze and Iron Age political formations. The site's most influential evidence comes from the fourth millennium BCE, when local institutions developed a strongly centralised political economy without the dense urban scale familiar from southern Mesopotamian cities.",
+    "sourceIds": ["unesco-whc-1622", "frangipane-2012", "frangipane-2018"]
+  },
+  "archaeologicalSignificance": {
+    "text": "Arslantepe makes early state formation visible through architecture, administration and materialised inequality. The Period VI A complex combines monumental public buildings, wall paintings, controlled food distribution, more than two thousand clay sealings used to record transactions, and an exceptional group of metal weapons. UNESCO inscribed the mound in 2021 under criterion (iii) as exceptional testimony to early administrative elites and centralised authority before writing.",
+    "sourceIds": ["unesco-whc-1622", "cretulae-2007", "frangipane-1997"]
+  },
+  "excavationHistory": {
+    "text": "Sapienza University of Rome has conducted systematic research at Arslantepe since 1961. The mission began under Salvatore M. Puglisi, later passed to Alba Palmieri and Marcella Frangipane, and is now directed by Francesca Balossi Restelli. Long-term excavation has been paired with conservation of mudbrick architecture, archaeometric research, digital documentation and public interpretation. In August 2026 a new visitor route and expanded protective roofing over the palatial complex were inaugurated in collaboration with Turkish authorities.",
+    "sourceIds": ["sapienza-mission", "sapienza-route-2026", "frangipane-et-al-2021"]
+  },
+  "narrativeSections": [
+    {
+      "id": "landscape",
+      "label": "Landscape",
+      "title": "A political centre at a geographic and cultural threshold.",
+      "paragraphs": [
+        "Arslantepe stands in the fertile Malatya plain, close to routes linking the Euphrates corridor with Eastern Anatolia, the Caucasus and Central Anatolia. This position did not make the site a passive frontier; it made interaction part of its political history.",
+        "The archaeological sequence repeatedly combines local development with wider connections. That is especially important in the fourth and early third millennia BCE, when Arslantepe followed a trajectory related to Mesopotamian state formation but not reducible to a copy of southern urbanism."
+      ],
+      "sourceIds": ["unesco-whc-1622", "frangipane-2018"]
+    },
+    {
+      "id": "palace",
+      "label": "Palace",
+      "title": "Public architecture turned administration into space.",
+      "paragraphs": [
+        "Between about 3400 and 3100 BCE, interconnected monumental buildings formed what archaeologists describe as a palatial complex. Corridors, storerooms, reception areas, temples and painted surfaces organised movement through a built environment that concentrated economic and political functions.",
+        "A destructive fire at the end of this phase sealed walls, floors, installations and objects beneath collapse. The resulting preservation allows archaeologists to reconstruct activities inside the complex with unusual resolution rather than infer them only from displaced artefacts."
+      ],
+      "sourceIds": ["unesco-whc-1622", "frangipane-1997"]
+    },
+    {
+      "id": "administration",
+      "label": "Administration",
+      "title": "More than two thousand sealings record bureaucracy before writing.",
+      "paragraphs": [
+        "The palace produced an extraordinary archive of clay sealings, or cretulae, impressed by seals and used to secure containers while recording flows of goods. More than 2,200 examples have been studied from the fourth-millennium administrative contexts.",
+        "These objects are small, but their significance is structural. They show that transactions, storage and redistribution were being monitored through a repeatable administrative technology before a local writing system was in use."
+      ],
+      "sourceIds": ["cretulae-2007", "vese-2025"]
+    },
+    {
+      "id": "weapons",
+      "label": "Metal and power",
+      "title": "Weapons became instruments of representation as well as force.",
+      "paragraphs": [
+        "Arslantepe yielded an exceptional group of arsenical-copper weapons from the late fourth millennium BCE, including blades conventionally described as the earliest swords so far known. Their context inside the central complex links metallurgy to institutions rather than treating technological innovation as an isolated craft story.",
+        "UNESCO interprets the display of these weapons as evidence for emerging elite control over organised combat. The stronger claim is not that warfare suddenly began here, but that coercive capacity and prestige were becoming visibly attached to political authority."
+      ],
+      "sourceIds": ["unesco-whc-1622"]
+    },
+    {
+      "id": "royal-tomb",
+      "label": "Political change",
+      "title": "The palace collapsed, but hierarchy did not simply disappear.",
+      "paragraphs": [
+        "Around the transition to the third millennium BCE the centralised palatial system ended and the site entered a radically different political landscape. Pastoral and Transcaucasian-linked material traditions appeared alongside local continuities.",
+        "The so-called Royal Tomb, dated around 3000 BCE, contained a high-status adult, rich metal assemblages and four adolescents placed above the stone cist. Its exceptional burial ritual suggests that political distinction was being reformulated through personal status after the collapse of the earlier institutional system."
+      ],
+      "sourceIds": ["royal-tomb-2001"]
+    },
+    {
+      "id": "melid",
+      "label": "Long duration",
+      "title": "Arslantepe did not end with the first states.",
+      "paragraphs": [
+        "The fourth-millennium palace is only one chapter in a much longer mound history. During the Late Bronze and Iron Ages, the site known as Melid again became a major political centre, first within the Hittite sphere and later as the seat of an independent kingdom.",
+        "Keeping these later phases visible prevents the archive from turning Arslantepe into a single-event site. Its importance lies partly in the repeated reorganisation of power across millennia."
+      ],
+      "sourceIds": ["sapienza-route-2026", "unesco-whc-1622"]
+    }
+  ],
+  "heritageStatus": [
+    {"label": "UNESCO World Heritage Site — criterion (iii); inscribed 2021", "identifier": "1622", "url": "https://whc.unesco.org/en/list/1622/"}
+  ],
+  "externalIdentifiers": {"wikidata": "Q705132", "unesco": "1622"},
+  "bibliography": [
+    {"id": "unesco-whc-1622", "citation": "UNESCO World Heritage Centre. “Arslantepe Mound.” World Heritage List, property 1622.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/1622/", "accessedOn": "2026-09-04"},
+    {"id": "sapienza-mission", "citation": "Sapienza University of Rome, Department of Antiquities. “Arslantepe, Italian Archaeological Mission in Eastern Anatolia (MAIAO).”", "sourceType": "institutional", "doi": null, "url": "https://dipantichita.web.uniroma1.it/index.php/en/arslantepe-italian-archaeological-mission-eastern-anatolia-maiao", "accessedOn": "2026-09-04"},
+    {"id": "sapienza-route-2026", "citation": "Sapienza University of Rome. “Arslantepe: the origins of statehood – new visitor route opened at the UNESCO site of the Sapienza Archaeological Mission.” 8 August 2026.", "sourceType": "institutional", "doi": null, "url": "https://www.uniroma1.it/en/notizia/arslantepe-origins-statehood-new-visitor-route-opened-unesco-site-sapienza-archaeological", "accessedOn": "2026-09-04"},
+    {"id": "frangipane-et-al-2021", "citation": "Frangipane, Marcella, Francesca Balossi Restelli, and Gian Maria Di Nocera. “Arslantepe. The Sapienza University archaeological project in Eastern Anatolia 60 years on.” Asia Minor 1 (2021): 15–36.", "sourceType": "academic", "doi": "10.19272/202115201002", "url": "https://iris.uniroma1.it/handle/11573/1595716", "accessedOn": "2026-09-04"},
+    {"id": "frangipane-1997", "citation": "Frangipane, Marcella. “A 4th-millennium temple/palace complex at Arslantepe-Malatya: North-South relations and the formation of early state societies.” Paléorient 23, no. 1 (1997): 45–73.", "sourceType": "academic", "doi": "10.3406/paleo.1997.4644", "url": "https://doi.org/10.3406/paleo.1997.4644", "accessedOn": "2026-09-04"},
+    {"id": "frangipane-2012", "citation": "Frangipane, Marcella. “Fourth Millennium Arslantepe: The Development of a Centralised Society without Urbanisation.” Origini 34 (2012): 19–40.", "sourceType": "academic", "doi": null, "url": "https://iris.uniroma1.it/handle/11573/476423", "accessedOn": "2026-09-04"},
+    {"id": "frangipane-2018", "citation": "Frangipane, Marcella. “Different trajectories in State formation in Greater Mesopotamia: A view from Arslantepe (Turkey).” Journal of Archaeological Research 26, no. 1 (2018): 3–63.", "sourceType": "academic", "doi": "10.1007/s10814-017-9106-2", "url": "https://doi.org/10.1007/s10814-017-9106-2", "accessedOn": "2026-09-04"},
+    {"id": "cretulae-2007", "citation": "Frangipane, Marcella, Piera Ferioli, Enrica Fiandra, Romina Laurito, and Holly Pittman. Arslantepe – Cretulae: An Early Centralised Administrative System Before Writing. Arslantepe V, 2007.", "sourceType": "academic", "doi": null, "url": "https://iris.uniroma1.it/handle/11573/181704", "accessedOn": "2026-09-04"},
+    {"id": "royal-tomb-2001", "citation": "Frangipane, Marcella, et al. “New Symbols of a New Power in a ‘Royal’ Tomb from 3000 BC Arslantepe, Malatya (Turkey).” Paléorient 27, no. 2 (2001): 105–139.", "sourceType": "academic", "doi": "10.3406/paleo.2001.4733", "url": "https://doi.org/10.3406/paleo.2001.4733", "accessedOn": "2026-09-04"},
+    {"id": "balossi-biancifiori-2025", "citation": "Balossi Restelli, Francesca, and Elisa Biancifiori. “Post-Ubaid regionalisation in Eastern Anatolia: the beginning of the Late Chalcolithic at Arslantepe (Türkiye).” Scienze dell’Antichità (2025).", "sourceType": "academic", "doi": null, "url": "https://iris.uniroma1.it/handle/11573/1738651", "accessedOn": "2026-09-04"},
+    {"id": "vese-2025", "citation": "Vese, Jasmine. “Breaking down the scenes: a quantitative approach to the interpretation of the iconography of Arslantepe VIA glyptics.” Broadening Horizons 7, 2025.", "sourceType": "academic", "doi": null, "url": "https://iris.uniroma1.it/handle/11573/1738643", "accessedOn": "2026-09-04"},
+    {"id": "wikidata-q705132", "citation": "Wikidata contributors. “Arslantepe (Q705132).”", "sourceType": "authority-data", "doi": null, "url": "https://www.wikidata.org/wiki/Q705132", "accessedOn": "2026-09-04"}
+  ],
+  "media": [
+    {"type": "image", "title": "Arslantepe archaeological remains, Malatya", "creator": "Zeynel Cebeci", "source": "Wikimedia Commons — File:Arslantepe Ruins, Malatya 2018-09-28 04.jpg", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arslantepe_Ruins,_Malatya_2018-09-28_04.jpg", "rightsStatus": "CC BY-SA 4.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"}
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "This record avoids treating Arslantepe as the place where ‘the state was invented’. The evidence instead documents one distinctive trajectory toward centralised authority in the Upper Euphrates, related to but structurally different from contemporary Mesopotamian urban systems. The term ‘Royal Tomb’ is retained as a conventional archaeological label rather than proof of a historically documented monarchy."
+}

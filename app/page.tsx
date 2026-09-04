@@ -60,7 +60,7 @@ export default function Home() {
 
         <div className="site-grid">
           {sites.map((site, index) => {
-            const recordReady = ["gobekli-tepe", "catalhoyuk", "arslantepe", "hattusa"].includes(site.slug);
+            const recordReady = ["gobekli-tepe", "catalhoyuk", "arslantepe", "hattusa", "gordion"].includes(site.slug);
 
             return (
               <article className={`site-card${recordReady ? " site-card-ready" : ""}`} key={site.slug}>

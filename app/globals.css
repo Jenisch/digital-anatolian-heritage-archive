@@ -65,7 +65,7 @@ nav a:hover,
 
 .hero {
   min-height: 670px;
-  padding: 120px 0 80px;
+  padding: 120px 0 88px;
   display: grid;
   align-content: center;
   border-bottom: 1px solid var(--line);
@@ -74,7 +74,8 @@ nav a:hover,
 .eyebrow,
 .section-label,
 .site-region,
-.status {
+.status,
+.source-type {
   margin: 0;
   color: var(--muted);
   font-size: 0.72rem;
@@ -85,12 +86,12 @@ nav a:hover,
 
 .hero h1 {
   max-width: 980px;
-  margin: 24px 0 28px;
+  margin: 24px 0 38px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(4rem, 9vw, 8.75rem);
   font-weight: 400;
   letter-spacing: -0.055em;
-  line-height: 0.86;
+  line-height: 0.92;
 }
 
 .lede {
@@ -131,7 +132,7 @@ blockquote {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, 4vw, 4rem);
-  line-height: 1.05;
+  line-height: 1.08;
 }
 
 .explore,
@@ -151,14 +152,17 @@ blockquote {
 
 .section-heading h2,
 .methodology h2,
-.about h2 {
+.about h2,
+.record-copy h2,
+.story-copy h2,
+.record-notes h2 {
   max-width: 780px;
   margin: 18px 0 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.8rem, 5vw, 5.4rem);
   font-weight: 400;
   letter-spacing: -0.04em;
-  line-height: 0.96;
+  line-height: 1;
 }
 
 .section-heading > p,
@@ -182,6 +186,10 @@ blockquote {
   border-bottom: 1px solid var(--line);
 }
 
+.site-card-ready {
+  border-bottom-color: var(--ink);
+}
+
 .site-index {
   color: var(--muted);
   font-family: Georgia, "Times New Roman", serif;
@@ -200,10 +208,25 @@ blockquote {
   color: var(--muted);
 }
 
-.status {
+.status,
+.record-action {
   padding: 7px 9px;
   border: 1px solid var(--line);
   white-space: nowrap;
+}
+
+.record-action {
+  border-color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.record-action:hover {
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .methodology {
@@ -258,6 +281,412 @@ blockquote {
   margin-top: 28px;
 }
 
+.record-hero {
+  min-height: 590px;
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 70px;
+  align-items: end;
+  padding: 118px 0 82px;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-title-block {
+  padding-bottom: 4px;
+}
+
+.record-hero h1 {
+  max-width: 900px;
+  margin: 22px 0 38px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(5rem, 9.6vw, 9.6rem);
+  font-weight: 400;
+  letter-spacing: -0.055em;
+  line-height: 0.91;
+}
+
+.record-location {
+  margin: 0;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  line-height: 1.4;
+}
+
+.record-facts {
+  margin: 0;
+  border-top: 1px solid var(--ink);
+}
+
+.record-facts div {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-facts dt {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.record-facts dd {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.record-figure {
+  margin-top: 58px;
+  margin-bottom: 0;
+}
+
+.record-image {
+  min-height: min(66vw, 720px);
+  background-image: linear-gradient(rgba(23, 23, 20, 0.04), rgba(23, 23, 20, 0.04)), url("https://commons.wikimedia.org/wiki/Special:Redirect/file/G%C3%B6bekli%20Tepe%2C%20Urfa.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid var(--line);
+}
+
+.record-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.record-introduction {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+  padding: 112px 0 96px;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-introduction > div {
+  max-width: 930px;
+}
+
+.record-deck {
+  margin: 0 0 40px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.1rem, 4vw, 4.2rem);
+  letter-spacing: -0.035em;
+  line-height: 1.06;
+}
+
+.record-introduction > div > p:not(.record-deck) {
+  max-width: 820px;
+  margin: 24px 0 0;
+  color: #3f3d37;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.18rem, 1.7vw, 1.5rem);
+  line-height: 1.65;
+}
+
+.record-highlights {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-bottom: 1px solid var(--line);
+}
+
+.record-highlights article {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 28px 34px 0;
+  border-right: 1px solid var(--line);
+}
+
+.record-highlights article:not(:first-child) {
+  padding-left: 28px;
+}
+
+.record-highlights article:last-child {
+  border-right: 0;
+}
+
+.record-highlights span {
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.record-highlights strong {
+  margin-top: auto;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3vw, 3.6rem);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+}
+
+.record-highlights p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.story-sections {
+  border-bottom: 1px solid var(--line);
+}
+
+.story-section,
+.record-section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+  padding: 112px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.story-sections .story-section:last-child {
+  border-bottom: 0;
+}
+
+.story-copy {
+  max-width: 930px;
+}
+
+.story-copy h2,
+.record-copy h2 {
+  margin-top: 0;
+}
+
+.story-copy > p,
+.record-copy > p {
+  max-width: 830px;
+  margin: 30px 0 0;
+  color: #3f3d37;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.2rem, 1.8vw, 1.55rem);
+  line-height: 1.65;
+}
+
+.section-intro {
+  color: var(--muted) !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.98rem !important;
+  line-height: 1.75 !important;
+}
+
+.citation-links {
+  display: inline-flex;
+  gap: 3px;
+  margin-left: 7px;
+  vertical-align: super;
+}
+
+.citation-links a {
+  color: var(--accent);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.citation-links a + a::before {
+  content: ",";
+  margin-right: 3px;
+  color: var(--muted);
+}
+
+.editorial-note {
+  max-width: 830px;
+  margin-top: 46px;
+  padding: 22px 0 0 28px;
+  border-top: 1px solid var(--ink);
+  border-left: 3px solid var(--accent);
+}
+
+.editorial-note span {
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.editorial-note p {
+  margin: 12px 0 0;
+  color: #3f3d37;
+  line-height: 1.7;
+}
+
+.chronology-list {
+  margin-top: 52px;
+  border-top: 1px solid var(--ink);
+}
+
+.chronology-list article {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 42px;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.chronology-date {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.chronology-list h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.chronology-list article > div:last-child > p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.chronology-meta {
+  margin-top: 12px !important;
+  font-size: 0.76rem;
+  text-transform: capitalize;
+}
+
+.research-timeline {
+  max-width: 830px;
+  margin-top: 54px;
+  border-top: 1px solid var(--ink);
+}
+
+.research-timeline article {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-timeline strong {
+  color: var(--accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.research-timeline span {
+  color: #3f3d37;
+  line-height: 1.6;
+}
+
+.record-notes {
+  padding: 112px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.record-notes > div:first-child {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.record-notes h2 {
+  margin-top: 0;
+}
+
+.record-note-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 54px 0 34px 25%;
+}
+
+.record-note-grid > div,
+.record-note-grid > a {
+  min-height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.record-note-grid > a:hover {
+  border-color: var(--ink);
+}
+
+.record-note-grid span {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.record-note-grid strong {
+  margin-top: 24px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.source-disclosure {
+  margin-left: 25%;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+
+.source-disclosure summary {
+  padding: 20px 0;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.bibliography-list {
+  margin: 0;
+  padding: 0 0 18px;
+  list-style: none;
+}
+
+.bibliography-list li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 32px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.bibliography-list p {
+  max-width: 900px;
+  margin: 6px 0 0;
+  color: #3f3d37;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.bibliography-list > li > a {
+  align-self: center;
+  font-size: 0.74rem;
+  text-decoration: none;
+}
+
+.bibliography-list > li > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 footer {
   min-height: 140px;
   display: flex;
@@ -265,6 +694,24 @@ footer {
   justify-content: space-between;
   color: var(--muted);
   font-size: 0.78rem;
+}
+
+@media (max-width: 900px) {
+  .record-highlights {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .record-highlights article:nth-child(2) {
+    border-right: 0;
+  }
+
+  .record-highlights article:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .record-note-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 760px) {
@@ -286,7 +733,9 @@ footer {
   }
 
   .hero h1 {
-    font-size: clamp(3.5rem, 19vw, 6rem);
+    font-size: clamp(3.5rem, 18vw, 6rem);
+    line-height: 0.94;
+    margin-bottom: 34px;
   }
 
   .hero-actions {
@@ -297,14 +746,24 @@ footer {
   .research-question,
   .section-heading,
   .methodology,
-  .about {
+  .about,
+  .record-hero,
+  .record-introduction,
+  .story-section,
+  .record-section,
+  .record-notes > div:first-child,
+  .chronology-list article {
     grid-template-columns: 1fr;
   }
 
   .research-question,
   .explore,
   .methodology,
-  .about {
+  .about,
+  .record-introduction,
+  .story-section,
+  .record-section,
+  .record-notes {
     padding: 72px 0;
   }
 
@@ -312,9 +771,60 @@ footer {
     grid-template-columns: 42px 1fr;
   }
 
-  .status {
+  .status,
+  .record-action {
     grid-column: 2;
     width: fit-content;
+  }
+
+  .record-hero {
+    min-height: 650px;
+    gap: 54px;
+    padding: 88px 0 72px;
+  }
+
+  .record-hero h1 {
+    font-size: clamp(4.5rem, 21vw, 7rem);
+    line-height: 0.93;
+    margin-bottom: 34px;
+  }
+
+  .record-image {
+    min-height: 58vh;
+  }
+
+  .record-deck {
+    font-size: clamp(2.4rem, 11vw, 4rem);
+  }
+
+  .record-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .record-highlights article,
+  .record-highlights article:not(:first-child) {
+    min-height: 180px;
+    padding: 24px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .record-highlights article:last-child {
+    border-bottom: 0;
+  }
+
+  .record-note-grid,
+  .source-disclosure {
+    margin-left: 0;
+  }
+
+  .research-timeline article {
+    grid-template-columns: 78px 1fr;
+  }
+
+  .bibliography-list li {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   footer {

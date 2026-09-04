@@ -4,6 +4,27 @@
   "title": "Digital Anatolian Heritage Archive Site Record",
   "type": "object",
   "additionalProperties": false,
+  "$defs": {
+    "sourcedNarrative": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["text", "sourceIds"],
+          "properties": {
+            "text": { "type": "string", "minLength": 1 },
+            "sourceIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "type": "string" }
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
   "required": [
     "id",
     "slug",
@@ -80,6 +101,7 @@
           "note": { "type": ["string", "null"] },
           "sourceIds": {
             "type": "array",
+            "minItems": 1,
             "items": { "type": "string" },
             "uniqueItems": true
           }
@@ -92,9 +114,33 @@
       "items": { "type": "string" },
       "uniqueItems": true
     },
-    "historicalContext": { "type": ["string", "null"] },
-    "archaeologicalSignificance": { "type": ["string", "null"] },
-    "excavationHistory": { "type": ["string", "null"] },
+    "historicalContext": { "$ref": "#/$defs/sourcedNarrative" },
+    "archaeologicalSignificance": { "$ref": "#/$defs/sourcedNarrative" },
+    "excavationHistory": { "$ref": "#/$defs/sourcedNarrative" },
+    "narrativeSections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "title", "paragraphs", "sourceIds"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "label": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "paragraphs": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
     "heritageStatus": {
       "type": "array",
       "items": {
@@ -118,6 +164,7 @@
     },
     "bibliography": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "required": ["id", "citation", "sourceType"],

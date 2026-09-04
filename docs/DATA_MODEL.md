@@ -38,11 +38,17 @@ The `certainty` field is mandatory and currently accepts:
 
 A separate `datingBasis` value records whether the phase depends primarily on archaeological interpretation, historical evidence, radiocarbon dating, mixed evidence, or an unknown basis.
 
-## Sources
+## Sources and sourced narratives
 
-Bibliographic entries receive local IDs. Chronology phases reference these IDs through `sourceIds`. This avoids embedding full citations repeatedly while keeping claims resolvable inside the record.
+Bibliographic entries receive local IDs. Chronology phases reference these IDs through `sourceIds`. The same mechanism is now required for the three narrative fields that carry the greatest interpretive weight:
 
-The current source categories are intentionally broad and may later migrate to a controlled vocabulary.
+- `historicalContext`
+- `archaeologicalSignificance`
+- `excavationHistory`
+
+These fields are stored as `{ text, sourceIds }` objects rather than unreferenced prose. This change was introduced while building the first real site record: a plain string could not satisfy the archive's own principle that interpretive claims remain traceable to evidence.
+
+This is record-level provenance, not sentence-level annotation. Finer-grained citation remains a future extension where a long narrative contains claims from substantially different sources.
 
 ## Coordinates
 
@@ -71,7 +77,7 @@ The next schema iterations will investigate:
 - controlled vocabularies for chronology and site types;
 - multilingual labels;
 - people, objects, excavations, and institutions as linked entities;
-- citation-level provenance for prose statements;
+- finer-grained citation anchors within long prose statements;
 - spatial extents in addition to point coordinates;
 - relationships between sites;
 - compatibility with established cultural-heritage metadata standards.

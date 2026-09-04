@@ -1,0 +1,28 @@
+{
+  "title": "Walls, painting and a city across traditions.",
+  "intro": "Ani becomes legible when urban scale and interior detail are held together: the fortifications define a medieval capital while the painted church of Tigran Honents preserves the cosmopolitan visual culture of its thirteenth-century merchant city.",
+  "images": [
+    {
+      "label": "Urban enclosure",
+      "title": "Panorama of Ani's city walls",
+      "caption": "The northern fortifications turn the plateau into a monumental urban enclosure. Their scale makes clear that Ani was not a loose collection of churches but a defended city with gates, neighbourhoods, markets and infrastructure.",
+      "alt": "Wide panoramic view of the medieval city walls of Ani on the Kars plateau",
+      "creator": "Balkanique",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panorama_City_Walls_of_Ani.jpg",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Panorama%20City%20Walls%20of%20Ani.jpg",
+      "rightsStatus": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "label": "Merchant patronage",
+      "title": "Frescoes inside the Church of Tigran Honents",
+      "caption": "The church founded by the merchant Tigran Honents in 1215 preserves an unusually extensive painted programme. This 2026 photograph shows why Ani's later medieval history must be read through patronage, painting and cross-cultural artistic exchange as well as political chronology.",
+      "alt": "Colourful medieval frescoes inside the Church of Saint Gregory of Tigran Honents at Ani",
+      "creator": "Emirrnk1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frescoes_of_Tigran_Honents_Church_Ani_Ruins.jpg",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Frescoes%20of%20Tigran%20Honents%20Church%20Ani%20Ruins.jpg",
+      "rightsStatus": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}

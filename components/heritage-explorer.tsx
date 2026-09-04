@@ -70,6 +70,8 @@ export default function HeritageExplorer() {
   useEffect(() => {
     if (!mapContainerRef.current || mapRef.current) return;
 
+    maplibregl.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
+
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
       style: "https://tiles.openfreemap.org/styles/liberty",

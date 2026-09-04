@@ -17,15 +17,15 @@
     "name": "Çatalhöyük",
     "slug": "catalhoyuk",
     "region": "Konya",
-    "latitude": 37.6675,
-    "longitude": 32.8281,
-    "coordinatePrecision": "approximate",
+    "latitude": 37.666667,
+    "longitude": 32.828056,
+    "coordinatePrecision": "site",
     "startYear": -7400,
     "endYear": -5200,
     "dateLabel": "c. 7400–5200 BCE",
-    "periods": ["Neolithic"],
-    "context": "Large Neolithic settlement on the Konya Plain",
-    "recordReady": false
+    "periods": ["Neolithic", "Chalcolithic"],
+    "context": "Long-lived household settlement with roof-entry architecture, subfloor burial and painted interiors",
+    "recordReady": true
   },
   {
     "name": "Arslantepe",

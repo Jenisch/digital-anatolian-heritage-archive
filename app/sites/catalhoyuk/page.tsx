@@ -1,0 +1,178 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import record from "@/data/sites/catalhoyuk.json";
+
+export const metadata: Metadata = {
+  title: "Çatalhöyük | Digital Anatolian Heritage Archive",
+  description:
+    "Explore Çatalhöyük through household architecture, burial, imagery, kinship, chronology, and excavation history.",
+};
+
+function CitationLinks({ ids }: { ids: string[] }) {
+  return (
+    <sup className="citation-links" aria-label="Sources">
+      {ids.map((id) => {
+        const index = record.bibliography.findIndex((source) => source.id === id) + 1;
+        return index > 0 ? (
+          <a key={id} href={`#source-${index}`} aria-label={`Source ${index}`}>
+            {index}
+          </a>
+        ) : null;
+      })}
+    </sup>
+  );
+}
+
+export default function CatalhoyukPage() {
+  const image = record.media[0];
+
+  return (
+    <main>
+      <header className="site-header shell">
+        <Link className="wordmark" href="/" aria-label="Digital Anatolian Heritage Archive home">
+          DAHA
+        </Link>
+        <nav aria-label="Record navigation">
+          <a href="#story">Story</a>
+          <a href="#chronology">Chronology</a>
+          <a href="#research">Research</a>
+        </nav>
+      </header>
+
+      <section className="record-hero shell">
+        <div className="record-title-block">
+          <p className="eyebrow">Research record · v{record.recordVersion}</p>
+          <h1>{record.canonicalName}</h1>
+          <p className="record-location">
+            {record.modernLocation.locality}, {record.modernLocation.district}, {record.modernLocation.province}
+          </p>
+        </div>
+        <dl className="record-facts">
+          <div><dt>Period</dt><dd>Neolithic → Chalcolithic</dd></div>
+          <div><dt>Occupation</dt><dd>c. 7400–5200 BCE</dd></div>
+          <div><dt>Settlement form</dt><dd>Dense roof-entry house clusters</dd></div>
+          <div><dt>Heritage</dt><dd>UNESCO World Heritage · 2012</dd></div>
+        </dl>
+      </section>
+
+      <figure className="record-figure shell">
+        <div
+          className="record-image"
+          role="img"
+          aria-label="Excavated mudbrick architecture at Çatalhöyük"
+          style={{
+            backgroundImage:
+              'linear-gradient(rgba(23,23,20,.04), rgba(23,23,20,.04)), url("https://commons.wikimedia.org/wiki/Special:Redirect/file/%C3%87atalh%C3%B6y%C3%BCk%2C%207400%20BC%2C%20Konya%2C%20Turkey%20-%20UNESCO%20World%20Heritage%20Site%2C%2003.jpg")',
+          }}
+        />
+        <figcaption>
+          {image.title} · {image.creator}. <a href={image.sourceUrl ?? undefined}>Wikimedia Commons</a> ·{" "}
+          <a href={image.licenceUrl ?? undefined}>{image.rightsStatus}</a>
+        </figcaption>
+      </figure>
+
+      <section className="record-introduction shell" id="story">
+        <p className="section-label">The settlement · 01</p>
+        <div>
+          <p className="record-deck">
+            At Çatalhöyük, the house was not just shelter. It was kitchen, workshop, burial place, painted surface and a container for social memory.
+          </p>
+          <p>{record.historicalContext.text}<CitationLinks ids={record.historicalContext.sourceIds} /></p>
+          <p>{record.archaeologicalSignificance.text}<CitationLinks ids={record.archaeologicalSignificance.sourceIds} /></p>
+        </div>
+      </section>
+
+      <section className="record-highlights shell" aria-label="Çatalhöyük at a glance">
+        <article><span>01</span><strong>18</strong><p>Neolithic occupation levels identified on the East Mound by UNESCO.</p></article>
+        <article><span>02</span><strong>37 ha</strong><p>Area of the inscribed World Heritage property.</p></article>
+        <article><span>03</span><strong>131</strong><p>Paleogenomes analysed in the 2025 Science kinship study.</p></article>
+        <article><span>04</span><strong>2012</strong><p>Year Çatalhöyük entered the UNESCO World Heritage List.</p></article>
+      </section>
+
+      <section className="story-sections shell">
+        {record.narrativeSections.map((section, index) => (
+          <article className="story-section" id={section.id} key={section.id}>
+            <div className="story-index">
+              <p className="section-label">{section.label} · {String(index + 2).padStart(2, "0")}</p>
+            </div>
+            <div className="story-copy">
+              <h2>{section.title}</h2>
+              {section.paragraphs.map((paragraph, paragraphIndex) => (
+                <p key={`${section.id}-${paragraphIndex}`}>
+                  {paragraph}
+                  {paragraphIndex === section.paragraphs.length - 1 ? <CitationLinks ids={section.sourceIds} /> : null}
+                </p>
+              ))}
+            </div>
+          </article>
+        ))}
+      </section>
+
+      <section className="record-section shell" id="chronology">
+        <div className="record-section-label"><p className="section-label">Chronology · 07</p></div>
+        <div className="record-copy">
+          <h2>The archive continues across two mounds.</h2>
+          <p className="section-intro">
+            The familiar Neolithic East Mound is only part of the sequence. The West Mound carries settlement history forward into the Chalcolithic.
+          </p>
+          <div className="chronology-list">
+            {record.chronology.map((phase) => (
+              <article key={phase.label}>
+                <div><p className="chronology-date">{phase.displayDate}</p><h3>{phase.label}</h3></div>
+                <div>
+                  <p>{phase.note}</p>
+                  <p className="chronology-meta">{phase.certainty} dating · {phase.datingBasis} basis<CitationLinks ids={phase.sourceIds} /></p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="record-section shell" id="research">
+        <div className="record-section-label"><p className="section-label">Research history · 08</p></div>
+        <div className="record-copy">
+          <h2>The history of Çatalhöyük is also a history of archaeological method.</h2>
+          <p>{record.excavationHistory.text}<CitationLinks ids={record.excavationHistory.sourceIds} /></p>
+          <div className="research-timeline">
+            <article><strong>1958</strong><span>The mound is identified by a British archaeological survey team.</span></article>
+            <article><strong>1961–65</strong><span>James Mellaart leads the first major excavation campaigns.</span></article>
+            <article><strong>1993</strong><span>Ian Hodder begins a new international research programme.</span></article>
+            <article><strong>2012</strong><span>Çatalhöyük is inscribed on the UNESCO World Heritage List.</span></article>
+            <article><strong>2018</strong><span>The Hodder-led research project concludes and its digital archive remains accessible.</span></article>
+            <article><strong>2025</strong><span>Official sources record a new excavation phase under Turkish institutional leadership, with Ali Ozan appointed to direct/scientifically advise the project.</span></article>
+          </div>
+          <aside className="editorial-note"><span>Interpretive caution</span><p>{record.editorialNotes}</p></aside>
+        </div>
+      </section>
+
+      <section className="record-notes shell" id="sources">
+        <div>
+          <p className="section-label">Record notes · 09</p>
+          <h2>Claims remain traceable while interpretation stays cautious.</h2>
+        </div>
+        <div className="record-note-grid">
+          <div><span>Coordinates</span><strong>{record.coordinates.latitude}° N · {record.coordinates.longitude}° E</strong></div>
+          <a href="https://whc.unesco.org/en/list/1405/"><span>UNESCO property</span><strong>{record.externalIdentifiers.unesco}</strong></a>
+          <a href={`https://www.wikidata.org/wiki/${record.externalIdentifiers.wikidata}`}><span>Wikidata authority</span><strong>{record.externalIdentifiers.wikidata}</strong></a>
+        </div>
+        <details className="source-disclosure">
+          <summary>View {record.bibliography.length} references</summary>
+          <ol className="bibliography-list">
+            {record.bibliography.map((source, index) => (
+              <li id={`source-${index + 1}`} key={source.id}>
+                <div><span className="source-type">{source.sourceType}</span><p>{source.citation}</p></div>
+                {source.url ? <a href={source.url} target="_blank" rel="noreferrer">Open ↗</a> : null}
+              </li>
+            ))}
+          </ol>
+        </details>
+      </section>
+
+      <footer className="shell">
+        <p>Digital Anatolian Heritage Archive</p>
+        <p>Record {record.id} · reviewed {record.lastReviewed}</p>
+      </footer>
+    </main>
+  );
+}

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import sites from "@/data/explorer-sites.json";
-import seedBatchA from "@/data/registry/batches/trwiki-a-01.json";
+import { registrySeedBatches } from "@/data/registry/batches";
 import registryMapSitesData from "@/data/registry/map-sites.json";
 
 const MIN_YEAR = -10000;
@@ -123,7 +123,9 @@ function createRegistryPopup(properties: Record<string, unknown>) {
 
 function matchesSearch(entry: ArchiveEntry, query: string) {
   if (!query.trim()) return true;
-  const haystack = [entry.name, entry.region, entry.context, ...entry.historicalRegions].join(" ").toLocaleLowerCase("tr-TR");
+  const haystack = [entry.name, entry.region, entry.context, ...entry.historicalRegions]
+    .join(" ")
+    .toLocaleLowerCase("tr-TR");
   return haystack.includes(query.trim().toLocaleLowerCase("tr-TR"));
 }
 
@@ -143,7 +145,13 @@ export default function HeritageExplorer() {
       sites.filter((site) => {
         const matchesPeriod = period === "All" || site.periods.includes(period);
         const overlapsWindow = site.startYear <= toYear && site.endYear >= fromYear;
-        const matchesArchiveQuery = mode === "research" || !archiveSearch.trim() || [site.name, site.region, site.context].join(" ").toLocaleLowerCase("tr-TR").includes(archiveSearch.trim().toLocaleLowerCase("tr-TR"));
+        const matchesArchiveQuery =
+          mode === "research" ||
+          !archiveSearch.trim() ||
+          [site.name, site.region, site.context]
+            .join(" ")
+            .toLocaleLowerCase("tr-TR")
+            .includes(archiveSearch.trim().toLocaleLowerCase("tr-TR"));
         return matchesPeriod && overlapsWindow && matchesArchiveQuery;
       }),
     [period, fromYear, toYear, mode, archiveSearch],
@@ -192,24 +200,26 @@ export default function HeritageExplorer() {
       });
     });
 
-    seedBatchA.rows.forEach((row) => {
-      const key = row.canonicalName.toLocaleLowerCase("tr-TR");
-      if (entries.has(key)) return;
-      entries.set(key, {
-        key: `seed:${seedBatchA.batchId}:${row.sourceSequence}`,
-        name: row.canonicalName,
-        slug: null,
-        region: row.modernLocationLabel ?? (row.historicalRegions.join(" · ") || "Location unresolved"),
-        historicalRegions: [...row.historicalRegions],
-        dateLabel: row.firstSettlementLabel ?? "Chronology unverified",
-        startYear: null,
-        endYear: null,
-        periods: [],
-        context: "Indexed from a discovery catalogue; identity, chronology and location remain subject to DAHA verification.",
-        researchStatus: "indexed",
-        recordReady: false,
-        latitude: null,
-        longitude: null,
+    registrySeedBatches.forEach((batch) => {
+      batch.rows.forEach((row) => {
+        const key = row.canonicalName.toLocaleLowerCase("tr-TR");
+        if (entries.has(key)) return;
+        entries.set(key, {
+          key: `seed:${batch.batchId}:${row.sourceSequence}`,
+          name: row.canonicalName,
+          slug: null,
+          region: row.modernLocationLabel ?? (row.historicalRegions.join(" · ") || "Location unresolved"),
+          historicalRegions: [...row.historicalRegions],
+          dateLabel: row.firstSettlementLabel ?? "Chronology unverified",
+          startYear: null,
+          endYear: null,
+          periods: [],
+          context: "Indexed from a discovery catalogue; identity, chronology and location remain subject to DAHA verification.",
+          researchStatus: "indexed",
+          recordReady: false,
+          latitude: null,
+          longitude: null,
+        });
       });
     });
 
@@ -222,7 +232,9 @@ export default function HeritageExplorer() {
     return archiveCatalogue.filter((entry) => {
       const matchesPeriod = period === "All" || entry.periods.includes(period);
       const hasStructuredChronology = entry.startYear !== null && entry.endYear !== null;
-      const overlapsWindow = fullWindow || (hasStructuredChronology && entry.startYear! <= toYear && entry.endYear! >= fromYear);
+      const overlapsWindow =
+        fullWindow ||
+        (hasStructuredChronology && entry.startYear! <= toYear && entry.endYear! >= fromYear);
       return matchesPeriod && overlapsWindow && matchesSearch(entry, archiveSearch);
     });
   }, [archiveCatalogue, period, fromYear, toYear, archiveSearch]);
@@ -230,7 +242,13 @@ export default function HeritageExplorer() {
   const visibleArchiveEntries = filteredArchiveEntries.slice(0, RESULT_LIMIT);
 
   const visibleRegistryMapEntries = useMemo(
-    () => filteredArchiveEntries.filter((entry) => entry.researchStatus !== "sourced-record" && entry.latitude !== null && entry.longitude !== null),
+    () =>
+      filteredArchiveEntries.filter(
+        (entry) =>
+          entry.researchStatus !== "sourced-record" &&
+          entry.latitude !== null &&
+          entry.longitude !== null,
+      ),
     [filteredArchiveEntries],
   );
 
@@ -319,8 +337,12 @@ export default function HeritageExplorer() {
       });
 
       [REGISTRY_CLUSTER_LAYER, REGISTRY_POINT_LAYER].forEach((layer) => {
-        map.on("mouseenter", layer, () => { map.getCanvas().style.cursor = "pointer"; });
-        map.on("mouseleave", layer, () => { map.getCanvas().style.cursor = ""; });
+        map.on("mouseenter", layer, () => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+        map.on("mouseleave", layer, () => {
+          map.getCanvas().style.cursor = "";
+        });
       });
 
       setMapReady(true);
@@ -346,7 +368,10 @@ export default function HeritageExplorer() {
       type: "FeatureCollection",
       features: visibleRegistryMapEntries.map((entry) => ({
         type: "Feature" as const,
-        geometry: { type: "Point" as const, coordinates: [entry.longitude!, entry.latitude!] },
+        geometry: {
+          type: "Point" as const,
+          coordinates: [entry.longitude!, entry.latitude!],
+        },
         properties: {
           key: entry.key,
           name: entry.name,
@@ -379,7 +404,9 @@ export default function HeritageExplorer() {
       element.setAttribute("aria-label", `${site.name}, ${site.region}`);
       element.title = site.name;
 
-      const popup = new maplibregl.Popup({ offset: 18, closeButton: true }).setDOMContent(createPopupContent(site));
+      const popup = new maplibregl.Popup({ offset: 18, closeButton: true }).setDOMContent(
+        createPopupContent(site),
+      );
       const marker = new maplibregl.Marker({ element, anchor: "center" })
         .setLngLat([site.longitude, site.latitude])
         .setPopup(popup)
@@ -393,15 +420,24 @@ export default function HeritageExplorer() {
       visibleRegistryMapEntries.forEach((entry) => bounds.extend([entry.longitude!, entry.latitude!]));
     }
 
-    const mappedCount = filteredSites.length + (mode === "archive" ? visibleRegistryMapEntries.length : 0);
+    const mappedCount =
+      filteredSites.length + (mode === "archive" ? visibleRegistryMapEntries.length : 0);
 
     if (mappedCount === 1) {
       const onlyResearchSite = filteredSites[0];
       if (onlyResearchSite) {
-        map.easeTo({ center: [onlyResearchSite.longitude, onlyResearchSite.latitude], zoom: 6.4, duration: 650 });
+        map.easeTo({
+          center: [onlyResearchSite.longitude, onlyResearchSite.latitude],
+          zoom: 6.4,
+          duration: 650,
+        });
       } else {
         const onlyRegistrySite = visibleRegistryMapEntries[0];
-        map.easeTo({ center: [onlyRegistrySite.longitude!, onlyRegistrySite.latitude!], zoom: 6.4, duration: 650 });
+        map.easeTo({
+          center: [onlyRegistrySite.longitude!, onlyRegistrySite.latitude!],
+          zoom: 6.4,
+          duration: 650,
+        });
       }
     } else if (mappedCount > 1) {
       map.fitBounds(bounds, { padding: 70, maxZoom: 6.2, duration: 650 });
@@ -432,22 +468,45 @@ export default function HeritageExplorer() {
     <div className="heritage-explorer">
       <aside className="explorer-controls" aria-label="Explorer filters">
         <div className="explorer-mode-switch" role="group" aria-label="Explorer coverage mode">
-          <button type="button" className={mode === "research" ? "is-active" : ""} onClick={() => setMode("research")}>Research records <span>{sites.length}</span></button>
-          <button type="button" className={mode === "archive" ? "is-active" : ""} onClick={() => setMode("archive")}>Archive index <span>{archiveCatalogue.length}</span></button>
+          <button
+            type="button"
+            className={mode === "research" ? "is-active" : ""}
+            onClick={() => setMode("research")}
+          >
+            Research records <span>{sites.length}</span>
+          </button>
+          <button
+            type="button"
+            className={mode === "archive" ? "is-active" : ""}
+            onClick={() => setMode("archive")}
+          >
+            Archive index <span>{archiveCatalogue.length}</span>
+          </button>
         </div>
 
         <div className="explorer-control-heading">
           <div>
-            <p className="section-label">{mode === "research" ? "Filter the research corpus" : "Search the archive index"}</p>
-            <strong>{currentCount} of {totalCount} {mode === "research" ? "records" : "places"}</strong>
+            <p className="section-label">
+              {mode === "research" ? "Filter the research corpus" : "Search the archive index"}
+            </p>
+            <strong>
+              {currentCount} of {totalCount} {mode === "research" ? "records" : "places"}
+            </strong>
           </div>
-          <button type="button" onClick={resetFilters}>Reset</button>
+          <button type="button" onClick={resetFilters}>
+            Reset
+          </button>
         </div>
 
         {mode === "archive" ? (
           <label className="archive-search">
             <span>Place, region or location</span>
-            <input type="search" value={archiveSearch} onChange={(event) => setArchiveSearch(event.target.value)} placeholder="Search the registry" />
+            <input
+              type="search"
+              value={archiveSearch}
+              onChange={(event) => setArchiveSearch(event.target.value)}
+              placeholder="Search the registry"
+            />
           </label>
         ) : null}
 
@@ -470,7 +529,9 @@ export default function HeritageExplorer() {
         <div className="timeline-filter">
           <div className="timeline-heading">
             <span>Discovery window</span>
-            <strong>{formatYear(fromYear)} — {formatYear(toYear)}</strong>
+            <strong>
+              {formatYear(fromYear)} — {formatYear(toYear)}
+            </strong>
           </div>
 
           <label>
@@ -512,14 +573,27 @@ export default function HeritageExplorer() {
       </aside>
 
       <div className="explorer-stage">
-        <div className="explorer-map" ref={mapContainerRef} aria-label="Interactive map of archaeological and historical sites in Türkiye" />
+        <div
+          className="explorer-map"
+          ref={mapContainerRef}
+          aria-label="Interactive map of archaeological and historical sites in Türkiye"
+        />
         <div className="explorer-legend" aria-label="Map legend">
-          <span><i className="legend-dot legend-dot-ready" /> Sourced record</span>
-          {mode === "archive" ? <span><i className="legend-dot legend-dot-registry" /> Verified registry / cluster</span> : null}
+          <span>
+            <i className="legend-dot legend-dot-ready" /> Sourced record
+          </span>
+          {mode === "archive" ? (
+            <span>
+              <i className="legend-dot legend-dot-registry" /> Verified registry / cluster
+            </span>
+          ) : null}
         </div>
       </div>
 
-      <div className={`explorer-results${mode === "archive" ? " explorer-results-archive" : ""}`} aria-live="polite">
+      <div
+        className={`explorer-results${mode === "archive" ? " explorer-results-archive" : ""}`}
+        aria-live="polite"
+      >
         {mode === "research" ? (
           filteredSites.length ? (
             filteredSites.map((site) => (
@@ -533,7 +607,12 @@ export default function HeritageExplorer() {
               </article>
             ))
           ) : (
-            <div className="empty-results"><strong>No records overlap this filter.</strong><button type="button" onClick={resetFilters}>Reset explorer</button></div>
+            <div className="empty-results">
+              <strong>No records overlap this filter.</strong>
+              <button type="button" onClick={resetFilters}>
+                Reset explorer
+              </button>
+            </div>
           )
         ) : filteredArchiveEntries.length ? (
           <>
@@ -541,7 +620,9 @@ export default function HeritageExplorer() {
               <article key={entry.key}>
                 <button
                   type="button"
-                  className={`result-focus${entry.latitude === null || entry.longitude === null ? " is-unmapped" : ""}`}
+                  className={`result-focus${
+                    entry.latitude === null || entry.longitude === null ? " is-unmapped" : ""
+                  }`}
                   onClick={() => focusCoordinates(entry.longitude, entry.latitude)}
                   disabled={entry.latitude === null || entry.longitude === null}
                 >
@@ -557,11 +638,19 @@ export default function HeritageExplorer() {
               </article>
             ))}
             {filteredArchiveEntries.length > RESULT_LIMIT ? (
-              <div className="archive-results-note">Showing the first {RESULT_LIMIT} matches. Refine the archive search to narrow {filteredArchiveEntries.length.toLocaleString("en-US")} indexed places.</div>
+              <div className="archive-results-note">
+                Showing the first {RESULT_LIMIT} matches. Refine the archive search to narrow{" "}
+                {filteredArchiveEntries.length.toLocaleString("en-US")} indexed places.
+              </div>
             ) : null}
           </>
         ) : (
-          <div className="empty-results"><strong>No indexed places match this search.</strong><button type="button" onClick={resetFilters}>Reset explorer</button></div>
+          <div className="empty-results">
+            <strong>No indexed places match this search.</strong>
+            <button type="button" onClick={resetFilters}>
+              Reset explorer
+            </button>
+          </div>
         )}
       </div>
     </div>

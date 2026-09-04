@@ -24,6 +24,7 @@
   "siteTypes": [
     "tell",
     "archaeological site",
+    "settlement",
     "monumental communal architecture"
   ],
   "chronology": [
@@ -50,6 +51,18 @@
       "sourceIds": [
         "unesco-whc-1572"
       ]
+    },
+    {
+      "label": "Wild boar statue in Special Building D",
+      "startYear": -8700,
+      "endYear": -8200,
+      "displayDate": "c. 8700–8200 BCE",
+      "certainty": "approximate",
+      "datingBasis": "archaeological",
+      "note": "The life-size limestone boar found in 2023 is assigned to the Early PPNB and preserves red, black and white pigment residues.",
+      "sourceIds": [
+        "dai-boar-2023"
+      ]
     }
   ],
   "cultures": [
@@ -60,7 +73,7 @@
     "text": "Göbekli Tepe belongs to the Pre-Pottery Neolithic of Upper Mesopotamia, a period in which communities were undergoing major changes in subsistence, settlement and social organisation. Monumental communal architecture is central to the site, but recent excavations of non-monumental and domestic structures complicate the older interpretation of Göbekli Tepe as a purely ritual sanctuary.",
     "sourceIds": [
       "unesco-whc-1572",
-      "dai-fieldwork-1934"
+      "dai-project-5746"
     ]
   },
   "archaeologicalSignificance": {
@@ -71,13 +84,68 @@
     ]
   },
   "excavationHistory": {
-    "text": "The site was first recorded during an Istanbul–Chicago survey in 1963. Klaus Schmidt, Mehmet Akman and Michael Morsch recognised its archaeological significance during a 1994 survey, and fieldwork began in 1995. Klaus Schmidt coordinated the excavations until his death in 2014. Subsequent work continued under the Şanlıurfa Museum with Lee Clare coordinating DAI research; in 2019 Necmi Karul became director of the wider Göbekli Tepe Culture and Karahantepe Excavation project.",
+    "text": "The site was first recorded during an Istanbul–Chicago survey in 1963. Klaus Schmidt, Mehmet Akman and Michael Morsch recognised its archaeological significance during a 1994 survey, and fieldwork began in 1995. Klaus Schmidt coordinated the excavations until his death in 2014. Subsequent work continued under the Şanlıurfa Museum and the German Archaeological Institute, while the wider regional programme increasingly placed Göbekli Tepe within the Neolithic landscape of the Taş Tepeler.",
     "sourceIds": [
       "dai-first-20-years",
       "dai-25-years",
       "schmidt-2000"
     ]
   },
+  "narrativeSections": [
+    {
+      "id": "landscape",
+      "label": "Landscape",
+      "title": "A hill that commands the surrounding plains.",
+      "paragraphs": [
+        "Göbekli Tepe lies roughly 15 kilometres northwest of modern Şanlıurfa on one of the highest plateaus of the Germuş Mountains, around 770 metres above sea level. From the mound, the Harran Plain and the Cullap Suyu basin are visible across a broad horizon.",
+        "That setting matters. The site was not an isolated monument dropped into an empty landscape; it occupied a highly visible position within a region where communities were experimenting with new forms of settlement, subsistence and collective architecture during the early Neolithic."
+      ],
+      "sourceIds": [
+        "dai-project-5746",
+        "unesco-whc-1572"
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "title": "Monumental buildings built around T-shaped pillars.",
+      "paragraphs": [
+        "The best-known structures are round-oval and rectangular communal buildings containing monolithic T-shaped limestone pillars. Some pillars rise to about 5.5 metres, and many are carved with reliefs of wild animals or details such as belts and loincloths that make their human-like character explicit.",
+        "These were not simply sculptures placed inside rooms. The pillars formed part of the architecture itself. Quarrying, shaping, moving and arranging stones on this scale implies coordinated labour, specialised knowledge and repeated communal investment over generations."
+      ],
+      "sourceIds": [
+        "unesco-whc-1572",
+        "dai-project-5746",
+        "haklay-gopher-2020"
+      ]
+    },
+    {
+      "id": "settlement",
+      "label": "Interpretation",
+      "title": "The old “sanctuary only” model no longer fits.",
+      "paragraphs": [
+        "For roughly the first two decades of excavation, Göbekli Tepe was widely interpreted as a predominantly ritual centre or mountain sanctuary. That reading grew from the extraordinary scale and imagery of the monumental buildings and from the apparent absence of ordinary domestic life.",
+        "More recent excavation changed the picture. Domestic activities and evidence consistent with permanent settlement are now documented at the site. The DAI therefore describes Göbekli Tepe as a settlement with a pronounced ritual component rather than a place that can be separated cleanly into either 'temple' or 'village'."
+      ],
+      "sourceIds": [
+        "dai-project-5746",
+        "unesco-whc-1572"
+      ]
+    },
+    {
+      "id": "imagery",
+      "label": "Imagery",
+      "title": "Animals, human bodies and traces of colour.",
+      "paragraphs": [
+        "The visual language of Göbekli Tepe is dominated by carved animals and stylised human forms. Reliefs appear on the T-pillars and on other stone objects, linking architecture, imagery and social practice rather than treating art as a separate decorative layer.",
+        "A striking recent example came from Special Building D: a life-size limestone wild boar statue dated to the Early PPNB, about 8700–8200 BCE. Red, black and white pigments survived on its surface, providing direct evidence that colour formed part of the site's visual world."
+      ],
+      "sourceIds": [
+        "unesco-whc-1572",
+        "dai-boar-2023"
+      ]
+    }
+  ],
   "heritageStatus": [
     {
       "label": "UNESCO World Heritage Site — criteria (i), (ii), (iv); inscribed 2018",
@@ -107,14 +175,6 @@
       "accessedOn": "2026-09-04"
     },
     {
-      "id": "dai-fieldwork-1934",
-      "citation": "Deutsches Archäologisches Institut. “Göbekli Tepe: Fieldwork and Research.”",
-      "sourceType": "institutional",
-      "doi": null,
-      "url": "https://www.dainst.org/en/research/projects/goebekli-tepe/1934",
-      "accessedOn": "2026-09-04"
-    },
-    {
       "id": "dai-first-20-years",
       "citation": "Dietrich, Oliver. “Göbekli Tepe – The First 20 Years of Research.” Deutsches Archäologisches Institut, 2 June 2016.",
       "sourceType": "excavation",
@@ -128,6 +188,14 @@
       "sourceType": "excavation",
       "doi": null,
       "url": "https://www.dainst.blog/the-tepe-telegrams/2023/01/16/over-twenty-five-years-of-research-at-gobekli-tepe/",
+      "accessedOn": "2026-09-04"
+    },
+    {
+      "id": "dai-boar-2023",
+      "citation": "Deutsches Archäologisches Institut. “Life-size statue of a wild boar found in Special Building D of Göbekli Tepe.” 8 October 2023.",
+      "sourceType": "excavation",
+      "doi": null,
+      "url": "https://www.dainst.org/en/newsroom/life-size-statue-of-a-wild-boar-found-in-special-building-d-of-goebekli-tepe/181",
       "accessedOn": "2026-09-04"
     },
     {

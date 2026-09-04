@@ -1,0 +1,120 @@
+{
+  "id": "site:catalhoyuk",
+  "slug": "catalhoyuk",
+  "canonicalName": "Çatalhöyük",
+  "alternativeNames": [
+    {"name": "Çatal Höyük", "language": "tr", "script": "Latn", "note": "Separated spelling found in older publications"},
+    {"name": "Catal Hüyük", "language": "en", "script": "Latn", "note": "Common historical transliteration in English-language literature"}
+  ],
+  "coordinates": {"latitude": 37.666667, "longitude": 32.828056, "precision": "site"},
+  "modernLocation": {"country": "Türkiye", "province": "Konya", "district": "Çumra", "locality": "Küçükköy vicinity"},
+  "siteTypes": ["tell", "archaeological site", "settlement", "household agglomeration"],
+  "chronology": [
+    {
+      "label": "East Mound Neolithic occupation",
+      "startYear": -7400,
+      "endYear": -6200,
+      "displayDate": "7400–6200 BCE",
+      "certainty": "range",
+      "datingBasis": "mixed",
+      "note": "UNESCO describes eighteen levels of Neolithic occupation on the East Mound within this broad range.",
+      "sourceIds": ["unesco-whc-1405"]
+    },
+    {
+      "label": "West Mound Chalcolithic occupation",
+      "startYear": -6200,
+      "endYear": -5200,
+      "displayDate": "6200–5200 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "The West Mound preserves later Chalcolithic occupation and continuity after the main East Mound sequence.",
+      "sourceIds": ["unesco-whc-1405"]
+    }
+  ],
+  "cultures": ["Central Anatolian Neolithic", "Chalcolithic"],
+  "historicalContext": {
+    "text": "Çatalhöyük developed on the Konya Plain as a long-lived settlement composed of densely packed mudbrick houses. The East Mound preserves Neolithic occupation from roughly 7400 to 6200 BCE, while the West Mound continues the sequence into the Chalcolithic. Across more than two millennia, the site records changing forms of sedentary life, farming, household organisation, ritual practice and material culture.",
+    "sourceIds": ["unesco-whc-1405", "catal-project"]
+  },
+  "archaeologicalSignificance": {
+    "text": "The site's significance lies not in monumental palaces or temples but in the exceptional preservation of ordinary built life: back-to-back houses, roof access, repeated rebuilding, wall paintings, reliefs, animal installations and burials beneath floors. UNESCO inscribed Çatalhöyük under criteria (iii) and (iv) as rare evidence for early settled agricultural communities and a distinctive Neolithic settlement form.",
+    "sourceIds": ["unesco-whc-1405", "haddow-2025"]
+  },
+  "excavationHistory": {
+    "text": "The mound was identified by a British archaeological survey team in 1958. James Mellaart led the first major excavations between 1961 and 1965. Ian Hodder reopened the site in 1993 and directed a large international research programme until 2018, placing reflexive methodology, digital recording, conservation and public interpretation at the centre of fieldwork. Excavation then returned to Turkish institutional leadership; official sources record Ali Ozan as scientific advisor/director from 2025.",
+    "sourceIds": ["catal-history", "catal-current", "pau-2025"]
+  },
+  "narrativeSections": [
+    {
+      "id": "landscape",
+      "label": "Landscape",
+      "title": "Two mounds rising from the Konya Plain.",
+      "paragraphs": [
+        "Çatalhöyük is not a single mound. The World Heritage property covers two tells on the Southern Anatolian Plateau: the larger East Mound and the later West Mound. Their stratified deposits preserve successive communities rather than one frozen settlement plan.",
+        "This long sequence makes the site useful for studying change. Architecture, subsistence, burial and symbolic practices can be compared across centuries instead of being reconstructed from a single occupational episode."
+      ],
+      "sourceIds": ["unesco-whc-1405"]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "title": "A settlement with roofs instead of streets.",
+      "paragraphs": [
+        "The best-known neighbourhoods were formed by rectangular mudbrick houses packed directly against one another. Conventional streets are largely absent. Access commonly took place from the roof, with movement across roof surfaces before descending into interior rooms.",
+        "Houses were repeatedly replastered, altered, abandoned and rebuilt. The result is an urban-looking density produced through household-scale construction rather than through a monumental civic plan."
+      ],
+      "sourceIds": ["unesco-whc-1405", "catal-project"]
+    },
+    {
+      "id": "household",
+      "label": "Household",
+      "title": "Domestic space also carried memory and ritual.",
+      "paragraphs": [
+        "At Çatalhöyük the house concentrated activities that modern categories often separate. Food preparation, storage, craft work, sleeping, wall decoration and ritual actions occurred within the same architectural units.",
+        "Burials were frequently placed beneath floors and platforms while houses were still in use. Recent bioarchaeological work therefore treats buildings as having life histories entangled with the people buried inside them, rather than as neutral containers for domestic activity."
+      ],
+      "sourceIds": ["haddow-2025", "unesco-whc-1405"]
+    },
+    {
+      "id": "imagery",
+      "label": "Imagery",
+      "title": "Painted walls and animal installations were part of lived interiors.",
+      "paragraphs": [
+        "Çatalhöyük preserves one of the most important corpora of Neolithic wall painting, relief and modelled decoration. Images and installations were repeatedly created, covered by plaster and remade, tying visual practice to the ongoing maintenance of houses.",
+        "This evidence is more useful when treated as part of household biographies than as a catalogue of isolated 'art objects'. Figurines, pigments, animal remains and decorated surfaces do not support a single simple religious explanation."
+      ],
+      "sourceIds": ["unesco-whc-1405", "catal-research"]
+    },
+    {
+      "id": "kinship",
+      "label": "Kinship",
+      "title": "Ancient DNA changed the question from 'who lived here?' to 'how did households change?'.",
+      "paragraphs": [
+        "A 2025 Science study combined 131 paleogenomes with archaeological and bioarchaeological evidence from the East Mound. In earlier phases, people buried within the same building were often close genetic relatives; in later phases, co-buried individuals were more often genetically unrelated despite similar diets.",
+        "Across the sequence, within-building genetic connections were more often maternal than paternal, and female subadults received grave goods more frequently than male subadults. These results point to durable female-line connections, but they do not by themselves demonstrate a matriarchal political system."
+      ],
+      "sourceIds": ["yuncu-2025"]
+    }
+  ],
+  "heritageStatus": [
+    {"label": "UNESCO World Heritage Site — criteria (iii), (iv); inscribed 2012", "identifier": "1405", "url": "https://whc.unesco.org/en/list/1405/"}
+  ],
+  "externalIdentifiers": {"wikidata": "Q192522", "unesco": "1405", "pleiades": "483473194"},
+  "bibliography": [
+    {"id": "unesco-whc-1405", "citation": "UNESCO World Heritage Centre. “Neolithic Site of Çatalhöyük.” World Heritage List, property 1405.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/1405/", "accessedOn": "2026-09-04"},
+    {"id": "catal-project", "citation": "Çatalhöyük Research Project. “The Project.” Research and excavation archive.", "sourceType": "institutional", "doi": null, "url": "https://www.catalhoyuk.com/project", "accessedOn": "2026-09-04"},
+    {"id": "catal-history", "citation": "Çatalhöyük Research Project. “History of the Excavations.”", "sourceType": "excavation", "doi": null, "url": "https://www.catalhoyuk.com/project/history", "accessedOn": "2026-09-04"},
+    {"id": "catal-research", "citation": "Çatalhöyük Research Project. “Research Portal.” Project database, reports, bibliography and visual archives.", "sourceType": "excavation", "doi": null, "url": "https://catalhoyuk.com/research", "accessedOn": "2026-09-04"},
+    {"id": "catal-current", "citation": "Turkish Museums. “Konya Çatalhöyük Örenyeri.” Current excavation and site information.", "sourceType": "institutional", "doi": null, "url": "https://turkishmuseums.kprod.kultur.gov.tr/museum/detail/2134-konya-catalhoyuk-orenyeri/2134/1", "accessedOn": "2026-09-04"},
+    {"id": "pau-2025", "citation": "Pamukkale University. “The Number of Excavations Led by Our Faculty Rises to 13.” 22 May 2025.", "sourceType": "institutional", "doi": null, "url": "https://www.pau.edu.tr/itbf/en/haber/the-number-of-excavations-led-by-our-faculty-rises-to-13-with-7-excavations-in-denizli-and-5-provinces-involved", "accessedOn": "2026-09-04"},
+    {"id": "haddow-2025", "citation": "Haddow, Scott D. “Bodies in buildings: Human remains and the life histories of houses at Neolithic Çatalhöyük.” Archaeological Research in Asia 41 (2025): 100598.", "sourceType": "academic", "doi": "10.1016/j.ara.2025.100598", "url": "https://doi.org/10.1016/j.ara.2025.100598", "accessedOn": "2026-09-04"},
+    {"id": "yuncu-2025", "citation": "Yüncü, Eren, et al. “Female lineages and changing kinship patterns in Neolithic Çatalhöyük.” Science 388, no. 6754 (2025): eadr2915.", "sourceType": "academic", "doi": "10.1126/science.adr2915", "url": "https://doi.org/10.1126/science.adr2915", "accessedOn": "2026-09-04"},
+    {"id": "wikidata-q192522", "citation": "Wikidata contributors. “Çatalhöyük (Q192522).”", "sourceType": "authority-data", "doi": null, "url": "https://www.wikidata.org/wiki/Q192522", "accessedOn": "2026-09-04"}
+  ],
+  "media": [
+    {"type": "image", "title": "Çatalhöyük archaeological remains, Konya", "creator": "Murat Özsoy 1958", "source": "Wikimedia Commons — File:Çatalhöyük, 7400 BC, Konya, Turkey - UNESCO World Heritage Site, 03.jpg", "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%87atalh%C3%B6y%C3%BCk,_7400_BC,_Konya,_Turkey_-_UNESCO_World_Heritage_Site,_03.jpg", "rightsStatus": "CC BY-SA 4.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"}
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "This record avoids two common shortcuts: calling Çatalhöyük simply the ‘world’s first city’, and treating female figurines or maternal genetic links as proof of a single ‘Mother Goddess’ cult or matriarchal political order. Both claims compress a much more complex archaeological record."
+}

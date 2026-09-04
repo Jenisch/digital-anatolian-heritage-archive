@@ -199,7 +199,7 @@ export default function HeritageExplorer() {
         key: `seed:${seedBatchA.batchId}:${row.sourceSequence}`,
         name: row.canonicalName,
         slug: null,
-        region: row.modernLocationLabel ?? row.historicalRegions.join(" · ") || "Location unresolved",
+        region: row.modernLocationLabel ?? (row.historicalRegions.join(" · ") || "Location unresolved"),
         historicalRegions: [...row.historicalRegions],
         dateLabel: row.firstSettlementLabel ?? "Chronology unverified",
         startYear: null,

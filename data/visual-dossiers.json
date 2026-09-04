@@ -166,5 +166,33 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
     ]
+  },
+  "ephesus": {
+    "title": "A city at street and household scale.",
+    "intro": "Ephesus becomes more legible when the processional street and the interiors beside it are read together: public movement outside, decorated domestic worlds immediately behind the façades.",
+    "images": [
+      {
+        "label": "Urban movement",
+        "title": "Curetes Street",
+        "caption": "The sloping street links major civic and religious spaces through the centre of the Hellenistic-Roman city. Its paving, monuments and changing façades record repeated rebuilding rather than a single classical moment.",
+        "alt": "Curetes Street descending through the archaeological city of Ephesus",
+        "creator": "Murat Beşbudak",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curetes_street.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Curetes%20street.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "label": "Domestic interior",
+        "title": "Terrace Houses",
+        "caption": "Protected elite residences beside Curetes Street preserve wall paintings, mosaics, marble finishes and multi-storey domestic space. They shift attention from imperial monuments toward household display, service and everyday movement.",
+        "alt": "Interior archaeological remains and decorated surfaces in the Terrace Houses at Ephesus",
+        "creator": "Satirdan kahraman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terrace_Houses_in_Ephesus_2024_7.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Terrace%20Houses%20in%20Ephesus%202024%207.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
   }
 }

@@ -1,0 +1,176 @@
+{
+  "id": "site:ephesus",
+  "slug": "ephesus",
+  "canonicalName": "Ephesus",
+  "alternativeNames": [
+    {"name": "Ephesos", "language": "de", "script": "Latn", "note": "Common form in German-language and Austrian archaeological scholarship"},
+    {"name": "Ἔφεσος", "language": "grc", "script": "Grek", "note": "Ancient Greek form"},
+    {"name": "Efes", "language": "tr", "script": "Latn", "note": "Modern Turkish form"}
+  ],
+  "coordinates": {"latitude": 37.941389, "longitude": 27.340556, "precision": "site"},
+  "modernLocation": {"country": "Türkiye", "province": "İzmir", "district": "Selçuk", "locality": "Selçuk"},
+  "siteTypes": ["archaeological site", "ancient city", "port city", "sanctuary landscape", "residential quarter", "pilgrimage landscape"],
+  "chronology": [
+    {
+      "label": "Neolithic settlement at Çukuriçi Höyük",
+      "startYear": -6680,
+      "endYear": -6000,
+      "displayDate": "c. 6680–6000 cal BCE",
+      "certainty": "range",
+      "datingBasis": "radiocarbon",
+      "note": "The UNESCO serial property begins with Neolithic settlement at Çukuriçi Höyük, about one kilometre southeast of the later Hellenistic-Roman city.",
+      "sourceIds": ["oeai-history", "oeai-cukurici", "unesco-whc-1018"]
+    },
+    {
+      "label": "Late Bronze Age regional centre",
+      "startYear": -1600,
+      "endYear": -1200,
+      "displayDate": "2nd millennium BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "A central settlement in the Ephesus region is most probably connected with Apaša in Hittite textual traditions, although the precise urban topography of this phase remains difficult to reconstruct.",
+      "sourceIds": ["oeai-history", "oeai-prehellenistic"]
+    },
+    {
+      "label": "Archaic and Classical coastal settlements",
+      "startYear": -700,
+      "endYear": -300,
+      "displayDate": "7th–4th centuries BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "Settlement developed in multiple coastal quarters whose locations changed as the shoreline and usable harbours shifted.",
+      "sourceIds": ["oeai-prehellenistic"]
+    },
+    {
+      "label": "Lysimachan re-foundation",
+      "startYear": -305,
+      "endYear": -280,
+      "displayDate": "beginning of the 3rd century BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "The visible Hellenistic-Roman city was laid out in a new location under Lysimachus, enclosed by a large fortification system between Panayırdağ, Bülbüldağ and the harbour zone.",
+      "sourceIds": ["oeai-prehellenistic", "oeai-history"]
+    },
+    {
+      "label": "Roman Imperial metropolis",
+      "startYear": -27,
+      "endYear": 270,
+      "displayDate": "late 1st century BCE–3rd century CE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "Ephesus flourished as a major Roman port and provincial centre. Monumental civic buildings, the Terrace Houses and the Celsus Library belong to this urban landscape.",
+      "sourceIds": ["unesco-whc-1018", "oeai-history", "oeai-terrace-house"]
+    },
+    {
+      "label": "Late Antique and early Christian city",
+      "startYear": 300,
+      "endYear": 700,
+      "displayDate": "4th–7th centuries CE",
+      "certainty": "range",
+      "datingBasis": "mixed",
+      "note": "Christian institutions and pilgrimage increasingly reorganised the urban and sacred landscape while Roman monuments were adapted, repaired, abandoned or reused.",
+      "sourceIds": ["unesco-whc-1018", "oeai-history"]
+    }
+  ],
+  "cultures": ["Neolithic western Anatolian communities", "Late Bronze Age western Anatolian communities", "Greek", "Hellenistic", "Roman", "Early Christian", "Byzantine"],
+  "historicalContext": {
+    "text": "Ephesus is not a city that remained fixed while history passed through it. Settlement repeatedly moved across the lower Kaystros valley as coastlines, harbours, political centres and sacred landscapes changed. The World Heritage property therefore links Çukuriçi Höyük, the Hellenistic-Roman city, Ayasuluk Hill with the Artemision and medieval settlement, and the House of the Virgin Mary into a long-duration cultural landscape rather than a single classical ruin field.",
+    "sourceIds": ["unesco-whc-1018", "unesco-maps", "oeai-history", "oeai-prehellenistic"]
+  },
+  "archaeologicalSignificance": {
+    "text": "Ephesus is especially valuable for studying how urban form responds to environment, infrastructure and memory. Its harbour system, monumental streets, elite residences, sanctuaries and later pilgrimage places preserve different scales of city life, while more than a century of excavation and reconstruction makes the site equally important for the history of archaeological conservation and public presentation.",
+    "sourceIds": ["unesco-whc-1018", "oeai-urban", "oeai-terrace-house", "oeai-celsus-conservation"]
+  },
+  "excavationHistory": {
+    "text": "The Austrian excavation began under Otto Benndorf on 20 May 1895, first at the Artemision and then on Ayasuluk Hill. The expedition house built in Selçuk in 1896 still serves the project. Long-term work by the Austrian Archaeological Institute has expanded from monumental excavation into urban archaeology, environmental reconstruction, conservation, archaeometry and digital documentation. Current research includes renewed investigation of the probable Coressian Gate since 2024 and a multi-year conservation programme for the reconstructed Celsus Library begun in 2024 and planned through 2027.",
+    "sourceIds": ["oeai-research-history", "oeai-urban", "oeai-celsus-conservation", "oeai-130-years"]
+  },
+  "narrativeSections": [
+    {
+      "id": "coastline",
+      "label": "Landscape",
+      "title": "The city followed a coastline that would not stay still.",
+      "paragraphs": [
+        "The lower Kaystros valley was once a marine gulf. Sedimentation progressively pushed the shoreline westward, changing access to anchorages and forcing communities to rethink where harbour-facing settlement could function.",
+        "OeAI research describes this as a repeated urban process rather than a single episode of decline: new moorings generated new settlement quarters. The visible Hellenistic-Roman city is one response within a much longer sequence of environmental change."
+      ],
+      "sourceIds": ["oeai-prehellenistic", "oeai-biogeo", "unesco-whc-1018"]
+    },
+    {
+      "id": "hellenistic-city",
+      "label": "Urban form",
+      "title": "The famous city is itself a relocation.",
+      "paragraphs": [
+        "Most of the monumental plan familiar to visitors belongs to the city re-founded under Lysimachus at the beginning of the third century BCE. Its walls enclosed the slopes of Panayırdağ and Bülbüldağ together with the harbour zone, creating a large planned urban landscape.",
+        "That re-foundation should not be mistaken for the beginning of Ephesus. Earlier Bronze Age, Archaic and Classical communities occupied other parts of the changing coastal zone, many now buried beneath alluvium, later architecture or the modern water table."
+      ],
+      "sourceIds": ["oeai-prehellenistic", "oeai-history"]
+    },
+    {
+      "id": "roman-port",
+      "label": "Roman city",
+      "title": "Monumentality depended on movement, water and access.",
+      "paragraphs": [
+        "The Celsus Library, Great Theatre, Curetes Street, agoras, baths and harbour installations formed part of an interconnected Roman city rather than an isolated collection of monuments. Streets channelled processions and commerce, aqueducts supplied dense urban quarters, and the harbour connected the city to the wider Mediterranean.",
+        "UNESCO identifies Ephesus as an outstanding example of a Roman port city with its harbour basin and sea channel. The urban landscape only makes sense when architecture is read together with infrastructure and the retreating shoreline."
+      ],
+      "sourceIds": ["unesco-whc-1018", "oeai-130-years"]
+    },
+    {
+      "id": "terrace-houses",
+      "label": "Domestic life",
+      "title": "Luxury survives most vividly inside the houses.",
+      "paragraphs": [
+        "Terrace House 2 covers roughly 4,000 square metres and contained seven residential units arranged on three terraces. Its wall paintings, mosaics, marble panelling, courtyards and service areas make elite domestic life visible at a scale that monumental public architecture cannot provide.",
+        "The houses were repeatedly remodelled. Their decorated surfaces also preserve graffiti and later interventions, so the interiors record use, ownership, repair and memory rather than a single frozen moment of Roman luxury."
+      ],
+      "sourceIds": ["oeai-terrace-house", "oeai-frescoes", "unesco-whc-1018"]
+    },
+    {
+      "id": "sacred-landscape",
+      "label": "Religion and memory",
+      "title": "Pilgrimage outlived the harbour city.",
+      "paragraphs": [
+        "The Artemision made Ephesus a Mediterranean pilgrimage destination long before Christianity. In Late Antiquity, churches and Christian sacred places—including the Church of Mary, the Basilica of St. John and the tradition surrounding the House of the Virgin Mary—reorganised how the wider landscape was visited and remembered.",
+        "This was not a simple replacement of one religion by another in a single location. Sacred focus shifted across a landscape already shaped by older sanctuaries, urban movement and changing settlement centres."
+      ],
+      "sourceIds": ["unesco-whc-1018", "oeai-history"]
+    },
+    {
+      "id": "reconstruction",
+      "label": "Conservation",
+      "title": "The Celsus Library is ancient fabric and a modern archaeological argument.",
+      "paragraphs": [
+        "The library was built in the second century CE as both a library and a funerary monument for Tiberius Iulius Celsus Polemaeanus. After ancient damage and later reuse, its façade was reconstructed by anastylosis between 1970 and 1978 using original architectural elements together with modern additions.",
+        "That reconstruction is now itself fifty years old. A new conservation programme begun in 2024 documents, stabilises and studies the façade through 2027, turning one of archaeology's most recognisable images into an active case study in how reconstructed heritage must itself be maintained and re-evaluated."
+      ],
+      "sourceIds": ["oeai-celsus-conservation", "oeai-celsus-2025"]
+    }
+  ],
+  "heritageStatus": [
+    {"label": "UNESCO World Heritage Site — criteria (iii), (iv), (vi); inscribed 2015", "identifier": "1018", "url": "https://whc.unesco.org/en/list/1018/"}
+  ],
+  "externalIdentifiers": {"wikidata": "Q47611", "unesco": "1018"},
+  "bibliography": [
+    {"id": "unesco-whc-1018", "citation": "UNESCO World Heritage Centre. “Ephesus.” World Heritage List, property 1018rev.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/1018/", "accessedOn": "2026-09-04"},
+    {"id": "unesco-maps", "citation": "UNESCO World Heritage Centre. “Ephesus — Maps.” Serial components and geographical data for property 1018rev.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/1018/maps/", "accessedOn": "2026-09-04"},
+    {"id": "oeai-history", "citation": "Austrian Archaeological Institute, Austrian Academy of Sciences. “The History of Ephesos.”", "sourceType": "institutional", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/institute/branches/ephesos/history", "accessedOn": "2026-09-04"},
+    {"id": "oeai-prehellenistic", "citation": "Austrian Archaeological Institute. “The city of Ephesos from the late Bronze Age to its re-foundation by Lysimachus.”", "sourceType": "excavation", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/research/historical-archaeology/historical-archaeology-in-the-mediterranean/ephesos-pre-hellenistic-settlement-history", "accessedOn": "2026-09-04"},
+    {"id": "oeai-urban", "citation": "Austrian Archaeological Institute. “Urban Research in Ephesos.” Current research programme including the Coressian Gate investigation begun in 2024.", "sourceType": "excavation", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/research/historical-archaeology/historical-archaeology-in-the-mediterranean/ephesos-urban-research", "accessedOn": "2026-09-04"},
+    {"id": "oeai-biogeo", "citation": "Austrian Archaeological Institute. “Ephesos: The Study of Bio-Geo-Archives in their Archaeological Context.”", "sourceType": "academic", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/research/archaeological-sciences/bioarchaeology-lab/ephesos-bio-geo-archives", "accessedOn": "2026-09-04"},
+    {"id": "oeai-cukurici", "citation": "Austrian Archaeological Institute. “Neolithic Pottery Technology at Çukuriçi Höyük.”", "sourceType": "academic", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/research/archaeological-sciences/ceramic-lab/neolithic-pottery-technology-at-cukurici-hoeyuek", "accessedOn": "2026-09-04"},
+    {"id": "oeai-terrace-house", "citation": "Austrian Archaeological Institute. “Ephesos — Terrace House 2.” Research and publication project on the Roman elite residential complex.", "sourceType": "excavation", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/forschung/altertumswissenschaften/projekte-in-publikationsvorbereitung/ephesos-die-hanghaeuser/hanghaus-2", "accessedOn": "2026-09-04"},
+    {"id": "oeai-frescoes", "citation": "Austrian Archaeological Institute. “A colourful future: The Conservation of Roman Frescoes in the City Centre of Ephesos.” 16 January 2023.", "sourceType": "institutional", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/media/news-archive/news-detail/farbenfroh-in-die-zukunft", "accessedOn": "2026-09-04"},
+    {"id": "oeai-research-history", "citation": "Austrian Archaeological Institute. “Exploring Ephesos.” Research history timeline.", "sourceType": "institutional", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/institute/branches/ephesos/research-history", "accessedOn": "2026-09-04"},
+    {"id": "oeai-130-years", "citation": "Austrian Archaeological Institute. “130 years of the Austrian excavation at Ephesos.” 2025.", "sourceType": "institutional", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/media/news-archive/news-detail/130-jahre-oesterreichische-grabung-ephesos", "accessedOn": "2026-09-04"},
+    {"id": "oeai-celsus-conservation", "citation": "Austrian Academy of Sciences. “Preserving world cultural heritage: Austrian researchers start conservation of the Celsus Library in Ephesos.” 2 December 2024.", "sourceType": "institutional", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/media/press-releases/preserving-world-cultural-heritage", "accessedOn": "2026-09-04"},
+    {"id": "oeai-celsus-2025", "citation": "Austrian Archaeological Institute. “Antike wiederaufgebaut: Einblicke in Erforschung, Wiederaufbau und Erhaltung der Celsusbibliothek.” 30 September 2025.", "sourceType": "institutional", "doi": null, "url": "https://www.oeaw.ac.at/en/oeai/events/event-detail/antike-wiederaufgebaut", "accessedOn": "2026-09-04"},
+    {"id": "wikidata-q47611", "citation": "Wikidata contributors. “Ephesus (Q47611).” Authority record used for entity linking.", "sourceType": "authority-data", "doi": null, "url": "https://www.wikidata.org/wiki/Q47611", "accessedOn": "2026-09-04"}
+  ],
+  "media": [
+    {"type": "image", "title": "Library of Celsus at Ephesus", "creator": "Giorgio Galeotti", "source": "Wikimedia Commons — File:Library of Celsus - Ephesus, Selçuk, İzmir Province, Turkey - October 7, 2025.jpg", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Library_of_Celsus_-_Ephesus,_Sel%C3%A7uk,_%C4%B0zmir_Province,_Turkey_-_October_7,_2025.jpg", "rightsStatus": "CC BY-SA 4.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"}
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "The record treats Ephesus as a shifting settlement and sacred landscape rather than a static Roman ruin field. Reconstructed monuments such as the Celsus Library are identified as archaeological presentations with their own modern conservation histories."
+}

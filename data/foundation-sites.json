@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Göbekli Tepe",
+    "slug": "gobekli-tepe",
+    "modernRegion": "Şanlıurfa",
+    "context": "Pre-Pottery Neolithic"
+  },
+  {
+    "name": "Çatalhöyük",
+    "slug": "catalhoyuk",
+    "modernRegion": "Konya",
+    "context": "Neolithic"
+  },
+  {
+    "name": "Arslantepe",
+    "slug": "arslantepe",
+    "modernRegion": "Malatya",
+    "context": "Chalcolithic / Early Bronze Age"
+  },
+  {
+    "name": "Hattusa",
+    "slug": "hattusa",
+    "modernRegion": "Çorum",
+    "context": "Hittite"
+  },
+  {
+    "name": "Gordion",
+    "slug": "gordion",
+    "modernRegion": "Ankara",
+    "context": "Phrygian"
+  },
+  {
+    "name": "Troy",
+    "slug": "troy",
+    "modernRegion": "Çanakkale",
+    "context": "Multi-period Bronze Age to Roman occupation"
+  },
+  {
+    "name": "Ephesus",
+    "slug": "ephesus",
+    "modernRegion": "İzmir",
+    "context": "Greek / Roman"
+  },
+  {
+    "name": "Ani",
+    "slug": "ani",
+    "modernRegion": "Kars",
+    "context": "Medieval"
+  }
+]

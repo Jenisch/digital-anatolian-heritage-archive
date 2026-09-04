@@ -1,0 +1,188 @@
+{
+  "id": "site:troy",
+  "slug": "troy",
+  "canonicalName": "Troy",
+  "alternativeNames": [
+    {"name": "Troia", "language": "la", "script": "Latn", "note": "Common scholarly and European form"},
+    {"name": "Ilion", "language": "grc", "script": "Latn", "note": "Greek name used for the later city and in ancient tradition"},
+    {"name": "Ilium", "language": "la", "script": "Latn", "note": "Roman form of Ilion"},
+    {"name": "Troya", "language": "tr", "script": "Latn", "note": "Modern Turkish form"}
+  ],
+  "coordinates": {"latitude": 39.95644, "longitude": 26.238999, "precision": "site"},
+  "modernLocation": {"country": "Türkiye", "province": "Çanakkale", "district": "Merkez", "locality": "Tevfikiye"},
+  "siteTypes": ["archaeological site", "tell", "fortified settlement", "citadel", "lower city", "Greek and Roman city"],
+  "chronology": [
+    {
+      "label": "Bronze Age fortified settlements",
+      "startYear": -3000,
+      "endYear": -950,
+      "displayDate": "c. 3000–950 BCE",
+      "certainty": "approximate",
+      "datingBasis": "archaeological",
+      "note": "The conventional Troy I–VII sequence groups a succession of fortified Bronze Age settlements on Hisarlık. The nine-city framework is an archaeological periodisation, not evidence for nine unrelated cities.",
+      "sourceIds": ["tuebingen-fdat", "cincinnati-stratigraphy"]
+    },
+    {
+      "label": "Troy I–V",
+      "startYear": -3000,
+      "endYear": -1750,
+      "displayDate": "c. 3000–1750 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "Early Bronze Age and early Middle Bronze Age settlement phases include Troy II, the period associated with Schliemann's famous treasure finds and with substantial megaron architecture.",
+      "sourceIds": ["aia-troy-iii-vi", "tuebingen-early-bronze"]
+    },
+    {
+      "label": "Troy VI",
+      "startYear": -1750,
+      "endYear": -1300,
+      "displayDate": "c. 1750–1300 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "A monumental Late Bronze Age citadel with massive stone fortifications and evidence for a substantial lower settlement. Its final destruction is widely associated with earthquake damage rather than a securely identified war event.",
+      "sourceIds": ["aia-troy-iii-vi", "unesco-whc-849", "tuebingen-survey"]
+    },
+    {
+      "label": "Troy VIIa",
+      "startYear": -1300,
+      "endYear": -1180,
+      "displayDate": "c. 1300–1180 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "The settlement reused the Troy VI fortifications in a more densely occupied citadel and ended in a destructive episode. Its chronology falls within the broad historical horizon in which later Greek traditions placed a Trojan conflict, but archaeology does not identify a specific Homeric war.",
+      "sourceIds": ["aia-troy-vii", "tuebingen-fdat", "cambridge-hittite"]
+    },
+    {
+      "label": "Troy VIIb",
+      "startYear": -1180,
+      "endYear": -950,
+      "displayDate": "c. 1180–950 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "Post-Bronze Age occupation continued through several subphases as regional political systems changed after the collapse of the Late Bronze Age world.",
+      "sourceIds": ["tuebingen-fdat", "cincinnati-stratigraphy"]
+    },
+    {
+      "label": "Greek and Hellenistic Ilion",
+      "startYear": -950,
+      "endYear": -85,
+      "displayDate": "c. 950–85 BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "The mound and lower city became the Greek city of Ilion. Sanctuaries and later Hellenistic monumental building reused a landscape already charged with Trojan memory.",
+      "sourceIds": ["unesco-whc-849", "cincinnati-post-bronze", "commons-sanctuary"]
+    },
+    {
+      "label": "Roman Ilium",
+      "startYear": -85,
+      "endYear": 500,
+      "displayDate": "85 BCE–c. 500 CE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "Roman rebuilding produced public monuments including the odeion and bouleuterion, while the city's claimed connection to Trojan ancestry remained politically and culturally productive.",
+      "sourceIds": ["unesco-whc-849", "cincinnati-post-bronze"]
+    }
+  ],
+  "cultures": ["Early Bronze Age Anatolian", "Late Bronze Age Anatolian", "Aegean-connected communities", "Greek", "Hellenistic", "Roman"],
+  "historicalContext": {
+    "text": "Troy occupies Hisarlık near the southern entrance to the Dardanelles, a position linking inland Anatolia with the Aegean, Balkans and Black Sea routes. The site preserves a long sequence of fortified Bronze Age settlements beneath and alongside the later Greek and Roman city of Ilion. UNESCO describes Troy as a key archaeological record for contacts between Anatolian and Mediterranean worlds, while current research continues to refine the scale, chronology and regional role of the settlement.",
+    "sourceIds": ["unesco-whc-849", "tuebingen-fdat", "tuebingen-survey"]
+  },
+  "archaeologicalSignificance": {
+    "text": "Troy is methodologically important because its archaeological sequence, literary afterlife and excavation history cannot be separated cleanly. The site shaped Bronze Age chronology, generated long-running debates about the relationship between Hisarlık, Hittite Wilusa and Greek epic, and became an early public symbol of archaeology itself. Its significance therefore lies not in proving a single legendary event, but in the interaction between settlement evidence, historical texts, later memory and changing archaeological practice.",
+    "sourceIds": ["unesco-whc-849", "tuebingen-fdat", "cambridge-hittite", "cincinnati-stratigraphy"]
+  },
+  "excavationHistory": {
+    "text": "Frank Calvert began excavating at Hisarlık in 1863 before Heinrich Schliemann's campaigns from 1870. Wilhelm Dörpfeld later revised Schliemann's identification of Troy II as the Homeric city by exposing the monumental Troy VI fortifications. Carl Blegen's University of Cincinnati excavations from 1932 to 1938 subdivided the mound into dozens of strata within nine major settlement horizons. The Tübingen–Cincinnati project resumed large-scale research from 1988, combining Bronze Age and post-Bronze Age investigation. Since 2015, excavations have been directed by Rüstem Aslan of Çanakkale Onsekiz Mart University; the 2024 season included work in the agora and around the Troy VI palace area, and 2025 fieldwork produced a gold ring-brooch and rare jade object from an Early Bronze Age context around 2500 BCE.",
+    "sourceIds": ["tuebingen-fdat", "cincinnati-stratigraphy", "comu-current-project", "ktb-2024-excavation", "ktb-2025-brooch"]
+  },
+  "narrativeSections": [
+    {
+      "id": "stratigraphy",
+      "label": "Stratigraphy",
+      "title": "The famous “nine cities” are an analytical framework, not nine clean beginnings.",
+      "paragraphs": [
+        "Blegen's excavations distinguished roughly forty-six strata and grouped them into nine major horizons. That system made Troy a reference point for Aegean and Anatolian chronology, but the numbered cities can easily create a false image of repeated abandonment and replacement.",
+        "In practice, rebuilding, reuse and continuity cross many of the boundaries. Troy VI and early Troy VII, for example, share fortifications and settlement history even though excavation terminology gives them different numbers."
+      ],
+      "sourceIds": ["cincinnati-stratigraphy", "tuebingen-fdat"]
+    },
+    {
+      "id": "bronze-age-city",
+      "label": "Bronze Age city",
+      "title": "The citadel is only part of Late Bronze Age Troy.",
+      "paragraphs": [
+        "The monumental sloping walls of Troy VI dominate the visitor experience, but research south of the mound has demonstrated that settlement extended well beyond the fortified citadel. UNESCO describes a Late Bronze Age lower city of about thirty hectares, while survey research cautions that its building density and internal organisation cannot yet be reconstructed with equal confidence everywhere.",
+        "This distinction matters. Troy was not simply a small fortress on a hill; neither does the archaeological evidence justify turning every square metre within the defensive system into densely built urban fabric."
+      ],
+      "sourceIds": ["unesco-whc-849", "tuebingen-survey"]
+    },
+    {
+      "id": "homer-wilusa",
+      "label": "Text and archaeology",
+      "title": "Homer is reception history, not an excavation diary.",
+      "paragraphs": [
+        "Late Bronze Age Troy occupies the only chronological horizon that could plausibly underlie much later Greek traditions of a Trojan conflict. Hittite texts referring to Wilusa and Ahhiyawa provide an independent political context for western Anatolia, and many scholars consider an identification of Wilusa with Troy plausible.",
+        "None of this converts the Iliad into a literal historical report. The poem took shape centuries after the Late Bronze Age, and the surviving archaeological record cannot identify Achilles, Priam, a ten-year siege or a single event matching the epic narrative."
+      ],
+      "sourceIds": ["tuebingen-fdat", "cambridge-hittite", "unesco-whc-849"]
+    },
+    {
+      "id": "ilion",
+      "label": "Greek and Roman Ilion",
+      "title": "Later cities built with the authority of an already ancient past.",
+      "paragraphs": [
+        "Greek and Roman Ilion developed on and around the Bronze Age mound rather than beside an abandoned ruin. Sanctuaries, the Temple of Athena, the agora, odeion and bouleuterion inserted new civic architecture into a landscape whose Trojan associations had become culturally valuable.",
+        "Under Hellenistic and Roman rule, Troy's legendary ancestry became part of political memory. Archaeology therefore records not only survival after the Bronze Age, but active reuse of the past as a civic resource."
+      ],
+      "sourceIds": ["unesco-whc-849", "cincinnati-post-bronze", "commons-sanctuary"]
+    },
+    {
+      "id": "excavation-legacy",
+      "label": "History of archaeology",
+      "title": "Troy preserves the consequences of archaeology itself.",
+      "paragraphs": [
+        "Schliemann's drive to reach what he believed was Homeric Troy cut through and removed substantial later deposits. Dörpfeld and Blegen subsequently revised the site's chronology through more systematic architectural and stratigraphic work, while later projects added geophysics, archaeometry, digital documentation and lower-city survey.",
+        "The famous trench is therefore not merely damage to hide. It is evidence for how archaeological questions, techniques and ethical standards changed—and for how interpretation can be permanently constrained by earlier excavation decisions."
+      ],
+      "sourceIds": ["cincinnati-stratigraphy", "tuebingen-dorpfeld-blegen", "ktb-2024-excavation"]
+    },
+    {
+      "id": "new-find",
+      "label": "Current research",
+      "title": "A 2025 find shifts attention back toward Troy's Early Bronze Age networks.",
+      "paragraphs": [
+        "In 2025, the Turkish excavation project announced a gold ring-brooch from a context dated around 2500 BCE together with a bronze pin and a rare jade object. The finds were assigned to Troy's Early Bronze Age sequence and are planned for display in the Troy Museum.",
+        "Their value for the archive is not that they produce another treasure story. They reopen questions of status, craft, material circulation and long-distance connection in a phase of Troy that predates the Late Bronze Age city by more than a millennium."
+      ],
+      "sourceIds": ["ktb-2025-brooch", "tuebingen-early-bronze"]
+    }
+  ],
+  "heritageStatus": [
+    {"label": "UNESCO World Heritage Site — criteria (ii), (iii), (vi); inscribed 1998", "identifier": "849", "url": "https://whc.unesco.org/en/list/849/"}
+  ],
+  "externalIdentifiers": {"wikidata": "Q22647", "unesco": "849"},
+  "bibliography": [
+    {"id": "unesco-whc-849", "citation": "UNESCO World Heritage Centre. “Archaeological Site of Troy.” World Heritage List, property 849.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/849/", "accessedOn": "2026-09-04"},
+    {"id": "tuebingen-fdat", "citation": "University of Tübingen FDAT Data Repository. “Troy.” Project community overview and digital research archive.", "sourceType": "institutional", "doi": null, "url": "https://fdat.uni-tuebingen.de/communities/troy/about", "accessedOn": "2026-09-04"},
+    {"id": "cincinnati-stratigraphy", "citation": "University of Cincinnati Department of Classics. “History of Archaeology — Troy, Turkey (1932–38).” Overview of the Blegen excavations and stratigraphic sequence.", "sourceType": "institutional", "doi": null, "url": "https://classics.uc.edu/humanities/classics/about/archinclassics", "accessedOn": "2026-09-04"},
+    {"id": "cincinnati-post-bronze", "citation": "University of Cincinnati Department of Classics. “Troy (1988–2002).” History of the Cincinnati component of the Tübingen–Cincinnati project.", "sourceType": "excavation", "doi": null, "url": "https://classics.uc.edu/?id=9&view=category", "accessedOn": "2026-09-04"},
+    {"id": "tuebingen-survey", "citation": "Jablonka, Peter. “Archäologischer Survey im Stadtgebiet von Troia.” University of Tübingen research publication on the settlement area and Late Bronze Age lower city.", "sourceType": "academic", "doi": null, "url": "https://tst-publikationen.uni-tuebingen.de/xmlui/handle/10900/73560", "accessedOn": "2026-09-04"},
+    {"id": "tuebingen-dorpfeld-blegen", "citation": "University of Tübingen. “Die Ausgrabungen in Troia unter Wilhelm Dörpfeld und Carl W. Blegen.” Research history of the Troy stratigraphic sequence.", "sourceType": "academic", "doi": null, "url": "https://publikationen.uni-tuebingen.de/xmlui/handle/10900/73463", "accessedOn": "2026-09-04"},
+    {"id": "tuebingen-early-bronze", "citation": "University of Tübingen. “Troy in the Early Bronze Age: Technology, Exchange and Prestige.” DFG research project, 2023–2025.", "sourceType": "institutional", "doi": null, "url": "https://uni-tuebingen.de/en/251750", "accessedOn": "2026-09-04"},
+    {"id": "aia-troy-iii-vi", "citation": "Archaeological Institute of America. “Troy III–V and Troy VI.” Interactive Map Troy.", "sourceType": "institutional", "doi": null, "url": "https://www.archaeology.org/travel/interactivemap-troy/troy-3-6.html", "accessedOn": "2026-09-04"},
+    {"id": "aia-troy-vii", "citation": "Archaeological Institute of America. “Troy VII.” Interactive Map Troy.", "sourceType": "institutional", "doi": null, "url": "https://archaeology.org/travel/interactivemap-troy/troy-7.html", "accessedOn": "2026-09-04"},
+    {"id": "cambridge-hittite", "citation": "“Hittite Literary Evidence.” In The Cambridge Guide to Homer. Cambridge University Press, 2020.", "sourceType": "academic", "doi": null, "url": "https://www.cambridge.org/core/books/abs/cambridge-guide-to-homer/hittite-literary-evidence/37462517BA9895BCE28F55C5F7A94924", "accessedOn": "2026-09-04"},
+    {"id": "comu-current-project", "citation": "Çanakkale Onsekiz Mart University, Department of Archaeology. “Department Excavations.” Troy excavation listed under Rüstem Aslan, 2015–present.", "sourceType": "institutional", "doi": null, "url": "https://arkeoloji.itbf.comu.edu.tr/bolum-kazilari-r7.html", "accessedOn": "2026-09-04"},
+    {"id": "ktb-2024-excavation", "citation": "Aslan, Rüstem, Enes Can, Hüdai Süha Can, Gonca Dikenci and Fecri Polat. “2024 Yılı Troya Kazı Çalışmaları.” 45. Kazı Sonuçları Toplantısı Bildirileri, 2026.", "sourceType": "excavation", "doi": null, "url": "https://ukaas.ktb.gov.tr/Eklenti/147849,45-kazi-4-ci-ltpdf.pdf?0=", "accessedOn": "2026-09-04"},
+    {"id": "ktb-2025-brooch", "citation": "Republic of Türkiye Ministry of Culture and Tourism. “Troya’da 4 Bin 500 Yıllık Altın Broş ve Ender Yeşim Taşı Gün Işığına Çıkarıldı.” 2025.", "sourceType": "institutional", "doi": null, "url": "https://basin.ktb.gov.tr/TR-406421/troyada-4-bin-500-yillik-altin-bros-ve-ender-yesim-tasi-gun-isigina-cikarildi.html", "accessedOn": "2026-09-04"},
+    {"id": "commons-sanctuary", "citation": "Wikimedia Commons. “Troy sanctuary 7790 panorama.jpg.” Photograph and on-site interpretive description by Dosseman.", "sourceType": "other", "doi": null, "url": "https://commons.wikimedia.org/wiki/File:Troy_sanctuary_7790_panorama.jpg", "accessedOn": "2026-09-04"},
+    {"id": "wikidata-q22647", "citation": "Wikidata contributors. “Troy (Q22647).”", "sourceType": "authority-data", "doi": null, "url": "https://www.wikidata.org/wiki/Q22647", "accessedOn": "2026-09-04"}
+  ],
+  "media": [
+    {"type": "image", "title": "Troy VI east gate fortification", "creator": "Carole Raddato", "source": "Wikimedia Commons — File:Troy (Ilion), Turkey (7446473680).jpg", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Troy_(Ilion),_Turkey_(7446473680).jpg", "rightsStatus": "CC BY-SA 2.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/"}
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "The record distinguishes archaeological Troy from later Trojan War traditions. Possible connections with Hittite Wilusa are presented as a scholarly hypothesis, not as proof that the Iliad records a specific historical siege. The conventional Troy I–IX sequence is treated as archaeological periodisation rather than a literal succession of nine unrelated cities."
+}

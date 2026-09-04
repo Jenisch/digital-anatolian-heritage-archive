@@ -15,6 +15,51 @@
   border-right: 1px solid var(--line);
 }
 
+.explorer-mode-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 28px;
+  border: 1px solid var(--ink);
+}
+
+.explorer-mode-switch button {
+  min-height: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px 12px;
+  border: 0;
+  border-right: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.explorer-mode-switch button:last-child {
+  border-right: 0;
+}
+
+.explorer-mode-switch button span {
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.explorer-mode-switch button.is-active {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.explorer-mode-switch button.is-active span {
+  color: #c9c4b9;
+}
+
 .explorer-control-heading {
   display: flex;
   align-items: flex-start;
@@ -43,6 +88,38 @@
   font-size: 0.72rem;
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.archive-search {
+  display: block;
+  margin-top: 26px;
+}
+
+.archive-search > span {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.archive-search input {
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.78rem;
+}
+
+.archive-search input:focus {
+  border-color: var(--ink);
 }
 
 .period-filter {
@@ -194,6 +271,11 @@
   box-shadow: 0 0 0 1px var(--accent);
 }
 
+.legend-dot-registry {
+  background: var(--muted);
+  box-shadow: 0 0 0 1px var(--muted);
+}
+
 .heritage-marker {
   width: 18px;
   height: 18px;
@@ -310,6 +392,14 @@
   text-align: left;
 }
 
+.result-focus.is-unmapped {
+  cursor: default;
+}
+
+.result-focus:disabled {
+  opacity: 1;
+}
+
 .result-focus > span {
   color: var(--muted);
   font-size: 0.65rem;
@@ -347,6 +437,15 @@
 
 .result-status {
   color: var(--muted);
+}
+
+.archive-results-note {
+  grid-column: 1 / -1;
+  padding: 18px 22px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.55;
 }
 
 .empty-results {
@@ -394,6 +493,10 @@
     padding: 24px 0 28px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .explorer-mode-switch {
+    margin-bottom: 24px;
   }
 
   .explorer-stage {

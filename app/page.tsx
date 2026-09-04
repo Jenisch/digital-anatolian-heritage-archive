@@ -17,7 +17,7 @@ export default function Home() {
 
       <section className="hero shell" id="top">
         <p className="eyebrow">Digital humanities · Cultural heritage · Anatolia</p>
-        <h1>History is not a single layer.</h1>
+        <h1 style={{ lineHeight: 1.02 }}>History is not a single layer.</h1>
         <p className="lede">
           The Digital Anatolian Heritage Archive is a research-led interface for exploring archaeological places through chronology, geography, evidence, and scholarly context.
         </p>
@@ -60,7 +60,7 @@ export default function Home() {
 
         <div className="site-grid">
           {sites.map((site, index) => {
-            const recordReady = ["gobekli-tepe", "catalhoyuk", "arslantepe", "hattusa", "gordion", "troy"].includes(site.slug);
+            const recordReady = ["gobekli-tepe", "catalhoyuk", "arslantepe", "hattusa", "gordion", "troy", "ephesus"].includes(site.slug);
 
             return (
               <article className={`site-card${recordReady ? " site-card-ready" : ""}`} key={site.slug}>

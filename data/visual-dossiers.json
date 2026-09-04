@@ -138,5 +138,33 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
     ]
+  },
+  "troy": {
+    "title": "One mound, incompatible scales of memory.",
+    "intro": "Two panoramic views place different archaeological Troys side by side: an Early Bronze Age megaron embedded in the citadel sequence and a sanctuary that reused the lower city centuries later. The site is easier to understand when continuity and reuse are visible at once.",
+    "images": [
+      {
+        "label": "Early Bronze Age",
+        "title": "Megaron within the citadel sequence",
+        "caption": "A panoramic view of a megaron built against the citadel wall in the Troy II–III sequence. The building preserves the architectural world that Schliemann cut through while searching for a much later Homeric city.",
+        "alt": "Panoramic view of an Early Bronze Age megaron and citadel wall at Troy",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Troy_megaron_7733_panorama.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Troy%20megaron%207733%20panorama.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "label": "Greek and Roman reuse",
+        "title": "Sanctuary over the Bronze Age lower city",
+        "caption": "The sanctuary developed within an area cut into the ruins of Troy VI–VII and remained in use through Hellenistic and Roman phases. Later Ilion did not simply sit above Troy; it actively occupied and reinterpreted its archaeological landscape.",
+        "alt": "Panoramic view of the sanctuary area at Troy with surviving stone foundations",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Troy_sanctuary_7790_panorama.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Troy%20sanctuary%207790%20panorama.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
   }
 }

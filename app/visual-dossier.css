@@ -1,0 +1,146 @@
+.visual-dossier {
+  padding: 112px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.visual-dossier-heading {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+  margin-bottom: 54px;
+}
+
+.visual-dossier-heading > div {
+  max-width: 920px;
+}
+
+.visual-dossier-heading h2 {
+  max-width: 780px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.8rem, 5vw, 5.4rem);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.visual-dossier-heading > div > p {
+  max-width: 720px;
+  margin: 26px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.visual-dossier-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.85fr;
+  gap: 18px;
+  align-items: start;
+  margin-left: 25%;
+}
+
+.visual-dossier-card {
+  margin: 0;
+}
+
+.visual-dossier-card-2 {
+  margin-top: 118px;
+}
+
+.visual-dossier-image {
+  min-height: 620px;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.visual-dossier-card-2 .visual-dossier-image {
+  min-height: 460px;
+}
+
+.visual-dossier-card figcaption {
+  padding-top: 18px;
+}
+
+.visual-dossier-label {
+  margin: 0 0 9px;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.visual-dossier-card h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.7rem, 2.4vw, 2.5rem);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+}
+
+.visual-dossier-card figcaption > p:not(.visual-dossier-label):not(.visual-dossier-credit) {
+  max-width: 620px;
+  margin: 13px 0 0;
+  color: #3f3d37;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.visual-dossier-credit {
+  margin: 15px 0 0;
+  color: var(--muted);
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+.visual-dossier-credit a {
+  text-underline-offset: 3px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 900px) {
+  .visual-dossier-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+  }
+
+  .visual-dossier-image,
+  .visual-dossier-card-2 .visual-dossier-image {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 760px) {
+  .visual-dossier {
+    padding: 72px 0;
+  }
+
+  .visual-dossier-heading,
+  .visual-dossier-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visual-dossier-card-2 {
+    margin-top: 38px;
+  }
+
+  .visual-dossier-image,
+  .visual-dossier-card-2 .visual-dossier-image {
+    min-height: 58vh;
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "gobekli-tepe": {
+    "title": "Architecture at human scale.",
+    "intro": "Two close views move from the overall monument to the architectural details that make Göbekli Tepe legible as a built environment rather than an abstract archaeological icon.",
+    "images": [
+      {
+        "label": "Building B",
+        "title": "Göbeklitepe Building B",
+        "caption": "A round-plan building roughly 10 metres in diameter, with T-shaped limestone pillars arranged around the wall and two central monoliths. Fox reliefs appear on the inward-facing sides of the central pillars.",
+        "alt": "Round-plan Building B at Göbekli Tepe with T-shaped limestone pillars",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urfa_G%C3%B6beklitepe_Building_B_5399.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Urfa%20G%C3%B6beklitepe%20Building%20B%205399.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "label": "Building D",
+        "title": "Göbeklitepe Building D",
+        "caption": "The best-preserved monumental enclosure at the site. Its two central pillars survive to about 5.5 metres and carry anthropomorphic details including arms, hands, belts and loincloths.",
+        "alt": "Building D at Göbekli Tepe with monumental central T-shaped pillars",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6beklitepe_Building_D_5350.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/G%C3%B6beklitepe%20Building%20D%205350.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  },
+  "hattusa": {
+    "title": "Power in stone and landscape.",
+    "intro": "Hattusa is easier to understand when the royal citadel and the nearby rock sanctuary are seen together: political space inside the city and ritual space extending beyond it.",
+    "images": [
+      {
+        "label": "Royal citadel",
+        "title": "Büyükkale, Buildings C and H",
+        "caption": "Remains on Büyükkale, the royal citadel, where renewed excavation and radiocarbon work are refining the chronology of palace expansion and the Upper City.",
+        "alt": "Stone remains of Buildings C and H on the Büyükkale citadel at Hattusa",
+        "creator": "Carole Raddato",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hattusa,_the_capital_of_the_Hittite_Empire_in_the_late_Bronze_Age,_Bo%C4%9Fazkale,_Turkey_(26090010661).jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hattusa%2C%20the%20capital%20of%20the%20Hittite%20Empire%20in%20the%20late%20Bronze%20Age%2C%20Bo%C4%9Fazkale%2C%20Turkey%20%2826090010661%29.jpg",
+        "rightsStatus": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      {
+        "label": "Yazılıkaya",
+        "title": "Twelve Underworld Gods, Chamber B",
+        "caption": "A procession of twelve male underworld deities carved into the rock of Chamber B at Yazılıkaya, the sanctuary that extends Hattusa's ritual landscape beyond the fortified city.",
+        "alt": "Rock-cut procession of twelve underworld deities in Chamber B at Yazılıkaya",
+        "creator": "Ywpark2003",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Relief_of_the_Twelve_Underworld_Gods_Chamber_B_Yazilikaya_Hattusa.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Relief%20of%20the%20Twelve%20Underworld%20Gods%20Chamber%20B%20Yazilikaya%20Hattusa.jpg",
+        "rightsStatus": "CC0 1.0",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ]
+  },
+  "catalhoyuk": {
+    "title": "The house as an archive.",
+    "intro": "The strongest visual evidence at Çatalhöyük is interior: painted surfaces, platforms, installations and reconstructed spatial relationships show how architecture accumulated memory through repeated use.",
+    "images": [
+      {
+        "label": "Painted surface",
+        "title": "Çatalhöyük wall painting",
+        "caption": "A surviving wall painting now in the Konya Archaeological Museum. Painted and replastered surfaces were repeatedly renewed as part of the life histories of houses.",
+        "alt": "Neolithic wall painting from Çatalhöyük displayed in the Konya Archaeological Museum",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Konya_Archaeological_Museum_Catalh%C3%B6y%C3%BCk_wall_painting_4612.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Konya%20Archaeological%20Museum%20Catalh%C3%B6y%C3%BCk%20wall%20painting%204612.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "label": "Reconstruction",
+        "title": "Reconstructed Çatalhöyük room",
+        "caption": "A museum reconstruction using original finds in relative position to communicate the close relationship between roof-entry architecture, interior platforms and below-floor burial practices.",
+        "alt": "Reconstructed Neolithic room from Çatalhöyük in the Museum of Anatolian Civilizations",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_%C3%87atalh%C3%B6y%C3%BCk_reconstructed_room_in_2011_03.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Museum%20of%20Anatolian%20Civilizations%20%C3%87atalh%C3%B6y%C3%BCk%20reconstructed%20room%20in%202011%2003.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  }
+}

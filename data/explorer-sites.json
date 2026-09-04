@@ -73,15 +73,15 @@
     "name": "Troy",
     "slug": "troy",
     "region": "Çanakkale",
-    "latitude": 39.9575,
-    "longitude": 26.2389,
-    "coordinatePrecision": "approximate",
+    "latitude": 39.95644,
+    "longitude": 26.238999,
+    "coordinatePrecision": "site",
     "startYear": -3000,
     "endYear": 500,
     "dateLabel": "c. 3000 BCE–500 CE",
-    "periods": ["Bronze Age", "Classical", "Roman"],
-    "context": "Deeply stratified settlement with Bronze Age, Greek and Roman phases",
-    "recordReady": false
+    "periods": ["Bronze Age", "Iron Age", "Classical", "Roman"],
+    "context": "Deeply stratified Hisarlık settlement linking Bronze Age Troy with Greek and Roman Ilion and a long history of literary reception",
+    "recordReady": true
   },
   {
     "name": "Ephesus",

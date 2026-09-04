@@ -45,15 +45,15 @@
     "name": "Hattusa",
     "slug": "hattusa",
     "region": "Çorum",
-    "latitude": 40.0197,
-    "longitude": 34.6153,
-    "coordinatePrecision": "approximate",
+    "latitude": 40.019722,
+    "longitude": 34.615278,
+    "coordinatePrecision": "site",
     "startYear": -1650,
-    "endYear": -1200,
-    "dateLabel": "c. 1650–1200 BCE",
+    "endYear": -1180,
+    "dateLabel": "c. 1650–1180 BCE",
     "periods": ["Bronze Age"],
-    "context": "Capital of the Hittite Empire",
-    "recordReady": false
+    "context": "Hittite imperial capital within a much longer settlement sequence",
+    "recordReady": true
   },
   {
     "name": "Gordion",

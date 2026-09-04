@@ -1,0 +1,192 @@
+{
+  "id": "site:ani",
+  "slug": "ani",
+  "canonicalName": "Ani",
+  "alternativeNames": [
+    {"name": "Անի", "language": "hy", "script": "Armn", "note": "Armenian form of the city name"},
+    {"name": "Anı", "language": "tr", "script": "Latn", "note": "Variant spelling encountered in older Turkish publications"}
+  ],
+  "coordinates": {"latitude": 40.5, "longitude": 43.566667, "precision": "site"},
+  "modernLocation": {"country": "Türkiye", "province": "Kars", "district": "Merkez", "locality": "Ocaklı"},
+  "siteTypes": ["archaeological site", "medieval city", "capital city", "fortified city", "trade centre", "religious landscape"],
+  "chronology": [
+    {
+      "label": "Earlier occupation and fortified settlement",
+      "startYear": -1200,
+      "endYear": 900,
+      "displayDate": "Early Iron Age–9th century CE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "Occupation on and around the plateau predates the medieval city by many centuries. UNESCO documentation places settlement at Ani within a long sequence extending back into the Bronze and Iron Ages, while the site's historically documented urban prominence belongs much later.",
+      "sourceIds": ["unesco-whc-1518", "unesco-nomination-1518"]
+    },
+    {
+      "label": "Bagratid capital",
+      "startYear": 961,
+      "endYear": 1045,
+      "displayDate": "961–1045 CE",
+      "certainty": "range",
+      "datingBasis": "historical",
+      "note": "Ashot III transferred the Bagratid royal capital to Ani in 961. The following decades saw major fortification, ecclesiastical and civic building campaigns that established the architectural identity associated with the Ani school.",
+      "sourceIds": ["unesco-whc-1518", "kazaryan-2022", "unesco-turkey-ani"]
+    },
+    {
+      "label": "Byzantine rule",
+      "startYear": 1045,
+      "endYear": 1064,
+      "displayDate": "1045–1064 CE",
+      "certainty": "range",
+      "datingBasis": "historical",
+      "note": "Ani passed into Byzantine control in 1045. This was a short political phase within a city whose Armenian ecclesiastical, mercantile and urban institutions had already developed over generations.",
+      "sourceIds": ["unesco-nomination-1518", "unesco-turkey-ani"]
+    },
+    {
+      "label": "Seljuk conquest and Shaddadid rule",
+      "startYear": 1064,
+      "endYear": 1199,
+      "displayDate": "1064–1199 CE",
+      "certainty": "range",
+      "datingBasis": "historical",
+      "note": "The Seljuk capture of Ani in 1064 was followed by Shaddadid rule. Christian and Muslim monuments occupied the same urban landscape, and the city's architecture increasingly records interaction between Armenian and Islamic building traditions rather than a simple replacement of one culture by another.",
+      "sourceIds": ["unesco-whc-1518", "donabedian-2020", "unesco-turkey-ani"]
+    },
+    {
+      "label": "Georgian-Zakarid commercial expansion",
+      "startYear": 1199,
+      "endYear": 1236,
+      "displayDate": "1199–1236 CE",
+      "certainty": "range",
+      "datingBasis": "historical",
+      "note": "Under Georgian sovereignty and Zakarid-Mkhargrdzeli administration, Ani experienced renewed building and intense mercantile patronage. Wealthy merchants became major urban actors, visible in monuments such as the Church of Saint Gregory of Tigran Honents, founded in 1215.",
+      "sourceIds": ["matheou-2021", "donabedian-2020", "ktb-tigran-honents"]
+    },
+    {
+      "label": "Mongol and Ilkhanid Ani",
+      "startYear": 1236,
+      "endYear": 1350,
+      "displayDate": "1236–mid-14th century CE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "Mongol conquest did not immediately end urban life. Thirteenth-century Ani remained commercially active, but changing taxation, political structures and trade conditions contributed to a major transformation of the urban economy by the mid-fourteenth century.",
+      "sourceIds": ["matheou-2021", "unesco-whc-1518"]
+    },
+    {
+      "label": "Decline and residual settlement",
+      "startYear": 1319,
+      "endYear": 1700,
+      "displayDate": "1319–18th century CE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "The 1319 earthquake is a major marker in Ani's decline, but it was not a single abandonment event. UNESCO relates deurbanisation to the combined effects of earthquake damage, invasion and changing trade routes; occupation diminished gradually until the city was largely abandoned by the eighteenth century.",
+      "sourceIds": ["unesco-whc-1518", "matheou-2021"]
+    }
+  ],
+  "cultures": ["Armenian Bagratid", "Byzantine", "Seljuk", "Shaddadid", "Georgian-Zakarid", "Mongol-Ilkhanid", "Ottoman"],
+  "historicalContext": {
+    "text": "Ani occupies a triangular volcanic-tuff plateau above the Arpaçay/Akhurian ravine on the present Türkiye-Armenia border. Its defensible topography and position on routes linking Anatolia, the South Caucasus, Iran and Central Asia supported a long history of settlement, but the city's most intense urban development occurred when it became the Bagratid Armenian capital in the tenth century and later remained a major commercial crossroads under Byzantine, Seljuk, Shaddadid, Georgian-Zakarid and Mongol rule.",
+    "sourceIds": ["unesco-whc-1518", "unesco-nomination-1518", "matheou-2021"]
+  },
+  "archaeologicalSignificance": {
+    "text": "Ani preserves an unusually legible medieval urban landscape in which fortifications, palaces, houses, markets, bridges, churches, a mosque, rock-cut spaces and infrastructure can be read together. UNESCO recognises the site under criteria (ii), (iii) and (iv) for cross-cultural architectural exchange, its exceptional testimony to medieval Armenian architecture and urban design, and its broad representation of regional building types between the seventh and thirteenth centuries. The archaeological value of Ani lies precisely in the coexistence and transformation of these traditions rather than in assigning the city to a single cultural narrative.",
+    "sourceIds": ["unesco-whc-1518", "icomos-2016", "donabedian-2020", "kazaryan-2022"]
+  },
+  "excavationHistory": {
+    "text": "Systematic archaeological research at Ani began under Nikolai Marr in 1892–1893 and resumed from 1904 to 1917, combining excavation, architectural recording, epigraphy, photography and early site museums. Turkish-led excavation and conservation programmes later resumed in multiple phases. Since 2019, work has continued under Muhammet Arslan with Kafkas University and the Ministry of Culture and Tourism. The 2026 programme is conducting excavation, conservation and site-improvement work at multiple locations; July fieldwork in the Seljuk bazaar exposed five large storage jars within a food-storage area, demonstrating that current research continues to recover ordinary commercial and provisioning systems alongside Ani's famous monuments.",
+    "sourceIds": ["unesco-turkey-ani", "kazaryan-2022", "kafkas-ani-2026", "aa-ani-2026"]
+  },
+  "narrativeSections": [
+    {
+      "id": "landscape",
+      "label": "Landscape",
+      "title": "The frontier is part of the city, not just its backdrop.",
+      "paragraphs": [
+        "Ani sits on a naturally defended plateau cut by deep river valleys. The Arpaçay/Akhurian ravine now forms an international border, but in the medieval city it was part of a wider landscape of roads, bridges, caves, water systems and agricultural valleys.",
+        "The city's position made it a gateway rather than an endpoint. Routes connected the South Caucasus with Anatolia and linked merchants moving between Byzantine, Persian, Syrian and Central Asian worlds."
+      ],
+      "sourceIds": ["unesco-whc-1518", "unesco-nomination-1518"]
+    },
+    {
+      "id": "capital",
+      "label": "Bagratid capital",
+      "title": "A royal capital became an architectural laboratory.",
+      "paragraphs": [
+        "When Ashot III established Ani as the Bagratid capital in 961, the fortified settlement entered a period of intensive monumental construction. New walls, churches, palatial spaces and civic buildings transformed the plateau into a royal and ecclesiastical centre.",
+        "The architecture associated with the Ani school is not one repeated formula. Blind arcades, domed forms, masonry techniques and highly articulated façades were developed across buildings with different plans and patrons, making the city central to the study of medieval Armenian architecture."
+      ],
+      "sourceIds": ["unesco-whc-1518", "kazaryan-2022", "unesco-turkey-ani"]
+    },
+    {
+      "id": "crossroads",
+      "label": "Architectural exchange",
+      "title": "Cross-cultural form is evidence, not a slogan.",
+      "paragraphs": [
+        "Ani's later medieval architecture cannot be sorted into sealed Armenian, Georgian and Islamic boxes. Building forms, ornament, masonry practices and patronage operated across political and religious boundaries as sovereignty changed and workshops continued to circulate.",
+        "Comparative scholarship therefore matters here. Reading similarities as contact and adaptation—rather than as proof of exclusive national ownership—makes Ani a stronger case study for how architecture moves across cultural systems."
+      ],
+      "sourceIds": ["donabedian-2020", "unesco-whc-1518", "icomos-2016"]
+    },
+    {
+      "id": "merchant-city",
+      "label": "Merchant city",
+      "title": "Urban power did not belong only to kings.",
+      "paragraphs": [
+        "By around 1200, Ani had been a commercial centre for more than two centuries. Research on the long thirteenth century shows merchants becoming major landholders, patrons and political actors within the city rather than passive beneficiaries of state-controlled trade.",
+        "The Church of Saint Gregory of Tigran Honents makes that process visible. Its 1215 inscription names a merchant patron, while its elaborate architecture and extensive painted interior demonstrate how private commercial wealth could reshape Ani's sacred and visual landscape."
+      ],
+      "sourceIds": ["matheou-2021", "ktb-tigran-honents"]
+    },
+    {
+      "id": "religious-landscape",
+      "label": "Religious landscape",
+      "title": "Christian and Muslim monuments belong to the same urban history.",
+      "paragraphs": [
+        "Ani's surviving monuments include Armenian churches and cathedral architecture, later Georgian-associated painting programmes, Islamic religious architecture and evidence for earlier Zoroastrian practice. Their proximity is not accidental: political change repeatedly transformed an already inhabited city.",
+        "The archive therefore avoids presenting 1064 or any later conquest as a clean cultural reset. Buildings were reused, new monuments were inserted into established streets and neighbourhoods, and older forms remained visible to later builders."
+      ],
+      "sourceIds": ["unesco-whc-1518", "donabedian-2020", "unesco-turkey-ani"]
+    },
+    {
+      "id": "decline",
+      "label": "Urban decline",
+      "title": "The 1319 earthquake did not switch the city off overnight.",
+      "paragraphs": [
+        "Ani's decline is often compressed into a single earthquake story. The 1319 event was severe, but commercial contraction, shifting routes, invasion and changing fiscal regimes also altered the city's ability to sustain a wealthy urban population.",
+        "By the mid-fourteenth century the merchant class documented in earlier decades was no longer operating at the same scale. Deurbanisation was a process, not a date, and limited occupation continued long after the city's political peak."
+      ],
+      "sourceIds": ["unesco-whc-1518", "matheou-2021"]
+    },
+    {
+      "id": "archaeology",
+      "label": "Archaeology and conservation",
+      "title": "The ruins preserve a second history: how Ani has been studied and repaired.",
+      "paragraphs": [
+        "Marr's campaigns between 1892 and 1917 established one of the earliest large-scale archaeological programmes at a medieval city in the region. Excavation, measurement, photography, inscription copying and museal presentation were developed together, while later losses and restorations make the archive of those campaigns indispensable today.",
+        "Current work has shifted toward integrated excavation, conservation and visitor management. The 2026 field season is again opening areas of ordinary urban life, including storage facilities in the Seljuk bazaar, while the site's monuments remain subjects of active structural conservation."
+      ],
+      "sourceIds": ["unesco-turkey-ani", "kazaryan-2022", "kafkas-ani-2026", "aa-ani-2026"]
+    }
+  ],
+  "heritageStatus": [
+    {"label": "UNESCO World Heritage Site — criteria (ii), (iii), (iv); inscribed 2016", "identifier": "1518", "url": "https://whc.unesco.org/en/list/1518/"}
+  ],
+  "externalIdentifiers": {"wikidata": "Q546010", "unesco": "1518"},
+  "bibliography": [
+    {"id": "unesco-whc-1518", "citation": "UNESCO World Heritage Centre. “Archaeological Site of Ani.” World Heritage List, property 1518.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/1518/", "accessedOn": "2026-09-04"},
+    {"id": "unesco-nomination-1518", "citation": "Republic of Türkiye. “Archaeological Site of Ani.” UNESCO World Heritage nomination dossier 1518, 2016.", "sourceType": "institutional", "doi": null, "url": "https://whc.unesco.org/uploads/nominations/1518.pdf", "accessedOn": "2026-09-04"},
+    {"id": "icomos-2016", "citation": "ICOMOS. “Archaeological Site of Ani (Turkey), No. 1518.” Advisory Body Evaluation, 2016.", "sourceType": "institutional", "doi": null, "url": "https://whc.unesco.org/document/152845", "accessedOn": "2026-09-04"},
+    {"id": "unesco-turkey-ani", "citation": "Turkish National Commission for UNESCO. “Archaeological Site of Ani.” UNESCO World Heritage in Türkiye, with excavation and conservation history.", "sourceType": "institutional", "doi": null, "url": "https://www.unesco.org.tr/Content_Files/Content/Yayinlar/wht_19.pdf", "accessedOn": "2026-09-04"},
+    {"id": "kazaryan-2022", "citation": "Kazaryan, Armen Yu. “The Study of the Architectural Heritage of Ani: Current Issues and Recent Publications.” Actual Problems of Theory and History of Art 12 (2022): 110–122.", "sourceType": "academic", "doi": "10.18688/aa2212-01-06", "url": "https://publ.actual-art.org/aptha/en/article/view/10927", "accessedOn": "2026-09-04"},
+    {"id": "matheou-2021", "citation": "Matheou, Nicholas S. M. “Merchant capital, taxation and urbanisation: The city of Ani in the global long thirteenth century.” Medieval Worlds 14 (2021): 75–116.", "sourceType": "academic", "doi": "10.1553/medievalworlds_no14_2021s75", "url": "https://www.research.ed.ac.uk/en/publications/merchant-capital-taxation-and-urbanisation-the-city-of-ani-in-the/", "accessedOn": "2026-09-04"},
+    {"id": "donabedian-2020", "citation": "Donabédian, Patrick. “Armenia – Georgia – Islam: A Need to Break Taboos in the Study of Medieval Architecture.” In L’arte armena: Storia critica e nuove prospettive. Edizioni Ca’ Foscari, 2020.", "sourceType": "academic", "doi": "10.30687/978-88-6969-469-1/005", "url": "https://edizionicafoscari.unive.it/en/edizioni4/libri/978-88-6969-469-1/armenia-georgia-islam/", "accessedOn": "2026-09-04"},
+    {"id": "ktb-tigran-honents", "citation": "Türkiye Ministry of Culture and Tourism, Culture Portal. “Tigran Honents Church.” Monument inventory entry.", "sourceType": "institutional", "doi": null, "url": "https://www.kulturportali.gov.tr/turkiye/kars/gezilecekyer/tgran-honents-resml-klses", "accessedOn": "2026-09-04"},
+    {"id": "kafkas-ani-2026", "citation": "Kafkas University, Department of Art History. “Ani Örenyeri 2026 Yılı Kazı, Koruma ve Çevre Düzenleme Çalışmaları Başlıyor!” 13 April 2026.", "sourceType": "excavation", "doi": null, "url": "https://www.kafkas.edu.tr/sanat/tr/duyuru2/Ani-orenyeri-2026-Yili-Kazi--Koruma-ve-cevre-Duzenleme-calismalari-27628", "accessedOn": "2026-09-04"},
+    {"id": "aa-ani-2026", "citation": "Anadolu Agency. “Ani’de Selçuklu Çarşısı’ndaki kazılarda 5 büyük küplü erzak deposuna ulaşıldı.” 23 July 2026.", "sourceType": "institutional", "doi": null, "url": "https://www.aa.com.tr/tr/kultur/anide-selcuklu-carsisindaki-kazilarda-5-buyuk-kuplu-erzak-deposuna-ulasildi/4006621", "accessedOn": "2026-09-04"},
+    {"id": "wikidata-q546010", "citation": "Wikidata contributors. “Ani (Q546010).” Authority record.", "sourceType": "authority-data", "doi": null, "url": "https://www.wikidata.org/wiki/Q546010", "accessedOn": "2026-09-04"}
+  ],
+  "media": [
+    {"type": "image", "title": "Cathedral of Ani", "creator": "Panegyrics of Granovetter", "source": "Wikimedia Commons — File:Cathedral of Ani, Kars Province.jpg", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Ani,_Kars_Province.jpg", "rightsStatus": "CC BY-SA 2.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/"}
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "Ani is presented as a medieval Armenian capital with later Byzantine, Seljuk-Shaddadid, Georgian-Zakarid and Mongol layers. The record avoids nationalist succession narratives that imply each political transfer erased the existing city, and treats the 1319 earthquake as one factor in a longer process of deurbanisation rather than an instantaneous abandonment event."
+}

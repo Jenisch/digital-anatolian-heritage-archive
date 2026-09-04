@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import VisualDossier from "@/components/visual-dossier";
 import record from "@/data/sites/catalhoyuk.json";
+import dossiers from "@/data/visual-dossiers.json";
 
 export const metadata: Metadata = {
   title: "Çatalhöyük | Digital Anatolian Heritage Archive",
@@ -13,11 +15,7 @@ function CitationLinks({ ids }: { ids: string[] }) {
     <sup className="citation-links" aria-label="Sources">
       {ids.map((id) => {
         const index = record.bibliography.findIndex((source) => source.id === id) + 1;
-        return index > 0 ? (
-          <a key={id} href={`#source-${index}`} aria-label={`Source ${index}`}>
-            {index}
-          </a>
-        ) : null;
+        return index > 0 ? <a key={id} href={`#source-${index}`} aria-label={`Source ${index}`}>{index}</a> : null;
       })}
     </sup>
   );
@@ -25,27 +23,20 @@ function CitationLinks({ ids }: { ids: string[] }) {
 
 export default function CatalhoyukPage() {
   const image = record.media[0];
+  const dossier = dossiers.catalhoyuk;
 
   return (
     <main>
       <header className="site-header shell">
-        <Link className="wordmark" href="/" aria-label="Digital Anatolian Heritage Archive home">
-          DAHA
-        </Link>
-        <nav aria-label="Record navigation">
-          <a href="#story">Story</a>
-          <a href="#chronology">Chronology</a>
-          <a href="#research">Research</a>
-        </nav>
+        <Link className="wordmark" href="/" aria-label="Digital Anatolian Heritage Archive home">DAHA</Link>
+        <nav aria-label="Record navigation"><a href="#story">Story</a><a href="#chronology">Chronology</a><a href="#research">Research</a></nav>
       </header>
 
       <section className="record-hero shell">
         <div className="record-title-block">
           <p className="eyebrow">Research record · v{record.recordVersion}</p>
           <h1>{record.canonicalName}</h1>
-          <p className="record-location">
-            {record.modernLocation.locality}, {record.modernLocation.district}, {record.modernLocation.province}
-          </p>
+          <p className="record-location">{record.modernLocation.locality}, {record.modernLocation.district}, {record.modernLocation.province}</p>
         </div>
         <dl className="record-facts">
           <div><dt>Period</dt><dd>Neolithic → Chalcolithic</dd></div>
@@ -56,27 +47,14 @@ export default function CatalhoyukPage() {
       </section>
 
       <figure className="record-figure shell">
-        <div
-          className="record-image"
-          role="img"
-          aria-label="Excavated mudbrick architecture at Çatalhöyük"
-          style={{
-            backgroundImage:
-              'linear-gradient(rgba(23,23,20,.04), rgba(23,23,20,.04)), url("https://commons.wikimedia.org/wiki/Special:Redirect/file/%C3%87atalh%C3%B6y%C3%BCk%2C%207400%20BC%2C%20Konya%2C%20Turkey%20-%20UNESCO%20World%20Heritage%20Site%2C%2003.jpg")',
-          }}
-        />
-        <figcaption>
-          {image.title} · {image.creator}. <a href={image.sourceUrl ?? undefined}>Wikimedia Commons</a> ·{" "}
-          <a href={image.licenceUrl ?? undefined}>{image.rightsStatus}</a>
-        </figcaption>
+        <div className="record-image" role="img" aria-label="Excavated mudbrick architecture at Çatalhöyük" style={{backgroundImage:'linear-gradient(rgba(23,23,20,.04), rgba(23,23,20,.04)), url("https://commons.wikimedia.org/wiki/Special:Redirect/file/%C3%87atalh%C3%B6y%C3%BCk%2C%207400%20BC%2C%20Konya%2C%20Turkey%20-%20UNESCO%20World%20Heritage%20Site%2C%2003.jpg")'}} />
+        <figcaption>{image.title} · {image.creator}. <a href={image.sourceUrl ?? undefined}>Wikimedia Commons</a> ·{" "}<a href={image.licenceUrl ?? undefined}>{image.rightsStatus}</a></figcaption>
       </figure>
 
       <section className="record-introduction shell" id="story">
         <p className="section-label">The settlement · 01</p>
         <div>
-          <p className="record-deck">
-            At Çatalhöyük, the house was not just shelter. It was kitchen, workshop, burial place, painted surface and a container for social memory.
-          </p>
+          <p className="record-deck">At Çatalhöyük, the house was not just shelter. It was kitchen, workshop, burial place, painted surface and a container for social memory.</p>
           <p>{record.historicalContext.text}<CitationLinks ids={record.historicalContext.sourceIds} /></p>
           <p>{record.archaeologicalSignificance.text}<CitationLinks ids={record.archaeologicalSignificance.sourceIds} /></p>
         </div>
@@ -89,20 +67,15 @@ export default function CatalhoyukPage() {
         <article><span>04</span><strong>2012</strong><p>Year Çatalhöyük entered the UNESCO World Heritage List.</p></article>
       </section>
 
+      <VisualDossier title={dossier.title} intro={dossier.intro} images={dossier.images} />
+
       <section className="story-sections shell">
         {record.narrativeSections.map((section, index) => (
           <article className="story-section" id={section.id} key={section.id}>
-            <div className="story-index">
-              <p className="section-label">{section.label} · {String(index + 2).padStart(2, "0")}</p>
-            </div>
+            <div className="story-index"><p className="section-label">{section.label} · {String(index + 2).padStart(2, "0")}</p></div>
             <div className="story-copy">
               <h2>{section.title}</h2>
-              {section.paragraphs.map((paragraph, paragraphIndex) => (
-                <p key={`${section.id}-${paragraphIndex}`}>
-                  {paragraph}
-                  {paragraphIndex === section.paragraphs.length - 1 ? <CitationLinks ids={section.sourceIds} /> : null}
-                </p>
-              ))}
+              {section.paragraphs.map((paragraph, paragraphIndex) => <p key={`${section.id}-${paragraphIndex}`}>{paragraph}{paragraphIndex === section.paragraphs.length - 1 ? <CitationLinks ids={section.sourceIds} /> : null}</p>)}
             </div>
           </article>
         ))}
@@ -112,20 +85,8 @@ export default function CatalhoyukPage() {
         <div className="record-section-label"><p className="section-label">Chronology · 07</p></div>
         <div className="record-copy">
           <h2>The archive continues across two mounds.</h2>
-          <p className="section-intro">
-            The familiar Neolithic East Mound is only part of the sequence. The West Mound carries settlement history forward into the Chalcolithic.
-          </p>
-          <div className="chronology-list">
-            {record.chronology.map((phase) => (
-              <article key={phase.label}>
-                <div><p className="chronology-date">{phase.displayDate}</p><h3>{phase.label}</h3></div>
-                <div>
-                  <p>{phase.note}</p>
-                  <p className="chronology-meta">{phase.certainty} dating · {phase.datingBasis} basis<CitationLinks ids={phase.sourceIds} /></p>
-                </div>
-              </article>
-            ))}
-          </div>
+          <p className="section-intro">The familiar Neolithic East Mound is only part of the sequence. The West Mound carries settlement history forward into the Chalcolithic.</p>
+          <div className="chronology-list">{record.chronology.map((phase) => <article key={phase.label}><div><p className="chronology-date">{phase.displayDate}</p><h3>{phase.label}</h3></div><div><p>{phase.note}</p><p className="chronology-meta">{phase.certainty} dating · {phase.datingBasis} basis<CitationLinks ids={phase.sourceIds} /></p></div></article>)}</div>
         </div>
       </section>
 
@@ -147,32 +108,16 @@ export default function CatalhoyukPage() {
       </section>
 
       <section className="record-notes shell" id="sources">
-        <div>
-          <p className="section-label">Record notes · 09</p>
-          <h2>Claims remain traceable while interpretation stays cautious.</h2>
-        </div>
+        <div><p className="section-label">Record notes · 09</p><h2>Claims remain traceable while interpretation stays cautious.</h2></div>
         <div className="record-note-grid">
           <div><span>Coordinates</span><strong>{record.coordinates.latitude}° N · {record.coordinates.longitude}° E</strong></div>
           <a href="https://whc.unesco.org/en/list/1405/"><span>UNESCO property</span><strong>{record.externalIdentifiers.unesco}</strong></a>
           <a href={`https://www.wikidata.org/wiki/${record.externalIdentifiers.wikidata}`}><span>Wikidata authority</span><strong>{record.externalIdentifiers.wikidata}</strong></a>
         </div>
-        <details className="source-disclosure">
-          <summary>View {record.bibliography.length} references</summary>
-          <ol className="bibliography-list">
-            {record.bibliography.map((source, index) => (
-              <li id={`source-${index + 1}`} key={source.id}>
-                <div><span className="source-type">{source.sourceType}</span><p>{source.citation}</p></div>
-                {source.url ? <a href={source.url} target="_blank" rel="noreferrer">Open ↗</a> : null}
-              </li>
-            ))}
-          </ol>
-        </details>
+        <details className="source-disclosure"><summary>View {record.bibliography.length} references</summary><ol className="bibliography-list">{record.bibliography.map((source, index) => <li id={`source-${index + 1}`} key={source.id}><div><span className="source-type">{source.sourceType}</span><p>{source.citation}</p></div>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">Open ↗</a> : null}</li>)}</ol></details>
       </section>
 
-      <footer className="shell">
-        <p>Digital Anatolian Heritage Archive</p>
-        <p>Record {record.id} · reviewed {record.lastReviewed}</p>
-      </footer>
+      <footer className="shell"><p>Digital Anatolian Heritage Archive</p><p>Record {record.id} · reviewed {record.lastReviewed}</p></footer>
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import record from "@/data/sites/gobekli-tepe.json";
 
 export const metadata: Metadata = {
@@ -28,9 +29,9 @@ export default function GobekliTepePage() {
   return (
     <main>
       <header className="site-header shell">
-        <a className="wordmark" href="/" aria-label="Digital Anatolian Heritage Archive home">
+        <Link className="wordmark" href="/" aria-label="Digital Anatolian Heritage Archive home">
           DAHA
-        </a>
+        </Link>
         <nav aria-label="Record navigation">
           <a href="#story">Story</a>
           <a href="#chronology">Chronology</a>

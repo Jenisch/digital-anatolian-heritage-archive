@@ -110,5 +110,33 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     ]
+  },
+  "gordion": {
+    "title": "Monument, burial and pattern.",
+    "intro": "Gordion's elite world is visible at two very different scales: royal tumuli reshape the landscape, while coloured pebble mosaics turn geometric pattern into architecture inside the citadel.",
+    "images": [
+      {
+        "label": "Royal necropolis",
+        "title": "Tumulus MM and Tumulus P",
+        "caption": "Two eighth-century BCE burial mounds rise beside the citadel. Tumulus MM, left, preserves the great wooden chamber conventionally called the Midas Mound; Tumulus P, right, belonged to another wealthy Phrygian burial.",
+        "alt": "Tumulus MM and Tumulus P rising from the plain beside Gordion",
+        "creator": "Archaeologist1950",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordion_Tumulus_MM_Tumulus_P.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gordion%20Tumulus%20MM%20Tumulus%20P.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "label": "Pebble mosaic",
+        "title": "Phrygian geometric mosaic",
+        "caption": "A coloured pebble pavement from Gordion. The dense geometric vocabulary echoes the patterned world of Phrygian textiles and shows that visual display was embedded in architectural surfaces as well as portable luxury objects.",
+        "alt": "Geometric Phrygian pebble mosaic from Gordion displayed in the Gordion Museum",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordion_Museum_Phrygian_mosaic_in_2012_0876.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gordion%20Museum%20Phrygian%20mosaic%20in%202012%200876.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
   }
 }

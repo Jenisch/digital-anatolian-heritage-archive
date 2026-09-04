@@ -1,0 +1,172 @@
+{
+  "id": "site:gordion",
+  "slug": "gordion",
+  "canonicalName": "Gordion",
+  "alternativeNames": [
+    {"name": "Gordium", "language": "la", "script": "Latn", "note": "Common Latinised form in older scholarship"},
+    {"name": "Γόρδιον", "language": "grc", "script": "Grek", "note": "Ancient Greek form"}
+  ],
+  "coordinates": {"latitude": 39.650103, "longitude": 31.97857, "precision": "site"},
+  "modernLocation": {"country": "Türkiye", "province": "Ankara", "district": "Polatlı", "locality": "Yassıhöyük"},
+  "siteTypes": ["archaeological site", "capital city", "citadel", "settlement", "royal necropolis"],
+  "chronology": [
+    {
+      "label": "Long-term settlement sequence",
+      "startYear": -2500,
+      "endYear": 400,
+      "displayDate": "c. 2500 BCE–4th century CE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "Bronze Age occupation preceded the Phrygian capital, and settlement continued through Hellenistic, Galatian and Roman phases.",
+      "sourceIds": ["penn-project", "penn-bronze-age", "penn-chronology"]
+    },
+    {
+      "label": "Early Phrygian citadel",
+      "startYear": -900,
+      "endYear": -800,
+      "displayDate": "c. 900–800 BCE",
+      "certainty": "range",
+      "datingBasis": "mixed",
+      "note": "The monumental gate, Palace Area, megarons and Terrace Complex belong to the Early Phrygian urban programme.",
+      "sourceIds": ["penn-iron-age", "penn-chronology"]
+    },
+    {
+      "label": "Early Phrygian destruction",
+      "startYear": -810,
+      "endYear": -790,
+      "displayDate": "c. 800 BCE",
+      "certainty": "approximate",
+      "datingBasis": "radiocarbon",
+      "note": "Radiocarbon and dendrochronological work moved the famous destruction level about a century earlier than the older c. 700 BCE chronology, breaking the once-standard link with a Cimmerian attack at the end of Midas's reign.",
+      "sourceIds": ["penn-chronology", "penn-project"]
+    },
+    {
+      "label": "Middle Phrygian rebuilding",
+      "startYear": -800,
+      "endYear": -540,
+      "displayDate": "800–540 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "After the destruction, the citadel was rebuilt on a larger and higher scale and remained a major Phrygian centre.",
+      "sourceIds": ["penn-chronology", "penn-iron-age"]
+    },
+    {
+      "label": "Tumulus MM",
+      "startYear": -747,
+      "endYear": -737,
+      "displayDate": "c. 740 BCE",
+      "certainty": "approximate",
+      "datingBasis": "mixed",
+      "note": "Tree-ring dating places the construction of the Great Tumulus around 740 BCE, too early for the tomb to belong to the historically attested King Midas himself. The occupant is generally interpreted as an earlier royal figure, often identified as Midas's father.",
+      "sourceIds": ["penn-chronology", "penn-tumulus-mm"]
+    },
+    {
+      "label": "Late Phrygian and Achaemenid Gordion",
+      "startYear": -540,
+      "endYear": -330,
+      "displayDate": "540–330 BCE",
+      "certainty": "range",
+      "datingBasis": "archaeological",
+      "note": "Phrygian traditions continued under Persian rule while architecture, imported goods and administrative connections changed.",
+      "sourceIds": ["penn-chronology", "penn-achaemenid"]
+    }
+  ],
+  "cultures": ["Phrygian", "Achaemenid Persian", "Galatian", "Roman"],
+  "historicalContext": {
+    "text": "Gordion developed beside the Sangarios, modern Sakarya, in the central Anatolian plateau and became the political centre of Phrygia during the early first millennium BCE. The site combines a monumental citadel, lower and outer settlement areas and an exceptional landscape of elite burial mounds, while underlying and later levels preserve a much longer history extending from the Bronze Age into Roman times.",
+    "sourceIds": ["unesco-whc-1669", "penn-project", "penn-arch-overview"]
+  },
+  "archaeologicalSignificance": {
+    "text": "Gordion is unusually important because political architecture, craft production, destruction deposits, organic materials and elite funerary assemblages survive within the same archaeological landscape. UNESCO inscribed the property in 2023 under criterion (iii) for its exceptional testimony to Phrygian civilisation, while the Penn excavations have made the site a key reference point for Central Anatolian Iron Age chronology.",
+    "sourceIds": ["unesco-whc-1669", "penn-chronology", "penn-project"]
+  },
+  "excavationHistory": {
+    "text": "Alfred Körte identified the ruins as Gordion in 1893 and returned with Gustav Körte for excavation in 1900. The University of Pennsylvania Museum began long-term fieldwork under Rodney S. Young in 1950, followed by renewed excavation under Mary Voigt from 1988 and later work under C. Brian Rose. Research now combines excavation, conservation, remote sensing, archaeobotany, digital mapping and archival reconstruction. In 2025, work on Tumulus T-26 revealed an unrobbed eighth-century BCE elite burial with bronze banquet vessels and evidence that cremation entered elite funerary practice earlier than previously recognised at Gordion.",
+    "sourceIds": ["penn-arch-overview", "penn-project", "penn-2025-t26"]
+  },
+  "narrativeSections": [
+    {
+      "id": "landscape",
+      "label": "Landscape",
+      "title": "A capital surrounded by its dead.",
+      "paragraphs": [
+        "Gordion's archaeology extends far beyond the Citadel Mound. Lower and outer settlement areas spread into the Sakarya valley, while the surrounding plateau is punctuated by a dense field of elite tumuli whose silhouettes still structure the horizon.",
+        "The relationship between citadel and necropolis is central to the site. Royal authority was staged through monumental buildings inside the settlement and through burial mounds visible across the same political landscape."
+      ],
+      "sourceIds": ["unesco-whc-1669", "penn-project", "penn-arch-overview"]
+    },
+    {
+      "id": "citadel",
+      "label": "Citadel",
+      "title": "Gate, megarons and workshops organised an elite centre.",
+      "paragraphs": [
+        "The Early Phrygian citadel was entered through a monumental ramped gate complex whose surviving stone walls rise to roughly ten metres. Behind it, the Palace Area contained megaron buildings arranged around open courts, while the Terrace Complex formed a large industrial and storage quarter.",
+        "The architecture did more than shelter activity. Elevation, controlled approaches, large halls and specialised production spaces created visible distinctions between reception, administration and organised labour."
+      ],
+      "sourceIds": ["penn-iron-age"]
+    },
+    {
+      "id": "destruction",
+      "label": "Chronological revision",
+      "title": "A famous fire stopped being a historical shortcut.",
+      "paragraphs": [
+        "Rodney Young originally dated the great destruction of the Early Phrygian citadel to around 700 BCE and connected it with later accounts of a Cimmerian attack near the end of Midas's reign. That interpretation became a chronological anchor far beyond Gordion.",
+        "Scientific dating moved the event to around 800 BCE. The revised chronology demonstrates why archaeological destruction layers should not be assigned to named historical events simply because a written story appears to fit."
+      ],
+      "sourceIds": ["penn-chronology", "penn-project"]
+    },
+    {
+      "id": "craft",
+      "label": "Craft and image",
+      "title": "Textile production shaped both economy and visual language.",
+      "paragraphs": [
+        "Large numbers of spindle whorls and standardised loom weights from workshop contexts show that textile production operated at substantial scale. Fragments of wool and linen survived both in the citadel destruction deposits and in elite tombs.",
+        "The citadel's geometric pebble mosaics belong to the same visual world of repeated pattern. Their designs have often been compared with woven textiles, making Gordion a rare place where production tools, cloth fragments and durable architectural pattern can be studied together."
+      ],
+      "sourceIds": ["penn-textiles", "penn-iron-age"]
+    },
+    {
+      "id": "tumuli",
+      "label": "Royal burial",
+      "title": "The “Midas Mound” is important precisely because it is probably not Midas's tomb.",
+      "paragraphs": [
+        "Tumulus MM contained an intact wooden chamber with the remains of a man about sixty to sixty-five years old, dyed textile bedding, elaborate wooden furniture and a large assemblage of bronze vessels associated with a funerary banquet.",
+        "The mound is still widely called the Midas Mound, but tree-ring dating around 740 BCE makes a burial of the historically attested King Midas unlikely. The occupant belongs to an earlier royal generation and is often identified as Midas's father, yet that personal identification remains an inference rather than an inscription naming the dead."
+      ],
+      "sourceIds": ["penn-tumulus-mm", "penn-chronology"]
+    },
+    {
+      "id": "after-phrygia",
+      "label": "After Phrygia",
+      "title": "The capital outlived the kingdom that made it famous.",
+      "paragraphs": [
+        "Gordion remained occupied under Achaemenid rule, when new architectural forms and imported goods entered a settlement that still retained strong Phrygian traditions. Hellenistic and Galatian communities later reshaped parts of the site again.",
+        "The familiar story of Alexander and the Gordian Knot belongs to this later historical afterlife. It matters as reception history, but it should not eclipse the much richer archaeological sequence beneath the legend."
+      ],
+      "sourceIds": ["penn-achaemenid", "penn-chronology", "penn-project"]
+    }
+  ],
+  "heritageStatus": [
+    {"label": "UNESCO World Heritage Site — criterion (iii); inscribed 2023", "identifier": "1669", "url": "https://whc.unesco.org/en/list/1669/"}
+  ],
+  "externalIdentifiers": {"wikidata": "Q542854", "unesco": "1669"},
+  "bibliography": [
+    {"id": "unesco-whc-1669", "citation": "UNESCO World Heritage Centre. “Gordion.” World Heritage List, property 1669.", "sourceType": "heritage-register", "doi": null, "url": "https://whc.unesco.org/en/list/1669/", "accessedOn": "2026-09-04"},
+    {"id": "penn-project", "citation": "Penn Museum. “Gordion Archaeological Project.” Active research project, 1950–present.", "sourceType": "institutional", "doi": null, "url": "https://www.penn.museum/research/project.php?pid=24", "accessedOn": "2026-09-04"},
+    {"id": "penn-chronology", "citation": "Gordion Archaeological Project, Penn Museum. “Chronology” and “The New Chronology at Gordion.” Digital Gordion.", "sourceType": "excavation", "doi": null, "url": "https://www.penn.museum/sites/gordion/history/chronology/", "accessedOn": "2026-09-04"},
+    {"id": "penn-iron-age", "citation": "Gordion Archaeological Project, Penn Museum. “Iron Age Gordion.” Digital Gordion.", "sourceType": "excavation", "doi": null, "url": "https://www.penn.museum/sites/gordion/history/iron-age-gordion/", "accessedOn": "2026-09-04"},
+    {"id": "penn-bronze-age", "citation": "Gordion Archaeological Project, Penn Museum. “Bronze Age Gordion.” Digital Gordion.", "sourceType": "excavation", "doi": null, "url": "https://www.penn.museum/sites/gordion/history/bronze-age-gordion/", "accessedOn": "2026-09-04"},
+    {"id": "penn-achaemenid", "citation": "Gordion Archaeological Project, Penn Museum. “Achaemenid Gordion.” Digital Gordion.", "sourceType": "excavation", "doi": null, "url": "https://www.penn.museum/sites/gordion/history/achaemenid-gordion/", "accessedOn": "2026-09-04"},
+    {"id": "penn-tumulus-mm", "citation": "Gordion Archaeological Project, Penn Museum. “The Funeral in Tumulus MM.” Digital Gordion.", "sourceType": "excavation", "doi": null, "url": "https://www.penn.museum/sites/gordion/articles/history-archaeology/the-funeral-in-tumulus-mm/", "accessedOn": "2026-09-04"},
+    {"id": "penn-textiles", "citation": "Gordion Archaeological Project, Penn Museum. “Textile Production at Gordion.” Digital Gordion.", "sourceType": "excavation", "doi": null, "url": "https://www.penn.museum/sites/gordion/articles/artefactual-evidence/textile-production-at-gordion/", "accessedOn": "2026-09-04"},
+    {"id": "penn-arch-overview", "citation": "Gordion Archaeological Project, Penn Museum. “Archaeological Overview.” Digital Gordion.", "sourceType": "excavation", "doi": null, "url": "https://www.penn.museum/sites/gordion/archaeology/archaeological-overview/", "accessedOn": "2026-09-04"},
+    {"id": "penn-2025-t26", "citation": "Penn Museum. “2,800-Year-Old Royal Tomb Linked to Midas Dynasty Discovered in Gordion, Türkiye.” 11 June 2025.", "sourceType": "institutional", "doi": null, "url": "https://www.penn.museum/about/press-room/press-releases/2-800-year-old-royal-tomb-linked-to-midas-dynasty-discovered-in-gordion-tuerkiye", "accessedOn": "2026-09-04"},
+    {"id": "wikidata-q542854", "citation": "Wikidata contributors. “Gordion (Q542854).”", "sourceType": "authority-data", "doi": null, "url": "https://www.wikidata.org/wiki/Q542854", "accessedOn": "2026-09-04"}
+  ],
+  "media": [
+    {"type": "image", "title": "Aerial overview of the Gordion Citadel Mound", "creator": "Gordion Archive, Penn Museum", "source": "Wikimedia Commons — File:Gordion Citadel Mound aerial overview 2017.jpg", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gordion_Citadel_Mound_aerial_overview_2017.jpg", "rightsStatus": "CC BY-SA 4.0", "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"}
+  ],
+  "recordVersion": 1,
+  "lastReviewed": "2026-09-04",
+  "editorialNotes": "The record separates archaeological evidence from the later Midas and Gordian Knot traditions. Tumulus MM is retained under its conventional name while making clear that current chronology makes a burial of the historically attested King Midas unlikely."
+}

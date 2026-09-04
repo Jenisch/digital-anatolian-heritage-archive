@@ -1,0 +1,397 @@
+{
+  "sourceId": "seed:trwiki-ancient-cities-turkiye",
+  "sourceRevision": "37823000",
+  "batchId": "trwiki-a-03",
+  "letter": "A",
+  "range": "Apollonia Salbaces–Artace (Misya)",
+  "importedOn": "2026-09-05",
+  "rows": [
+    {
+      "sourceSequence": 105,
+      "canonicalName": "Apollonia Salbaces",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Karya"],
+      "modernLocationLabel": "Tavas, Denizli",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 106,
+      "canonicalName": "Apollonia (Likya)",
+      "firstSettlementLabel": "MÖ 4. yüzyıl",
+      "historicalRegions": ["Likya"],
+      "modernLocationLabel": "Sahilkılınçlı, Kaş, Antalya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Chronology preserved as a seed label pending verification."]
+    },
+    {
+      "sourceSequence": 107,
+      "canonicalName": "Apollonia (Mysia)",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Misya"],
+      "modernLocationLabel": "Hamidiye, Soma, Manisa",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 108,
+      "canonicalName": "Apollonis",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Lidya"],
+      "modernLocationLabel": "Mecidiye, Akhisar, Manisa",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 109,
+      "canonicalName": "Apollonos Hieron",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Lidya", "Katakekaumene"],
+      "modernLocationLabel": "Buldan, Denizli",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 110,
+      "canonicalName": "Appia",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Frigya"],
+      "modernLocationLabel": "Altıntaş, Kütahya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 111,
+      "canonicalName": "Appolena",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Frigya"],
+      "modernLocationLabel": "Emirdağ, Afyonkarahisar",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 112,
+      "canonicalName": "Apros",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Europa"],
+      "modernLocationLabel": "Malkara, Tekirdağ",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 113,
+      "canonicalName": "Apsoda",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Bitinya"],
+      "modernLocationLabel": "Çatakören, Bolu",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 114,
+      "canonicalName": "Aquae saravenae",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Kırşehir",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Seed catalogue supplies only province-level modern location."]
+    },
+    {
+      "sourceSequence": 115,
+      "canonicalName": "Arabissus",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Afşin, Kahramanmaraş",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 116,
+      "canonicalName": "Aragokome",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Frigya"],
+      "modernLocationLabel": "Altıntaş, Kütahya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 117,
+      "canonicalName": "Aralla",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Likaonya"],
+      "modernLocationLabel": "Kadınhanı, Konya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 118,
+      "canonicalName": "Araplus",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Trakya"],
+      "modernLocationLabel": null,
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Seed catalogue location unresolved."]
+    },
+    {
+      "sourceSequence": 119,
+      "canonicalName": "Araptepe Höyüğü",
+      "firstSettlementLabel": "Neolitik Çağ",
+      "historicalRegions": ["Aiolis"],
+      "modernLocationLabel": "Aliağa, İzmir",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Seed entity is a mound rather than an ancient city; chronology preserved as a seed label pending verification."]
+    },
+    {
+      "sourceSequence": 120,
+      "canonicalName": "Arasaxa",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Bünyan, Kayseri",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 121,
+      "canonicalName": "Araukome",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Frigya"],
+      "modernLocationLabel": "Altıntaş, Kütahya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 122,
+      "canonicalName": "Araxa",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Likya"],
+      "modernLocationLabel": "Seydikemer, Muğla",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 123,
+      "canonicalName": "Arbeila",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Bitinya"],
+      "modernLocationLabel": "Tuzla, İstanbul",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 124,
+      "canonicalName": "Arcadiopolis (Tire)",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Lidya"],
+      "modernLocationLabel": "Tire, İzmir",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 125,
+      "canonicalName": "Archalla",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Kocasinan, Kayseri",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 126,
+      "canonicalName": "Ardistama",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Ereğli, Konya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 127,
+      "canonicalName": "Argiza",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Misya"],
+      "modernLocationLabel": "Yenice, Çanakkale",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 128,
+      "canonicalName": "Argyria (Biga)",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Troas"],
+      "modernLocationLabel": "Yenice, Çanakkale",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 129,
+      "canonicalName": "Argyria (Pontus)",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Pontus"],
+      "modernLocationLabel": "Tirebolu, Giresun",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 130,
+      "canonicalName": "Argyronion",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Bitinya"],
+      "modernLocationLabel": "Beykoz, İstanbul",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 131,
+      "canonicalName": "Ariaramneia",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Yahyalı, Kayseri",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 132,
+      "canonicalName": "Ariarathia",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Pınarbaşı, Kayseri",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 133,
+      "canonicalName": "Ariassos",
+      "firstSettlementLabel": "MÖ 3. yüzyıl",
+      "historicalRegions": ["Pisidya"],
+      "modernLocationLabel": "Döşemealtı, Antalya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Chronology preserved as a seed label pending verification."]
+    },
+    {
+      "sourceSequence": 134,
+      "canonicalName": "Arilla",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Lidya"],
+      "modernLocationLabel": "Gölmarmara, Manisa",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 135,
+      "canonicalName": "Arima",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kilikya"],
+      "modernLocationLabel": "Silifke, Mersin",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 136,
+      "canonicalName": "Arisba",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Misya"],
+      "modernLocationLabel": "Musaköy, Çanakkale",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 137,
+      "canonicalName": "Armaxa",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Kapadokya"],
+      "modernLocationLabel": "Gemerek, Sivas",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 138,
+      "canonicalName": "Armene",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Paflagonya"],
+      "modernLocationLabel": "Dibekli, Sinop",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 139,
+      "canonicalName": "Arnabanda",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Likya"],
+      "modernLocationLabel": "Demre, Antalya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 140,
+      "canonicalName": "Arneai",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Likya"],
+      "modernLocationLabel": "Finike, Antalya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 141,
+      "canonicalName": "Aroma",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Karya"],
+      "modernLocationLabel": "Sultanhisar, Aydın",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 142,
+      "canonicalName": "Arsada",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Likya"],
+      "modernLocationLabel": "Fethiye, Muğla",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    },
+    {
+      "sourceSequence": 143,
+      "canonicalName": "Arsamosata",
+      "firstSettlementLabel": "MÖ 3.yüzyıl",
+      "historicalRegions": ["Sophene Krallığı"],
+      "modernLocationLabel": "Palu, Elazığ",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Chronology preserved as a seed label pending verification."]
+    },
+    {
+      "sourceSequence": 144,
+      "canonicalName": "Arsemia",
+      "firstSettlementLabel": "MÖ 3.yüzyıl",
+      "historicalRegions": ["Kommagene"],
+      "modernLocationLabel": "Eski Kâhta, Kâhta, Adıyaman",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Chronology preserved as a seed label pending verification."]
+    },
+    {
+      "sourceSequence": 145,
+      "canonicalName": "Arsinoe",
+      "firstSettlementLabel": "MÖ 1.yüzyıl",
+      "historicalRegions": ["Kilikya"],
+      "modernLocationLabel": "Bozyazı, Mersin",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Chronology preserved as a seed label pending verification."]
+    },
+    {
+      "sourceSequence": 146,
+      "canonicalName": "Arslantepe Höyüğü",
+      "firstSettlementLabel": "MÖ 6000",
+      "historicalRegions": ["Melitene", "Yukarı Fırat"],
+      "modernLocationLabel": "Orduzu, Battalgazi, Malatya",
+      "researchStatus": "indexed",
+      "dataQualityNotes": ["Seed row corresponds to the existing DAHA Arslantepe sourced record and must reconcile to that record rather than create a duplicate."]
+    },
+    {
+      "sourceSequence": 147,
+      "canonicalName": "Artace (Misya)",
+      "firstSettlementLabel": null,
+      "historicalRegions": ["Misya"],
+      "modernLocationLabel": "Erdek, Balıkesir",
+      "researchStatus": "indexed",
+      "dataQualityNotes": []
+    }
+  ]
+}

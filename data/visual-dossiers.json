@@ -82,5 +82,33 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
     ]
+  },
+  "arslantepe": {
+    "title": "Power before writing.",
+    "intro": "Arslantepe's political system becomes unusually tangible when the decorated palace interior is read together with its architectural plan: ideology, controlled movement and administration occupy the same built complex.",
+    "images": [
+      {
+        "label": "Painted authority",
+        "title": "Palatial wall paintings from Arslantepe",
+        "caption": "Painted surfaces from the late fourth-millennium palatial complex, now displayed in Malatya. Monumental architecture at Arslantepe communicated authority through images as well as through access and administration.",
+        "alt": "Wall paintings from the fourth-millennium Arslantepe palatial complex displayed in Malatya",
+        "creator": "Dosseman",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malatya_museum_Arslantepe_wall_paintings_2024.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Malatya%20museum%20Arslantepe%20wall%20paintings%202024.jpg",
+        "rightsStatus": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "label": "Spatial administration",
+        "title": "Plan of the Period VI A palace complex",
+        "caption": "A plan reproduced from on-site interpretation of the 3350–3000 BCE palatial complex. The interconnected rooms make the institutional scale of circulation, storage and controlled access easier to read than isolated finds alone.",
+        "alt": "Plan of the late fourth-millennium palace complex at Arslantepe",
+        "creator": "Ingeborg Simon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arslantepe_Palastplan_01.jpg",
+        "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Arslantepe%20Palastplan%2001.jpg",
+        "rightsStatus": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ]
   }
 }

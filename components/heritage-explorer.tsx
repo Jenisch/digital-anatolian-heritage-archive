@@ -79,7 +79,6 @@ export default function HeritageExplorer() {
       zoom: 4.25,
       minZoom: 3.3,
       maxZoom: 10,
-      attributionControl: true,
     });
 
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");

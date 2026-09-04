@@ -1,0 +1,21 @@
+[
+  {
+    "id": "seed:trwiki-ancient-cities-turkiye",
+    "name": "Türkiye'deki antik kentler listesi",
+    "publisher": "Turkish Wikipedia",
+    "url": "https://tr.wikipedia.org/wiki/T%C3%BCrkiye%27deki_antik_kentler_listesi",
+    "permalink": "https://tr.wikipedia.org/w/index.php?title=T%C3%BCrkiye%27deki_antik_kentler_listesi&oldid=37823000",
+    "revisionId": "37823000",
+    "revisionTimestamp": "2026-08-24T05:54:00+03:00",
+    "licence": "Creative Commons Attribution-ShareAlike",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "role": "seed-catalogue",
+    "authorityLevel": "discovery-only",
+    "notes": [
+      "Used to discover candidate registry entities, aliases, historical-region labels and approximate modern locations.",
+      "Not accepted as evidence for archaeological chronology or interpretive claims.",
+      "Imported rows require reconciliation because the catalogue contains unresolved locations, inconsistent chronology and duplicate or variant entries.",
+      "Imports are pinned to a specific Wikipedia revision so later catalogue changes can be reviewed explicitly instead of silently changing DAHA data."
+    ]
+  }
+]

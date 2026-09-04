@@ -49,6 +49,26 @@ Information imported from that list does not support archaeological interpretati
 
 The seed list contains unresolved locations, inconsistent dating, duplicate or variant entries and places assigned to historical regions outside a strict geographical definition of Anatolia. Those conditions are preserved as data-quality issues rather than silently normalised.
 
+## Explorer density policy
+
+Broad registry coverage must not destroy the legibility of the public map.
+
+The explorer therefore has two conceptual modes:
+
+- **Research records** is the default view. It preserves the quiet, curated map of fully sourced DAHA records and remains the primary first impression of the archive.
+- **Archive index** is an explicit opt-in view for broad coverage. Indexed and verified places may appear here as the registry grows.
+
+The following rules apply to archive-index mapping:
+
+1. `indexed` rows with unverified or unresolved geography are searchable catalogue entries but do not receive a map point.
+2. Verified non-research points use a visually subordinate treatment so sourced records remain dominant.
+3. Dense non-research points must cluster at regional zoom levels and separate into individual points only as the user zooms in.
+4. Sourced research records remain individually visible and are never allowed to disappear inside an anonymous cluster.
+5. Filters and search reduce map density before individual indexed places are exposed.
+6. The default research-record map must remain visually stable as registry coverage expands.
+
+Archive breadth is therefore expressed through search, counts and progressive disclosure rather than by placing every discovered name on the map at once.
+
 ## Coverage does not mean completeness of knowledge
 
 The archive may eventually achieve near-complete registry coverage for a defined source set while only a subset of entries have full research records. Public interfaces should therefore distinguish “indexed in the archive” from “researched by DAHA”.

@@ -1,3 +1,4 @@
+import HeritageExplorer from "@/components/heritage-explorer";
 import sites from "@/data/foundation-sites.json";
 
 export default function Home() {
@@ -9,8 +10,8 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#explore">Explore</a>
+          <a href="#corpus">Corpus</a>
           <a href="#methodology">Methodology</a>
-          <a href="#about">About</a>
         </nav>
       </header>
 
@@ -21,7 +22,7 @@ export default function Home() {
           The Digital Anatolian Heritage Archive is a research-led interface for exploring archaeological places through chronology, geography, evidence, and scholarly context.
         </p>
         <div className="hero-actions">
-          <a className="primary-action" href="#explore">Explore the foundation dataset</a>
+          <a className="primary-action" href="#explore">Open the interactive explorer</a>
           <a className="text-action" href="#methodology">Read the methodology</a>
         </div>
       </section>
@@ -33,11 +34,24 @@ export default function Home() {
         </blockquote>
       </section>
 
-      <section className="explore shell" id="explore" aria-labelledby="explore-heading">
+      <section className="explore explorer-interactive shell" id="explore" aria-labelledby="explore-heading">
         <div className="section-heading">
           <div>
-            <p className="section-label">Foundation dataset · 01</p>
-            <h2 id="explore-heading">Eight sites, multiple historical layers.</h2>
+            <p className="section-label">Interactive explorer · 01</p>
+            <h2 id="explore-heading">Move through place and time.</h2>
+          </div>
+          <p>
+            Filter the foundation corpus by historical period and a broad chronological window, then move directly from spatial discovery into sourced research records.
+          </p>
+        </div>
+        <HeritageExplorer />
+      </section>
+
+      <section className="explore shell" id="corpus" aria-labelledby="corpus-heading">
+        <div className="section-heading">
+          <div>
+            <p className="section-label">Foundation corpus · 02</p>
+            <h2 id="corpus-heading">Eight sites, multiple historical layers.</h2>
           </div>
           <p>
             A deliberately small corpus for testing chronology, provenance, uncertainty, and cross-period discovery before the archive expands.
@@ -71,7 +85,7 @@ export default function Home() {
 
       <section className="methodology shell" id="methodology" aria-labelledby="methodology-heading">
         <div>
-          <p className="section-label">Methodology · 02</p>
+          <p className="section-label">Methodology · 03</p>
           <h2 id="methodology-heading">Complexity should survive the interface.</h2>
         </div>
         <div className="principles">
@@ -87,18 +101,18 @@ export default function Home() {
           </article>
           <article>
             <span>03</span>
-            <h3>Rights remain visible</h3>
-            <p>Media provenance and licensing are treated as part of the cultural record rather than presentation-layer metadata.</p>
+            <h3>Exploration is not evidence</h3>
+            <p>Broad map and timeline windows support discovery. Sourced site records remain the authoritative layer for archaeological claims.</p>
           </article>
         </div>
       </section>
 
       <section className="about shell" id="about" aria-labelledby="about-heading">
-        <p className="section-label">About · 03</p>
+        <p className="section-label">About · 04</p>
         <div>
           <h2 id="about-heading">A public-facing archaeological information system.</h2>
           <p>
-            The archive is being developed in stages: metadata first, then site records, chronology, geographic exploration, and finally linked discovery across periods and places.
+            The archive is being developed in stages: metadata, sourced site records, chronological and geographic exploration, then linked discovery across periods, places, people, and objects.
           </p>
         </div>
       </section>

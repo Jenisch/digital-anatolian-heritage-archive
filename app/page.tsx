@@ -41,7 +41,7 @@ export default function Home() {
             <h2 id="explore-heading">Move through place and time.</h2>
           </div>
           <p>
-            Filter the foundation corpus by historical period and a broad chronological window, then move directly from spatial discovery into sourced research records.
+            Begin with the quiet map of fully sourced research records, or deliberately switch into the broader archive index. Indexed places can be searched before their geography is verified, so coverage can expand without forcing every discovery onto the map.
           </p>
         </div>
         <HeritageExplorer />
@@ -54,7 +54,7 @@ export default function Home() {
             <h2 id="corpus-heading">Eight sites, multiple historical layers.</h2>
           </div>
           <p>
-            A deliberately small corpus for testing chronology, provenance, uncertainty, and cross-period discovery before the archive expands.
+            The completed foundation corpus establishes the research standard for chronology, provenance, uncertainty, visual evidence and public interpretation while the wider registry expands around it.
           </p>
         </div>
 

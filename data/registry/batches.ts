@@ -4,6 +4,8 @@ import seedBatchA03 from "./batches/trwiki-a-03.json";
 import seedBatchA04 from "./batches/trwiki-a-04.json";
 import seedBatchB01 from "./batches/trwiki-b-01.json";
 import seedBatchC01 from "./batches/trwiki-c-01.json";
+import seedBatchCCedilla01 from "./batches/trwiki-c-cedilla-01.json";
+import seedBatchD01 from "./batches/trwiki-d-01.json";
 
 const seedBatchA03ForExplorer = {
   ...seedBatchA03,
@@ -21,4 +23,6 @@ export const registrySeedBatches = [
   seedBatchA04,
   seedBatchB01,
   seedBatchC01,
+  seedBatchCCedilla01,
+  seedBatchD01,
 ] as const;

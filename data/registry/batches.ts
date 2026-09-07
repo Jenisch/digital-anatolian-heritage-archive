@@ -6,12 +6,22 @@ import seedBatchB01 from "./batches/trwiki-b-01.json";
 import seedBatchC01 from "./batches/trwiki-c-01.json";
 import seedBatchCCedilla01 from "./batches/trwiki-c-cedilla-01.json";
 import seedBatchD01 from "./batches/trwiki-d-01.json";
+import seedBatchE01 from "./batches/trwiki-e-01.json";
 
 const seedBatchA03ForExplorer = {
   ...seedBatchA03,
   rows: seedBatchA03.rows.map((row) =>
     row.canonicalName === "Arslantepe Höyüğü"
       ? { ...row, canonicalName: "Arslantepe" }
+      : row,
+  ),
+};
+
+const seedBatchE01ForExplorer = {
+  ...seedBatchE01,
+  rows: seedBatchE01.rows.map((row) =>
+    row.canonicalName === "Efes"
+      ? { ...row, canonicalName: "Ephesus" }
       : row,
   ),
 };
@@ -25,4 +35,5 @@ export const registrySeedBatches = [
   seedBatchC01,
   seedBatchCCedilla01,
   seedBatchD01,
+  seedBatchE01ForExplorer,
 ] as const;

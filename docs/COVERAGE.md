@@ -39,6 +39,8 @@ Status is cumulative in meaning but stored as one current state.
 
 The Turkish Wikipedia page “Türkiye'deki antik kentler listesi” is useful because it aggregates a very large number of named sites, aliases, historical regions and modern locations in one place. It is treated as a **discovery seed only**.
 
+DAHA has completed a row-preserving discovery import of the pinned source revision used by this project: **960 source rows (`sourceSequence` 1–960)** are represented in the registry seed batches. This is completeness against that defined discovery source, not a claim that every archaeological place in modern Türkiye is known, uniquely identified or fully researched.
+
 Information imported from that list does not support archaeological interpretation, chronology or historical claims in DAHA. Entries are expected to be reconciled against stronger sources over time, including:
 
 1. excavation publications and project databases;
@@ -48,6 +50,8 @@ Information imported from that list does not support archaeological interpretati
 5. authority identifiers such as Wikidata and Pleiades.
 
 The seed list contains unresolved locations, inconsistent dating, duplicate or variant entries and places assigned to historical regions outside a strict geographical definition of Anatolia. Those conditions are preserved as data-quality issues rather than silently normalised.
+
+The import is pinned to Turkish Wikipedia revision `37823000`. Where direct retrieval of that historical revision was unavailable during later batch reconstruction, a public mirror of the same catalogue was used only as a row-order/content cross-check. Provenance remains attached to the pinned seed revision, and the mirror is never treated as archaeological evidence.
 
 ## Explorer density policy
 

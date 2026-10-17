@@ -12,9 +12,9 @@ The registry is the broad-coverage layer of DAHA. It is deliberately separate fr
 
 ## Batch files
 
-`data/registry/batches/` contains discovery imports pinned to a source revision. Batch rows intentionally preserve unresolved or inconsistent source information because silently cleaning the catalogue would erase the provenance of later editorial decisions.
+`data/registry/batches/` contains discovery imports pinned to a source revision. The current Turkish Wikipedia discovery corpus is represented end-to-end as **960 source rows (`sourceSequence` 1–960)**. Batch rows intentionally preserve unresolved or inconsistent source information because silently cleaning the catalogue would erase the provenance of later editorial decisions.
 
-Batch data is not evidence for archaeological interpretation.
+Batch data is not evidence for archaeological interpretation. Completion of the seed import means only that the defined catalogue has been indexed; duplicate reconciliation, location verification, authority linking and full sourced research remain separate editorial stages.
 
 ## Verified entities
 

@@ -7,6 +7,27 @@ import seedBatchC01 from "./batches/trwiki-c-01.json";
 import seedBatchCCedilla01 from "./batches/trwiki-c-cedilla-01.json";
 import seedBatchD01 from "./batches/trwiki-d-01.json";
 import seedBatchE01 from "./batches/trwiki-e-01.json";
+import seedBatchF01 from "./batches/trwiki-f-01.json";
+import seedBatchG01 from "./batches/trwiki-g-01.json";
+import seedBatchH01 from "./batches/trwiki-h-01.json";
+import seedBatchIDotless01 from "./batches/trwiki-i-dotless-01.json";
+import seedBatchIDotted01 from "./batches/trwiki-i-dotted-01.json";
+import seedBatchJ01 from "./batches/trwiki-j-01.json";
+import seedBatchK01 from "./batches/trwiki-k-01.json";
+import seedBatchK02 from "./batches/trwiki-k-02.json";
+import seedBatchL01 from "./batches/trwiki-l-01.json";
+import seedBatchM01 from "./batches/trwiki-m-01.json";
+import seedBatchN01 from "./batches/trwiki-n-01.json";
+import seedBatchO01 from "./batches/trwiki-o-01.json";
+import seedBatchP01 from "./batches/trwiki-p-01.json";
+import seedBatchR01 from "./batches/trwiki-r-01.json";
+import seedBatchS01 from "./batches/trwiki-s-01.json";
+import seedBatchSCedilla01 from "./batches/trwiki-s-cedilla-01.json";
+import seedBatchT01 from "./batches/trwiki-t-01.json";
+import seedBatchU01 from "./batches/trwiki-u-01.json";
+import seedBatchX01 from "./batches/trwiki-x-01.json";
+import seedBatchY01 from "./batches/trwiki-y-01.json";
+import seedBatchZ01 from "./batches/trwiki-z-01.json";
 
 const seedBatchA03ForExplorer = {
   ...seedBatchA03,
@@ -26,6 +47,33 @@ const seedBatchE01ForExplorer = {
   ),
 };
 
+const seedBatchG01ForExplorer = {
+  ...seedBatchG01,
+  rows: seedBatchG01.rows.map((row) =>
+    row.canonicalName === "Göbeklitepe"
+      ? { ...row, canonicalName: "Göbekli Tepe" }
+      : row,
+  ),
+};
+
+const seedBatchH01ForExplorer = {
+  ...seedBatchH01,
+  rows: seedBatchH01.rows.map((row) =>
+    row.canonicalName === "Hattuşaş"
+      ? { ...row, canonicalName: "Hattusa" }
+      : row,
+  ),
+};
+
+const seedBatchT01ForExplorer = {
+  ...seedBatchT01,
+  rows: seedBatchT01.rows.map((row) =>
+    row.canonicalName === "Truva"
+      ? { ...row, canonicalName: "Troy" }
+      : row,
+  ),
+};
+
 export const registrySeedBatches = [
   seedBatchA01,
   seedBatchA02,
@@ -36,4 +84,25 @@ export const registrySeedBatches = [
   seedBatchCCedilla01,
   seedBatchD01,
   seedBatchE01ForExplorer,
+  seedBatchF01,
+  seedBatchG01ForExplorer,
+  seedBatchH01ForExplorer,
+  seedBatchIDotless01,
+  seedBatchIDotted01,
+  seedBatchJ01,
+  seedBatchK01,
+  seedBatchK02,
+  seedBatchL01,
+  seedBatchM01,
+  seedBatchN01,
+  seedBatchO01,
+  seedBatchP01,
+  seedBatchR01,
+  seedBatchS01,
+  seedBatchSCedilla01,
+  seedBatchT01ForExplorer,
+  seedBatchU01,
+  seedBatchX01,
+  seedBatchY01,
+  seedBatchZ01,
 ] as const;

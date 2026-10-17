@@ -18,6 +18,16 @@ import seedBatchK02 from "./batches/trwiki-k-02.json";
 import seedBatchL01 from "./batches/trwiki-l-01.json";
 import seedBatchM01 from "./batches/trwiki-m-01.json";
 import seedBatchN01 from "./batches/trwiki-n-01.json";
+import seedBatchO01 from "./batches/trwiki-o-01.json";
+import seedBatchP01 from "./batches/trwiki-p-01.json";
+import seedBatchR01 from "./batches/trwiki-r-01.json";
+import seedBatchS01 from "./batches/trwiki-s-01.json";
+import seedBatchSCedilla01 from "./batches/trwiki-s-cedilla-01.json";
+import seedBatchT01 from "./batches/trwiki-t-01.json";
+import seedBatchU01 from "./batches/trwiki-u-01.json";
+import seedBatchX01 from "./batches/trwiki-x-01.json";
+import seedBatchY01 from "./batches/trwiki-y-01.json";
+import seedBatchZ01 from "./batches/trwiki-z-01.json";
 
 const seedBatchA03ForExplorer = {
   ...seedBatchA03,
@@ -55,6 +65,15 @@ const seedBatchH01ForExplorer = {
   ),
 };
 
+const seedBatchT01ForExplorer = {
+  ...seedBatchT01,
+  rows: seedBatchT01.rows.map((row) =>
+    row.canonicalName === "Truva"
+      ? { ...row, canonicalName: "Troy" }
+      : row,
+  ),
+};
+
 export const registrySeedBatches = [
   seedBatchA01,
   seedBatchA02,
@@ -76,4 +95,14 @@ export const registrySeedBatches = [
   seedBatchL01,
   seedBatchM01,
   seedBatchN01,
+  seedBatchO01,
+  seedBatchP01,
+  seedBatchR01,
+  seedBatchS01,
+  seedBatchSCedilla01,
+  seedBatchT01ForExplorer,
+  seedBatchU01,
+  seedBatchX01,
+  seedBatchY01,
+  seedBatchZ01,
 ] as const;
